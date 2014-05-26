@@ -1,0 +1,121 @@
+2014-05-22 22:19:42: ----- Задание 'JOIA': АНАЛИЗ запустил User на компьютере 'beeGOODi' (GoodSync вер. 4.8.3.3) -----
+2014-05-22 22:19:43: = SyncFolder =/PROJECTS IN PROGRESS/JOIA/site (/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site) [TmpDest] =PropDels=> ftp://78.108.80.67 [TmpDest] [NoGsData], WaitForLocksMinutes=20, ReconnectSecs=120, CopyCreateTime
+2014-05-22 22:19:43: Слева: Обнаружен временной сдвиг(старый-новый)  2 часа(ов) у 30% (94/309) файлов. Решение: на этой стороне изменений нет
+2014-05-22 22:19:43: Слева: Файлов: 312 (исключено 4). Папок: 50 (исключено 1). /dev/disk0s2 HFS, Свободно: 30.7 GB, Всего: 112.2 GB
+2014-05-22 22:19:51: Справа: Файлов: 309 (исключено 0). Папок: 50 (исключено 0). FTP: --------- Welcome to Pure-FTPd [privsep] ----------You are user number 1 of 100 allowed.Local time is now 23:19. Server port: 21 ...
+2014-05-22 22:19:51: Обнаружен временной сдвиг(левый-правый) 2  часа(ов) (тип 0) у 94 файлов. Решение: Заменить операцию копирования файлов копированием времени
+2014-05-22 22:19:51: Изменений: 10, Конфликтов: 0, Копий Времени: 94, Копий Состояния: 0/0, Ошибок: 0
+2014-05-22 22:19:51: Left to Right: Copy File: 10 Copy Time: 94 
+2014-05-22 22:19:51: ----- Анализ завершён. Время 00:00:09, Скорость: 40 файлов/сек -----
+2014-05-22 22:19:51: 
+2014-05-22 22:22:04: ===== Задание 'JOIA': СИНХРОНИЗАЦИЮ запустил User на компьютере 'beeGOODi' =====
+2014-05-22 22:22:04: = SyncFolder =/PROJECTS IN PROGRESS/JOIA/site (/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site) [TmpDest] =PropDels=> ftp://78.108.80.67 [TmpDest] [NoGsData], WaitForLocksMinutes=20, ReconnectSecs=120, CopyCreateTime
+2014-05-22 22:22:05: Скопировано поверх '/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/config.codekit' -> 'ftp://78.108.80.67/config.codekit'
+2014-05-22 22:22:06: Скопировано поверх '/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/catalog.html' -> 'ftp://78.108.80.67/said/catalog.html'
+2014-05-22 22:22:06: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/config.codekit в ftp://78.108.80.67/said/config.codekit
+2014-05-22 22:22:06: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/config.rb в ftp://78.108.80.67/said/config.rb
+2014-05-22 22:22:07: Скопировано поверх '/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/css/akrom.css' -> 'ftp://78.108.80.67/said/css/akrom.css'
+2014-05-22 22:22:07: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/css/fonts/MyriadPro-Regular.eot в ftp://78.108.80.67/said/css/fonts/MyriadPro-Regular.eot
+2014-05-22 22:22:07: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/css/fonts/MyriadPro-Regular.ttf в ftp://78.108.80.67/said/css/fonts/MyriadPro-Regular.ttf
+2014-05-22 22:22:07: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/css/fonts/MyriadPro-Regular.woff в ftp://78.108.80.67/said/css/fonts/MyriadPro-Regular.woff
+2014-05-22 22:22:08: Скопировано поверх '/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/css/screen.css' -> 'ftp://78.108.80.67/said/css/screen.css'
+2014-05-22 22:22:08: Скопировано поверх '/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/css/style.css' -> 'ftp://78.108.80.67/said/css/style.css'
+2014-05-22 22:22:08: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/css/style.css.map в ftp://78.108.80.67/said/css/style.css.map
+2014-05-22 22:22:08: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/img/entry.jpg в ftp://78.108.80.67/said/img/entry.jpg
+2014-05-22 22:22:08: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/img/entrybig.jpg в ftp://78.108.80.67/said/img/entrybig.jpg
+2014-05-22 22:22:08: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/img/footer.png в ftp://78.108.80.67/said/img/footer.png
+2014-05-22 22:22:09: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/img/icons/check.png в ftp://78.108.80.67/said/img/icons/check.png
+2014-05-22 22:22:09: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/img/icons/checked.png в ftp://78.108.80.67/said/img/icons/checked.png
+2014-05-22 22:22:09: Скопирован новый '/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/img/icons/checked2.png' -> 'ftp://78.108.80.67/said/img/icons/checked2.png'
+2014-05-22 22:22:09: Скопирован новый '/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/img/icons/checked3.png' -> 'ftp://78.108.80.67/said/img/icons/checked3.png'
+2014-05-22 22:22:09: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/img/icons/codedby.png в ftp://78.108.80.67/said/img/icons/codedby.png
+2014-05-22 22:22:09: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/img/icons/coderiver.png в ftp://78.108.80.67/said/img/icons/coderiver.png
+2014-05-22 22:22:09: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/img/icons/delete.png в ftp://78.108.80.67/said/img/icons/delete.png
+2014-05-22 22:22:09: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/img/icons/en.png в ftp://78.108.80.67/said/img/icons/en.png
+2014-05-22 22:22:10: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/img/icons/green.png в ftp://78.108.80.67/said/img/icons/green.png
+2014-05-22 22:22:10: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/img/icons/i.png в ftp://78.108.80.67/said/img/icons/i.png
+2014-05-22 22:22:10: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/img/icons/logo.png в ftp://78.108.80.67/said/img/icons/logo.png
+2014-05-22 22:22:10: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/img/icons/next.png в ftp://78.108.80.67/said/img/icons/next.png
+2014-05-22 22:22:10: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/img/icons/next1.png в ftp://78.108.80.67/said/img/icons/next1.png
+2014-05-22 22:22:10: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/img/icons/pause.png в ftp://78.108.80.67/said/img/icons/pause.png
+2014-05-22 22:22:10: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/img/icons/pdf.png в ftp://78.108.80.67/said/img/icons/pdf.png
+2014-05-22 22:22:10: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/img/icons/pink.png в ftp://78.108.80.67/said/img/icons/pink.png
+2014-05-22 22:22:10: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/img/icons/prev.png в ftp://78.108.80.67/said/img/icons/prev.png
+2014-05-22 22:22:10: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/img/icons/prev1.png в ftp://78.108.80.67/said/img/icons/prev1.png
+2014-05-22 22:22:10: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/img/icons/price.png в ftp://78.108.80.67/said/img/icons/price.png
+2014-05-22 22:22:10: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/img/icons/red.png в ftp://78.108.80.67/said/img/icons/red.png
+2014-05-22 22:22:10: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/img/icons/ru.png в ftp://78.108.80.67/said/img/icons/ru.png
+2014-05-22 22:22:10: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/img/icons/search.png в ftp://78.108.80.67/said/img/icons/search.png
+2014-05-22 22:22:10: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/img/icons/searchicon.png в ftp://78.108.80.67/said/img/icons/searchicon.png
+2014-05-22 22:22:10: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/img/icons/smallogo.png в ftp://78.108.80.67/said/img/icons/smallogo.png
+2014-05-22 22:22:10: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/img/icons/yellow.png в ftp://78.108.80.67/said/img/icons/yellow.png
+2014-05-22 22:22:10: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/img/icons-s51a623a2b8.png в ftp://78.108.80.67/said/img/icons-s51a623a2b8.png
+2014-05-22 22:22:10: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/img/logo.jpg в ftp://78.108.80.67/said/img/logo.jpg
+2014-05-22 22:22:10: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/img/logo1.png в ftp://78.108.80.67/said/img/logo1.png
+2014-05-22 22:22:10: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/img/logo2.png в ftp://78.108.80.67/said/img/logo2.png
+2014-05-22 22:22:11: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/img/logo3.png в ftp://78.108.80.67/said/img/logo3.png
+2014-05-22 22:22:11: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/img/logo4.png в ftp://78.108.80.67/said/img/logo4.png
+2014-05-22 22:22:11: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/img/logo5.png в ftp://78.108.80.67/said/img/logo5.png
+2014-05-22 22:22:11: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/img/logo6.png в ftp://78.108.80.67/said/img/logo6.png
+2014-05-22 22:22:11: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/img/logo7.png в ftp://78.108.80.67/said/img/logo7.png
+2014-05-22 22:22:11: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/img/logos.png в ftp://78.108.80.67/said/img/logos.png
+2014-05-22 22:22:11: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/img/offer.jpg в ftp://78.108.80.67/said/img/offer.jpg
+2014-05-22 22:22:11: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/img/slider/bg-1.jpg в ftp://78.108.80.67/said/img/slider/bg-1.jpg
+2014-05-22 22:22:11: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/img/slider/bg-2.jpg в ftp://78.108.80.67/said/img/slider/bg-2.jpg
+2014-05-22 22:22:11: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/img/slider/bg-3.jpg в ftp://78.108.80.67/said/img/slider/bg-3.jpg
+2014-05-22 22:22:11: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/img/slider/bg-4.jpg в ftp://78.108.80.67/said/img/slider/bg-4.jpg
+2014-05-22 22:22:11: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/img/slider/bg-5.jpg в ftp://78.108.80.67/said/img/slider/bg-5.jpg
+2014-05-22 22:22:11: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/img/slider/bg-6.jpg в ftp://78.108.80.67/said/img/slider/bg-6.jpg
+2014-05-22 22:22:11: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/img/slider/bg-7.jpg в ftp://78.108.80.67/said/img/slider/bg-7.jpg
+2014-05-22 22:22:11: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/img/warning.png в ftp://78.108.80.67/said/img/warning.png
+2014-05-22 22:22:11: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/img/wine.png в ftp://78.108.80.67/said/img/wine.png
+2014-05-22 22:22:11: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/index.html в ftp://78.108.80.67/said/index.html
+2014-05-22 22:22:11: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/index2.html в ftp://78.108.80.67/said/index2.html
+2014-05-22 22:22:11: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/index3.html в ftp://78.108.80.67/said/index3.html
+2014-05-22 22:22:12: Скопирован новый '/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/js/akrom.js' -> 'ftp://78.108.80.67/said/js/akrom.js'
+2014-05-22 22:22:12: Скопировано поверх '/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/js/common.js' -> 'ftp://78.108.80.67/said/js/common.js'
+2014-05-22 22:22:12: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/js/init.js в ftp://78.108.80.67/said/js/init.js
+2014-05-22 22:22:12: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/js/jsrender.min.js в ftp://78.108.80.67/said/js/jsrender.min.js
+2014-05-22 22:22:13: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/js/lib/carousel.js в ftp://78.108.80.67/said/js/lib/carousel.js
+2014-05-22 22:22:13: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/js/lib/cycle.js в ftp://78.108.80.67/said/js/lib/cycle.js
+2014-05-22 22:22:13: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/js/lib/head.js в ftp://78.108.80.67/said/js/lib/head.js
+2014-05-22 22:22:13: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/js/lib/jquery.js в ftp://78.108.80.67/said/js/lib/jquery.js
+2014-05-22 22:22:13: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/js/lib/jquery.scrollTo.js в ftp://78.108.80.67/said/js/lib/jquery.scrollTo.js
+2014-05-22 22:22:13: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/js/lib/jquery.tools.min.js в ftp://78.108.80.67/said/js/lib/jquery.tools.min.js
+2014-05-22 22:22:13: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/js/lib/jsrender.min.js в ftp://78.108.80.67/said/js/lib/jsrender.min.js
+2014-05-22 22:22:13: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/js/lib/min/cycle-ck.js в ftp://78.108.80.67/said/js/lib/min/cycle-ck.js
+2014-05-22 22:22:13: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/js/lib/search.js в ftp://78.108.80.67/said/js/lib/search.js
+2014-05-22 22:22:13: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/js/min/common-ck.js в ftp://78.108.80.67/said/js/min/common-ck.js
+2014-05-22 22:22:14: Скопировано поверх '/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/less/akrom.less' -> 'ftp://78.108.80.67/said/less/akrom.less'
+2014-05-22 22:22:14: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/less/style.less в ftp://78.108.80.67/said/less/style.less
+2014-05-22 22:22:14: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/less/vars.less в ftp://78.108.80.67/said/less/vars.less
+2014-05-22 22:22:14: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/sass/_catalog.sass в ftp://78.108.80.67/said/sass/_catalog.sass
+2014-05-22 22:22:14: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/sass/_common.sass в ftp://78.108.80.67/said/sass/_common.sass
+2014-05-22 22:22:14: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/sass/_content.sass в ftp://78.108.80.67/said/sass/_content.sass
+2014-05-22 22:22:14: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/sass/_entry.sass в ftp://78.108.80.67/said/sass/_entry.sass
+2014-05-22 22:22:14: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/sass/_footer.sass в ftp://78.108.80.67/said/sass/_footer.sass
+2014-05-22 22:22:14: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/sass/_header.sass в ftp://78.108.80.67/said/sass/_header.sass
+2014-05-22 22:22:14: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/sass/_layouts.sass в ftp://78.108.80.67/said/sass/_layouts.sass
+2014-05-22 22:22:14: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/sass/_main.sass в ftp://78.108.80.67/said/sass/_main.sass
+2014-05-22 22:22:14: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/sass/_reset.sass в ftp://78.108.80.67/said/sass/_reset.sass
+2014-05-22 22:22:14: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/sass/_search.sass в ftp://78.108.80.67/said/sass/_search.sass
+2014-05-22 22:22:14: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/sass/_superslider.sass в ftp://78.108.80.67/said/sass/_superslider.sass
+2014-05-22 22:22:14: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/sass/_wine.sass в ftp://78.108.80.67/said/sass/_wine.sass
+2014-05-22 22:22:14: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/sass/lib/_animations.scss в ftp://78.108.80.67/said/sass/lib/_animations.scss
+2014-05-22 22:22:15: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/sass/lib/_base.scss в ftp://78.108.80.67/said/sass/lib/_base.scss
+2014-05-22 22:22:15: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/sass/lib/_demo.scss в ftp://78.108.80.67/said/sass/lib/_demo.scss
+2014-05-22 22:22:15: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/sass/lib/_keyframes.sass в ftp://78.108.80.67/said/sass/lib/_keyframes.sass
+2014-05-22 22:22:15: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/sass/lib/_media.scss в ftp://78.108.80.67/said/sass/lib/_media.scss
+2014-05-22 22:22:15: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/sass/lib/_mixins.sass в ftp://78.108.80.67/said/sass/lib/_mixins.sass
+2014-05-22 22:22:15: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/sass/lib/_sprites.sass в ftp://78.108.80.67/said/sass/lib/_sprites.sass
+2014-05-22 22:22:15: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/sass/lib/ceaser-easing/_ceaser.sass в ftp://78.108.80.67/said/sass/lib/ceaser-easing/_ceaser.sass
+2014-05-22 22:22:15: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/sass/lib/ceaser-easing/_ease-types.sass в ftp://78.108.80.67/said/sass/lib/ceaser-easing/_ease-types.sass
+2014-05-22 22:22:15: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/sass/lib/ceaser-easing/_easing-functions.sass в ftp://78.108.80.67/said/sass/lib/ceaser-easing/_easing-functions.sass
+2014-05-22 22:22:15: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/sass/lib/ceaser-easing/_easing-vars.sass в ftp://78.108.80.67/said/sass/lib/ceaser-easing/_easing-vars.sass
+2014-05-22 22:22:15: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/sass/screen.sass в ftp://78.108.80.67/said/sass/screen.sass
+2014-05-22 22:22:15: Скопировано время изменения /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/said/scrin.css в ftp://78.108.80.67/said/scrin.css
+2014-05-22 22:22:15: Сохраняю файл состояний /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/_gsdata_/_file_state_v4._gs
+2014-05-22 22:22:15: Сохраняю файл состояний /Users/lxndrrl/.goodsync/_mirrors_/ftp-78.108.80.67/_file_state_v4._gs
+2014-05-22 22:22:15: Синхронизировано: 104, Ошибок: 0
+2014-05-22 22:22:15: ===== Синхронизация завершена. Время 00:00:12, Скорость: 18.2 KB/s файлов/сек =====
+2014-05-22 22:22:15: 

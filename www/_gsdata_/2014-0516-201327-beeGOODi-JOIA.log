@@ -1,0 +1,28 @@
+2014-05-16 20:13:27: ----- Задание 'JOIA': АНАЛИЗ запустил On File Change Incremental на компьютере 'beeGOODi' (GoodSync вер. 4.8.3.3) -----
+2014-05-16 20:13:27: = SyncFolder =/PROJECTS IN PROGRESS/JOIA/site (/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site) [TmpDest] =PropDels=> ftp://78.108.80.67 [TmpDest] [NoGsData], WaitForLocksMinutes=20, ReconnectSecs=120, CopyCreateTime
+2014-05-16 20:13:27: Change in: /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/css/style.css
+2014-05-16 20:13:27: Change in: /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/less/vars.less___jb_bak___
+2014-05-16 20:13:27: Change in: /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/.idea/workspace.xml
+2014-05-16 20:13:27: Change in: /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/.idea/workspace.xml___jb_bak___
+2014-05-16 20:13:27: Change in: /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/less/vars.less___jb_old___
+2014-05-16 20:13:27: Change in: /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/less/style.less
+2014-05-16 20:13:27: Change in: /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/.idea/workspace.xml___jb_old___
+2014-05-16 20:13:27: Change in: /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/less/style.less___jb_bak___
+2014-05-16 20:13:27: Change in: /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/less/vars.less
+2014-05-16 20:13:27: Change in: /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/css/style.css.map
+2014-05-16 20:13:27: Change in: /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/less/style.less___jb_old___
+2014-05-16 20:13:28: Изменений: 5, Конфликтов: 0, Копий Времени: 0, Копий Состояния: 0/0, Ошибок: 0
+2014-05-16 20:13:28: Left to Right: Copy File: 5 
+2014-05-16 20:13:28: ----- Анализ завершён. Время 00:00:03, Скорость: 40 файлов/сек -----
+2014-05-16 20:13:28: ===== Задание 'JOIA': СИНХРОНИЗАЦИЮ запустил On File Change Incremental на компьютере 'beeGOODi' =====
+2014-05-16 20:13:28: = SyncFolder =/PROJECTS IN PROGRESS/JOIA/site (/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site) [TmpDest] =PropDels=> ftp://78.108.80.67 [TmpDest] [NoGsData], WaitForLocksMinutes=20, ReconnectSecs=120, CopyCreateTime
+2014-05-16 20:13:29: Скопировано поверх '/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/.idea/workspace.xml' -> 'ftp://78.108.80.67/.idea/workspace.xml'
+2014-05-16 20:13:30: Скопировано поверх '/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/css/style.css' -> 'ftp://78.108.80.67/css/style.css'
+2014-05-16 20:13:31: Скопировано поверх '/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/css/style.css.map' -> 'ftp://78.108.80.67/css/style.css.map'
+2014-05-16 20:13:31: Скопировано поверх '/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/less/style.less' -> 'ftp://78.108.80.67/less/style.less'
+2014-05-16 20:13:32: Скопировано поверх '/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/less/vars.less' -> 'ftp://78.108.80.67/less/vars.less'
+2014-05-16 20:13:32: Сохраняю файл состояний /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/_gsdata_/_file_state_v4._gs
+2014-05-16 20:13:32: Сохраняю файл состояний /Users/lxndrrl/.goodsync/_mirrors_/ftp-78.108.80.67/_file_state_v4._gs
+2014-05-16 20:13:32: Синхронизировано: 5, Ошибок: 0
+2014-05-16 20:13:32: ===== Синхронизация завершена. Время 00:00:04, Скорость: 5.9 KB/s файлов/сек =====
+2014-05-16 20:13:32: 

@@ -1,0 +1,37 @@
+2014-05-16 20:05:47: ----- Задание 'JOIA': АНАЛИЗ запустил On File Change Incremental на компьютере 'beeGOODi' (GoodSync вер. 4.8.3.3) -----
+2014-05-16 20:05:47: = SyncFolder =/PROJECTS IN PROGRESS/JOIA/site (/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site) [TmpDest] =PropDels=> ftp://78.108.80.67 [TmpDest] [NoGsData], WaitForLocksMinutes=20, ReconnectSecs=120, CopyCreateTime
+2014-05-16 20:05:47: Change in: /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/css/style.css
+2014-05-16 20:05:47: Change in: /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/.idea/workspace.xml
+2014-05-16 20:05:47: Change in: /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/.idea/workspace.xml___jb_bak___
+2014-05-16 20:05:47: Change in: /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/less/style.less
+2014-05-16 20:05:47: Change in: /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/.idea/workspace.xml___jb_old___
+2014-05-16 20:05:47: Change in: /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/less/style.less___jb_bak___
+2014-05-16 20:05:47: Change in: /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/css/style.css.map
+2014-05-16 20:05:47: Change in: /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/less/style.less___jb_old___
+2014-05-16 20:05:47: Изменений: 4, Конфликтов: 0, Копий Времени: 0, Копий Состояния: 0/0, Ошибок: 0
+2014-05-16 20:05:47: Left to Right: Copy File: 4 
+2014-05-16 20:05:47: ----- Анализ завершён. Время 00:00:01, Скорость: 120 файлов/сек -----
+2014-05-16 20:05:47: ===== Задание 'JOIA': СИНХРОНИЗАЦИЮ запустил On File Change Incremental на компьютере 'beeGOODi' =====
+2014-05-16 20:05:47: = SyncFolder =/PROJECTS IN PROGRESS/JOIA/site (/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site) [TmpDest] =PropDels=> ftp://78.108.80.67 [TmpDest] [NoGsData], WaitForLocksMinutes=20, ReconnectSecs=120, CopyCreateTime
+2014-05-16 20:05:49: Скопировано поверх '/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/.idea/workspace.xml' -> 'ftp://78.108.80.67/.idea/workspace.xml'
+2014-05-16 20:05:49: Скопировано поверх '/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/css/style.css' -> 'ftp://78.108.80.67/css/style.css'
+2014-05-16 20:05:50: Скопировано поверх '/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/css/style.css.map' -> 'ftp://78.108.80.67/css/style.css.map'
+2014-05-16 20:05:51: Скопировано поверх '/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/less/style.less' -> 'ftp://78.108.80.67/less/style.less'
+2014-05-16 20:05:51: Сохраняю файл состояний /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/_gsdata_/_file_state_v4._gs
+2014-05-16 20:05:51: Сохраняю файл состояний /Users/lxndrrl/.goodsync/_mirrors_/ftp-78.108.80.67/_file_state_v4._gs
+2014-05-16 20:05:51: Синхронизировано: 4, Ошибок: 0
+2014-05-16 20:05:51: ===== Синхронизация завершена. Время 00:00:04, Скорость: 5.8 KB/s файлов/сек =====
+2014-05-16 20:05:51: --- Do one more Analyze to get latest changes of this Sync ---
+2014-05-16 20:05:51: ----- Задание 'JOIA': АНАЛИЗ запустил On File Change PostSync Re-Analyze на компьютере 'beeGOODi' (GoodSync вер. 4.8.3.3) -----
+2014-05-16 20:05:51: = SyncFolder =/PROJECTS IN PROGRESS/JOIA/site (/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site) [TmpDest] =PropDels=> ftp://78.108.80.67 [TmpDest] [NoGsData], WaitForLocksMinutes=20, ReconnectSecs=120, CopyCreateTime
+2014-05-16 20:05:51: Change in: /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/css/style.css
+2014-05-16 20:05:51: Change in: /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/.idea/workspace.xml
+2014-05-16 20:05:51: Change in: /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/.idea/workspace.xml___jb_bak___
+2014-05-16 20:05:51: Change in: /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/less/style.less
+2014-05-16 20:05:51: Change in: /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/.idea/workspace.xml___jb_old___
+2014-05-16 20:05:51: Change in: /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/less/style.less___jb_bak___
+2014-05-16 20:05:51: Change in: /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/css/style.css.map
+2014-05-16 20:05:51: Change in: /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/less/style.less___jb_old___
+2014-05-16 20:05:51: Изменений: 0, Конфликтов: 0, Копий Времени: 0, Копий Состояния: 0/0, Ошибок: 0
+2014-05-16 20:05:51: ----- Анализ завершён. Время 00:00:04, Скорость: 30 файлов/сек -----
+2014-05-16 20:05:51: 

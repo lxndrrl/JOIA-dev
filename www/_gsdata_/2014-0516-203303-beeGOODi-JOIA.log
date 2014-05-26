@@ -1,0 +1,20 @@
+2014-05-16 20:33:03: ----- Задание 'JOIA': АНАЛИЗ запустил On File Change Incremental на компьютере 'beeGOODi' (GoodSync вер. 4.8.3.3) -----
+2014-05-16 20:33:03: = SyncFolder =/PROJECTS IN PROGRESS/JOIA/site (/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site) [TmpDest] =PropDels=> ftp://78.108.80.67 [TmpDest] [NoGsData], WaitForLocksMinutes=20, ReconnectSecs=120, CopyCreateTime
+2014-05-16 20:33:03: Change in: /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/css/style.css
+2014-05-16 20:33:03: Change in: /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/less/style.less
+2014-05-16 20:33:03: Change in: /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/less/style.less___jb_bak___
+2014-05-16 20:33:03: Change in: /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/css/style.css.map
+2014-05-16 20:33:03: Change in: /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/less/style.less___jb_old___
+2014-05-16 20:33:03: Изменений: 3, Конфликтов: 0, Копий Времени: 0, Копий Состояния: 0/0, Ошибок: 0
+2014-05-16 20:33:03: Left to Right: Copy File: 3 
+2014-05-16 20:33:03: ----- Анализ завершён. Время 00:00:01, Скорость: 120 файлов/сек -----
+2014-05-16 20:33:03: ===== Задание 'JOIA': СИНХРОНИЗАЦИЮ запустил On File Change Incremental на компьютере 'beeGOODi' =====
+2014-05-16 20:33:03: = SyncFolder =/PROJECTS IN PROGRESS/JOIA/site (/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site) [TmpDest] =PropDels=> ftp://78.108.80.67 [TmpDest] [NoGsData], WaitForLocksMinutes=20, ReconnectSecs=120, CopyCreateTime
+2014-05-16 20:33:04: Скопировано поверх '/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/css/style.css' -> 'ftp://78.108.80.67/css/style.css'
+2014-05-16 20:33:05: Скопировано поверх '/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/css/style.css.map' -> 'ftp://78.108.80.67/css/style.css.map'
+2014-05-16 20:33:06: Скопировано поверх '/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/less/style.less' -> 'ftp://78.108.80.67/less/style.less'
+2014-05-16 20:33:06: Сохраняю файл состояний /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/_gsdata_/_file_state_v4._gs
+2014-05-16 20:33:06: Сохраняю файл состояний /Users/lxndrrl/.goodsync/_mirrors_/ftp-78.108.80.67/_file_state_v4._gs
+2014-05-16 20:33:06: Синхронизировано: 3, Ошибок: 0
+2014-05-16 20:33:06: ===== Синхронизация завершена. Время 00:00:03, Скорость: 1.3 KB/s файлов/сек =====
+2014-05-16 20:33:06: 

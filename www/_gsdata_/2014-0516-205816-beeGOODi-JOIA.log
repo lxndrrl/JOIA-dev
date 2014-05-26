@@ -1,0 +1,14 @@
+2014-05-16 20:58:16: ----- Задание 'JOIA': АНАЛИЗ запустил On File Change Incremental на компьютере 'beeGOODi' (GoodSync вер. 4.8.3.3) -----
+2014-05-16 20:58:16: = SyncFolder =/PROJECTS IN PROGRESS/JOIA/site (/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site) [TmpDest] =PropDels=> ftp://78.108.80.67 [TmpDest] [NoGsData], WaitForLocksMinutes=20, ReconnectSecs=120, CopyCreateTime
+2014-05-16 20:58:16: Change in: /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/config.codekit
+2014-05-16 20:58:16: Изменений: 1, Конфликтов: 0, Копий Времени: 0, Копий Состояния: 0/0, Ошибок: 0
+2014-05-16 20:58:16: Left to Right: Copy File: 1 
+2014-05-16 20:58:16: ----- Анализ завершён. Время 00:00:01, Скорость: 172 файлов/сек -----
+2014-05-16 20:58:16: ===== Задание 'JOIA': СИНХРОНИЗАЦИЮ запустил On File Change Incremental на компьютере 'beeGOODi' =====
+2014-05-16 20:58:16: = SyncFolder =/PROJECTS IN PROGRESS/JOIA/site (/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site) [TmpDest] =PropDels=> ftp://78.108.80.67 [TmpDest] [NoGsData], WaitForLocksMinutes=20, ReconnectSecs=120, CopyCreateTime
+2014-05-16 20:58:18: Скопировано поверх '/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/config.codekit' -> 'ftp://78.108.80.67/config.codekit'
+2014-05-16 20:58:18: Сохраняю файл состояний /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/_gsdata_/_file_state_v4._gs
+2014-05-16 20:58:18: Сохраняю файл состояний /Users/lxndrrl/.goodsync/_mirrors_/ftp-78.108.80.67/_file_state_v4._gs
+2014-05-16 20:58:18: Синхронизировано: 1, Ошибок: 0
+2014-05-16 20:58:18: ===== Синхронизация завершена. Время 00:00:02, Скорость: 21.1 KB/s файлов/сек =====
+2014-05-16 20:58:18: 

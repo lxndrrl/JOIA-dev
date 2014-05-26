@@ -1,0 +1,21 @@
+2014-05-18 19:40:48: ----- Задание 'JOIA': АНАЛИЗ запустил On File Change Incremental на компьютере 'beeGOODi' (GoodSync вер. 4.8.3.3) -----
+2014-05-18 19:40:48: = SyncFolder =/PROJECTS IN PROGRESS/JOIA/site (/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site) [TmpDest] =PropDels=> ftp://78.108.80.67 [TmpDest] [NoGsData], WaitForLocksMinutes=20, ReconnectSecs=120, CopyCreateTime
+2014-05-18 19:40:48: Удалены результаты анализа пересекющихся заданий: = SyncFolder =
+2014-05-18 19:40:48: Слева: Файлов: 151 (исключено 2). Папок: 23 (исключено 1). /dev/disk0s2 HFS, Свободно: 29.9 GB, Всего: 112.2 GB
+2014-05-18 19:40:52: Справа: Файлов: 151 (исключено 0). Папок: 23 (исключено 0). FTP: --------- Welcome to Pure-FTPd [privsep] ----------You are user number 8 of 100 allowed.Local time is now 20:40. Server port: 21 ...
+2014-05-18 19:40:52: Изменений: 5, Конфликтов: 0, Копий Времени: 0, Копий Состояния: 0/0, Ошибок: 0
+2014-05-18 19:40:52: Left to Right: Copy File: 5 
+2014-05-18 19:40:52: ----- Анализ завершён. Время 00:00:05, Скорость: 35 файлов/сек -----
+2014-05-18 19:40:52: 
+2014-05-18 19:41:00: ===== Задание 'JOIA': СИНХРОНИЗАЦИЮ запустил User на компьютере 'beeGOODi' =====
+2014-05-18 19:41:00: = SyncFolder =/PROJECTS IN PROGRESS/JOIA/site (/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site) [TmpDest] =PropDels=> ftp://78.108.80.67 [TmpDest] [NoGsData], WaitForLocksMinutes=20, ReconnectSecs=120, CopyCreateTime
+2014-05-18 19:41:01: Скопировано поверх '/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/.idea/workspace.xml' -> 'ftp://78.108.80.67/.idea/workspace.xml'
+2014-05-18 19:41:02: Скопировано поверх '/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/css/style.css' -> 'ftp://78.108.80.67/css/style.css'
+2014-05-18 19:41:03: Скопировано поверх '/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/css/style.css.map' -> 'ftp://78.108.80.67/css/style.css.map'
+2014-05-18 19:41:03: Скопировано поверх '/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/index2.html' -> 'ftp://78.108.80.67/index2.html'
+2014-05-18 19:41:04: Скопировано поверх '/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/less/style.less' -> 'ftp://78.108.80.67/less/style.less'
+2014-05-18 19:41:04: Сохраняю файл состояний /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/_gsdata_/_file_state_v4._gs
+2014-05-18 19:41:04: Сохраняю файл состояний /Users/lxndrrl/.goodsync/_mirrors_/ftp-78.108.80.67/_file_state_v4._gs
+2014-05-18 19:41:04: Синхронизировано: 5, Ошибок: 0
+2014-05-18 19:41:04: ===== Синхронизация завершена. Время 00:00:05, Скорость: 9.7 KB/s файлов/сек =====
+2014-05-18 19:41:04: 

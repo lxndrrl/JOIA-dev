@@ -1,0 +1,25 @@
+2014-05-22 15:36:30: ----- Задание 'JOIA': АНАЛИЗ запустил On File Change Incremental на компьютере 'beeGOODi' (GoodSync вер. 4.8.3.3) -----
+2014-05-22 15:36:30: = SyncFolder =/PROJECTS IN PROGRESS/JOIA/site (/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site) [TmpDest] =PropDels=> ftp://78.108.80.67 [TmpDest] [NoGsData], WaitForLocksMinutes=20, ReconnectSecs=120, CopyCreateTime
+2014-05-22 15:36:30: Change in: /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/index.html___jb_bak___
+2014-05-22 15:36:30: Change in: /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/img/slider/bg-4.jpg
+2014-05-22 15:36:30: Change in: /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/.idea/workspace.xml
+2014-05-22 15:36:30: Change in: /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/.idea/workspace.xml___jb_bak___
+2014-05-22 15:36:30: Change in: /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/index.html
+2014-05-22 15:36:30: Change in: /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/config.codekit
+2014-05-22 15:36:30: Change in: /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/index.html___jb_old___
+2014-05-22 15:36:30: Change in: /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/.idea/workspace.xml___jb_old___
+2014-05-22 15:36:30: Изменений: 4, Конфликтов: 0, Копий Времени: 0, Копий Состояния: 0/0, Ошибок: 0
+2014-05-22 15:36:30: Left to Right: Copy File: 4 
+2014-05-22 15:36:30: ----- Анализ завершён. Время 00:00:04, Скорость: 91 файлов/сек -----
+2014-05-22 15:36:30: 
+2014-05-22 15:40:07: ===== Задание 'JOIA': СИНХРОНИЗАЦИЮ запустил User на компьютере 'beeGOODi' =====
+2014-05-22 15:40:07: = SyncFolder =/PROJECTS IN PROGRESS/JOIA/site (/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site) [TmpDest] =PropDels=> ftp://78.108.80.67 [TmpDest] [NoGsData], WaitForLocksMinutes=20, ReconnectSecs=120, CopyCreateTime
+2014-05-22 15:40:08: Скопирован новый '/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/.idea/workspace.xml' -> 'ftp://78.108.80.67/.idea/workspace.xml'
+2014-05-22 15:40:09: Скопирован новый '/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/config.codekit' -> 'ftp://78.108.80.67/config.codekit'
+2014-05-22 15:40:10: Скопирован новый '/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/img/slider/bg-4.jpg' -> 'ftp://78.108.80.67/img/slider/bg-4.jpg'
+2014-05-22 15:40:10: Скопирован новый '/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/index.html' -> 'ftp://78.108.80.67/index.html'
+2014-05-22 15:40:11: Сохраняю файл состояний /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/_gsdata_/_file_state_v4._gs
+2014-05-22 15:40:11: Сохраняю файл состояний /Users/lxndrrl/.goodsync/_mirrors_/ftp-78.108.80.67/_file_state_v4._gs
+2014-05-22 15:40:11: Синхронизировано: 4, Ошибок: 0
+2014-05-22 15:40:11: ===== Синхронизация завершена. Время 00:00:05, Скорость: 118.4 KB/s файлов/сек =====
+2014-05-22 15:40:11: 

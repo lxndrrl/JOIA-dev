@@ -1,0 +1,17 @@
+2014-05-17 13:53:32: ----- Задание 'JOIA': АНАЛИЗ запустил User на компьютере 'beeGOODi' (GoodSync вер. 4.8.3.3) -----
+2014-05-17 13:53:32: = SyncFolder =/PROJECTS IN PROGRESS/JOIA/site (/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site) [TmpDest] =PropDels=> ftp://78.108.80.67 [TmpDest] [NoGsData], WaitForLocksMinutes=20, ReconnectSecs=120, CopyCreateTime
+2014-05-17 13:53:34: Слева: Файлов: 148 (исключено 2). Папок: 21 (исключено 1). /dev/disk0s2 HFS, Свободно: 31.0 GB, Всего: 112.2 GB
+2014-05-17 13:53:38: Справа: Файлов: 148 (исключено 0). Папок: 21 (исключено 0). FTP: --------- Welcome to Pure-FTPd [privsep] ----------You are user number 1 of 100 allowed.Local time is now 14:53. Server port: 21 ...
+2014-05-17 13:53:38: Изменений: 1, Конфликтов: 0, Копий Времени: 0, Копий Состояния: 0/0, Ошибок: 0
+2014-05-17 13:53:38: Left to Right: Copy File: 1 
+2014-05-17 13:53:38: ----- Анализ завершён. Время 00:00:07, Скорость: 24 файлов/сек -----
+2014-05-17 13:53:38: 
+2014-05-17 13:53:45: ===== Задание 'JOIA': СИНХРОНИЗАЦИЮ запустил User на компьютере 'beeGOODi' =====
+2014-05-17 13:53:45: = SyncFolder =/PROJECTS IN PROGRESS/JOIA/site (/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site) [TmpDest] =PropDels=> ftp://78.108.80.67 [TmpDest] [NoGsData], WaitForLocksMinutes=20, ReconnectSecs=120, CopyCreateTime
+2014-05-17 13:53:45: Удалены результаты анализа пересекющихся заданий: = SyncFolder =
+2014-05-17 13:53:46: Скопировано поверх '/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/.idea/workspace.xml' -> 'ftp://78.108.80.67/.idea/workspace.xml'
+2014-05-17 13:53:46: Сохраняю файл состояний /= SyncFolder =/PROJECTS IN PROGRESS/JOIA/site/_gsdata_/_file_state_v4._gs
+2014-05-17 13:53:46: Сохраняю файл состояний /Users/lxndrrl/.goodsync/_mirrors_/ftp-78.108.80.67/_file_state_v4._gs
+2014-05-17 13:53:46: Синхронизировано: 1, Ошибок: 0
+2014-05-17 13:53:46: ===== Синхронизация завершена. Время 00:00:02, Скорость: 9.8 KB/s файлов/сек =====
+2014-05-17 13:53:46: 

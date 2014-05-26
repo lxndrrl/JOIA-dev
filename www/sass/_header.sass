@@ -1,0 +1,145 @@
+.header
+	position: fixed
+	top: 0
+	left: 0
+	right: 0
+	min-width: 1400px
+	height: 77px
+	background: #fff 
+	z-index: 5000 
+	+r
+		min-width: 0 
+	.header__in	
+		@extend %in
+		position: relative
+	.header__logo
+		width: 176px 
+		position: absolute
+		top: 0
+		left: 90px
+		width: 176px   
+		height: 176px
+		background: #040707 
+		border-bottom-left-radius: 10px 
+		border-bottom-right-radius: 10px 
+		box-shadow: 0 0 10px #000
+		+transition(all .2s linear)
+		overflow: hidden
+		+r(w990)
+			left: 0 
+		+r(w600)
+			left: 0
+			width: 77px  
+			height: 77px 
+			overflow: hidden
+			box-shadow: none
+			border-radius: 0 
+		i
+			left: 31px 
+			top: 25px 
+			position: absolute
+			+s(logo)
+			+r(w600)
+				+s(smallogo)
+				position: absolute
+				top: 16px 
+				left: 9px 
+		.is-nottop &
+			left: 0
+			width: 77px  
+			height: 77px 
+			overflow: hidden
+			box-shadow: none
+			border-radius: 0 
+			i
+				+s(smallogo)
+				position: absolute
+				top: 16px 
+				left: 9px
+	.header__nav
+		list-style: none
+		position: absolute
+		left: 296px 
+		top: 0
+		font-weight: 400  
+		+transition(left .2s linear)
+		+r(w990)
+			left: 200px 
+		.is-nottop &
+			left: 150px 
+		li
+			float: left
+		a
+			float: left
+			height: 77px
+			line-height: 77px 
+			font-size: 17px  
+			text-transform: uppercase
+			text-decoration: none
+			margin-right: 50px 
+			color: #383838
+			+r(w1200)
+				margin-right: 24px 
+				font-size: 14px 
+			+r(w990)
+				margin-right: 25px 
+				font-size: 14px 
+			&.is-active
+				color: #FC4A27 
+	ul.header__nav
+		+r(w900)
+			display: none
+	select.header__nav
+		display: none
+		top: 30px 
+		width: 200px 
+		+r(w900)
+			display: block
+		+r(w600)
+			left: 100px 
+	.header__right
+		position: absolute
+		right: 0
+		top: 28px  
+		text-align: right
+		+r(w600)
+			display: none
+	.lang
+		display: inline-block
+		margin-left: 30px 
+		
+		a
+			display: inline-block
+			opacity: .3 
+			margin: 0 5px
+			vertical-align: middle 
+			&.is-active,&:hover
+				opacity: 1 
+		.lang__en
+			+s(en)
+		.lang__ru
+			+s(ru)
+	.login
+		display: inline-block
+		vertical-align: middle
+		@extend .btn
+		position: relative
+		top: 1px 
+		margin-left: 24px 
+	.searchicon
+		+s(search)
+		display: inline-block
+		vertical-align: middle
+		cursor: pointer
+.btn
+	font-size: 12px 
+	text-transform: uppercase
+	color: #fff
+	background: #F56541   
+	box-shadow: 0 4px 10px rgba(#F56541, .4)
+	height: 22px 
+	text-decoration: none
+	line-height: 22px
+	padding: 0 20px  
+
+
