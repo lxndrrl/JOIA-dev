@@ -25,8 +25,9 @@ head.ready(function() {
 
 	$('.search').search();
 
+	/*расширяемый блок*/
 	$('.expander').click(function() {
 		$(this).closest('.expandable__in').toggleClass('expanded').find('.expandable').slideToggle();
 	});
-
+	/*/расширяемый блок*/
 });
