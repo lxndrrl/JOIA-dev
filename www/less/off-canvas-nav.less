@@ -1,0 +1,152 @@
+body, html {
+	height: 100%;
+	margin: 0;
+<<<<<<< HEAD
+	overflow-x:hidden;
+}
+.container {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	transition:  left 0.4s ease-in-out;
+}
+.container.open-sidebar {
+	left: 240px;
+}
+
+#sidebar {
+	background: @button-bg;
+=======
+	overflow:hidden;
+}
+.top {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	-webkit-transition:  left 0.4s ease-in-out;
+	-moz-transition:  left 0.4s ease-in-out;
+	-ms-transition:  left 0.4s ease-in-out;
+	-o-transition:  left 0.4s ease-in-out;
+	transition:  left 0.4s ease-in-out;
+}
+.top.open-nav-mob {
+	left: 240px;
+}
+
+.swipe-area {
+	position: absolute;
+	width: 50px;
+	left: 0;
+	top: 0;
+	height: 100%;
+	background: #f3f3f3;
+	z-index: 0;
+}
+#header__nav-mob {
+	background: #DF314D;
+>>>>>>> FETCH_HEAD
+	position: absolute;
+	width: 240px;
+	height: 100%;
+	left: -240px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+<<<<<<< HEAD
+#sidebar ul {
+=======
+#header__nav-mob ul {
+>>>>>>> FETCH_HEAD
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+<<<<<<< HEAD
+#sidebar ul li {
+	margin: 0;
+}
+#sidebar ul li a {
+=======
+#header__nav-mob ul li {
+	margin: 0;
+}
+#header__nav-mob ul li a {
+>>>>>>> FETCH_HEAD
+	padding: 15px 20px;
+	font-size: 16px;
+	font-weight: 100;
+	color: white;
+	text-decoration: none;
+	display: block;
+<<<<<<< HEAD
+	transition:  background 0.3s ease-in-out;
+}
+#sidebar ul li:hover a {
+	background: darken(@button-bg, 10%);
+}
+.main-content {
+	width: 100%;
+	height: 100%;
+=======
+	border-bottom: 1px solid #C9223D;
+	-webkit-transition:  background 0.3s ease-in-out;
+	-moz-transition:  background 0.3s ease-in-out;
+	-ms-transition:  background 0.3s ease-in-out;
+	-o-transition:  background 0.3s ease-in-out;
+	transition:  background 0.3s ease-in-out;
+}
+#header__nav-mob ul li:hover a {
+	background: #C9223D;
+}
+.header {
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+>>>>>>> FETCH_HEAD
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	position: relative;
+}
+<<<<<<< HEAD
+.main-content #sidebar-toggle {
+	background: @button-bg;
+	border-radius: 3px;
+	display: block;
+	position: absolute;
+	padding: 10px 7px;
+	z-index: 1002;
+}
+.main-content #sidebar-toggle .bar{
+=======
+.header #header__nav-mob-toggle {
+	background: #DF314D;
+	border-radius: 3px;
+	display: block;
+	position: relative;
+	padding: 10px 7px;
+	float: left;
+}
+.header #header__nav-mob-toggle .bar{
+>>>>>>> FETCH_HEAD
+	display: block;
+	width: 18px;
+	margin-bottom: 3px;
+	height: 2px;
+	background-color: #fff;
+	border-radius: 1px;
+}
+<<<<<<< HEAD
+.swipe-area {
+	position: absolute;
+	width: 50px;
+	left: 0;
+	top: 0;
+	height: 100%;
+	background: #f3f3f3;
+	z-index: 1001;
+=======
+.header #header__nav-mob-toggle .bar:last-child{
+	margin-bottom: 0;
+>>>>>>> FETCH_HEAD
+}

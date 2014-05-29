@@ -1,0 +1,629 @@
+#about-home-page {
+	//@media only screen and (min-width: 1680px) {
+
+	.clearfix {
+		zoom: 1;
+		&:before, &:after {
+			content: "\0020";
+			display: block;
+			height: 0;
+			overflow: hidden;
+		}
+		&:after {
+			clear: both;
+		}
+	}
+
+	.more {
+		margin-right: 44px;
+	}
+
+	.h2 {
+		line-height: 52px !important;
+		padding: 6px 73px 0 !important;
+		margin-bottom: 20px;
+		font-size: 16px;
+	}
+
+/*	.offer__img {
+		img {
+			width: 440px;
+			height: 440px;
+		}
+	}*/
+
+	.house__in__wrap {
+		border-radius: 5px;
+		box-shadow: -1px 3px 5px 0px #CCC, 2px 2px 5px 0px #CCC;
+	}
+
+	.house__slider__bottles__in, .house__slider__thumbs__in {
+		position: relative;
+		padding: 0 22px;
+		border-left: 1px solid darkgrey;
+		border-right: 1px solid darkgrey;
+		border-bottom: 1px solid darkgrey;
+	}
+
+	.house__slider__thumbs__in {
+		.grayGradient();
+		margin-bottom: 58px;
+		border-radius: 0 0 5px 5px;
+	}
+
+	.house__slider__thumbs {
+		padding: 58px 0 57px 0;
+		margin: 0 20px;
+	}
+
+	.house__slider__bottles {
+		padding: 22px 0 27px 0;
+		margin: 0 50px;
+	}
+
+	.house__slider__thumbs__slide {
+		margin: 0 19px 0 21px;
+		line-height: 0;
+	}
+
+	.house__slider__bottles__slide {
+		padding: 40px 0;
+		margin: 0 65px;
+	}
+
+	.house__slider__bottles__slides {
+		margin: 0 25px;
+	}
+
+	.house__slider__thumbs__slides {
+		margin: 0 80px;
+	}
+
+	.house__slider__bottles__prev, .house__slider__thumbs__prev {
+		position: absolute;
+		top: 50%;
+		left: 70px;
+		width: 20px;
+		height: 37px;
+		margin-top: -15px;
+		background: url('../img/icons-s51a623a2b8.png') 0 -713px no-repeat;
+		cursor: pointer;
+	}
+
+	.house__slider__bottles__next, .house__slider__thumbs__next {
+		position: absolute;
+		top: 50%;
+		right: 70px;
+		width: 21px;
+		height: 37px;
+		margin-top: -15px;
+		background: url('../img/icons-s51a623a2b8.png') 0 -478px no-repeat;
+		cursor: pointer;
+	}
+
+	.house__slider__thumbs__next, .house__slider__thumbs__prev {
+		margin-top: -18px;
+	}
+
+	.house__expander__in {
+		.clearfix();
+		.grayGradient();
+		border: 1px solid darkgrey;
+		border-radius: 5px 5px 0 0;
+		.house__expander__button {
+			margin-bottom: 62px;
+			padding-top: 2px;
+			span {
+				font-size: 14px;
+				color: #B2B2B2;
+			}
+		}
+		&.expanded {
+			.house__expander__button {
+				margin-top: 57px;
+				margin-bottom: 48px;
+				span {
+					display: none;
+				}
+				.arrow {
+					background: url('../img/icons/slide-up.png');
+				}
+			}
+		}
+	}
+
+	.house__expander__description {
+		float: left;
+		width: 800px;
+		margin: 59px 110px 0 143px;
+		font-size: 16px;
+		line-height: 19px;
+	}
+
+	.best-offers__wrap {
+		margin-bottom: 19px;
+	}
+
+	.best-offers {
+		.clearfix();
+		border: 1px solid #CCC;
+		border-top: 0;
+		border-radius: 0 0 5px 5px;
+		background: url('../img/offers/berries.jpg') no-repeat #EBEBEB;
+		box-shadow: -1px 3px 5px 0px #CCC, 2px 2px 5px 0px #CCC;
+	}
+
+	.best-offers__in {
+		margin-top: 502px;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.best-offers__background__bottle {
+		float: left;
+		width: 270px;
+		height: 800px;
+		margin-left: 61px;
+		margin-top: 9px;
+		background: url('../img/bottle.png');
+	}
+
+	.best-offers__description {
+		float: left;
+		padding: 34px 76px 25px 242px;
+
+		h3 {
+			margin: 0 0 12px;
+			font-size: 42px;
+			color: #FF4914;
+		}
+		p {
+			margin-bottom: 18px;
+			margin-left: 1px;
+			font-size: 16px;
+			line-height: 19px;
+		}
+	}
+
+	.best-offers__logo {
+		border: dashed 1px #000;
+		width: 175px;
+		position: absolute;
+		top: 33px;
+		bottom: 34px;
+		left: 26px;
+
+		span {
+			width: 128px;
+			height: 128px;
+			border-radius: 50%;
+			background: #822126;
+			text-align: center;
+			font-size: 27px;
+			color: #FFF;
+			position: absolute;
+			left: 36px;
+			top: -1px;
+			font-family: "Roboto",sans-serif;
+			font-weight: 100;
+			padding: 35px 0 0;
+			overflow: hidden;
+			line-height: 29px;
+			box-sizing: border-box;
+		}
+	}
+
+	.page, .top, .header {
+		&.houses {
+			margin: 0 auto;
+			padding: 0;
+			.superslider {
+				margin-bottom: 26px;
+				height: 716px;
+				&.alt {
+					margin-bottom: 56px;
+				}
+				.superslider__text {
+					position: absolute;
+					left: 68px;
+					bottom: 14px;
+					margin-left: 0;
+					color: white;
+					line-height: 1;
+					font-size: 100px;
+					text-shadow: -5px 0 5px rgba(0, 0, 0, 0.5);
+				}
+			}
+			.logoslider {
+				margin-bottom: 29px;
+			}
+		}
+
+		.b {
+			margin-bottom: 99px;
+		}
+	}
+
+	.warning {
+		height: 106px;
+		background: #B2B2B2 url(../img/warning.png) no-repeat 50% 50%;
+		background-size: contain;
+		max-width: none;
+		padding-left: 0;
+		padding-right: 0;
+		margin: 0 auto;
+	}
+
+	.expander {
+		&.house__expander__button {
+			text-align: center;
+			cursor: pointer;
+			.arrow {
+				display: block;
+				width: 37px;
+				height: 30px;
+				margin: 0 auto;
+				margin-top: 12px;
+				background: url('../img/icons/slide-down.png');
+			}
+		}
+	}
+
+	.house__expander__description__in {
+		.clearfix();
+		img {
+			float: right;
+			margin-top: 34px;
+			margin-right: 86px;
+		}
+	}
+
+	.house__expander__details {
+		width: 822px;
+		margin: 21px 110px 0 143px;
+		color: #3A393A;
+
+		blockquote {
+			padding: 38px 0 0 0;
+			margin-bottom: 59px;
+			text-align: center;
+			border-top: 4px dotted #F66338;
+			border-bottom: 4px dotted #F66338;
+			font-size: 24px;
+			span {
+				display: block;
+				width: 58%;
+				margin: 0 auto;
+				margin-bottom: -3px;
+				line-height: 29px;
+			}
+		}
+		h2 {
+			margin-bottom: 13px;
+			line-height: 44px;
+			font-size: 36px;
+			font-weight: normal;
+			color: #B2004D;
+			& + ul {
+				padding-top: 12px;
+			}
+		}
+
+		h3 {
+			margin-bottom: 9px;
+			font-size: 24px;
+			font-weight: normal;
+			&:nth-of-type(2) {
+				margin-bottom: 8px;
+			}
+		}
+
+		ul {
+			margin-bottom: 17px;
+			padding-left: 2px;
+			&:nth-of-type(2) {
+				margin-bottom: 47px;
+			}
+			&:nth-of-type(3) {
+				li {
+					margin-bottom: 12px;
+					line-height: 20px;
+				}
+			}
+		}
+
+		li {
+			margin-left: -2px;
+			margin-bottom: 13px;
+			font-size: 16px;
+			list-style-type: disc;
+			list-style-position: inside;
+			line-height: 19px;
+		}
+
+		p {
+			margin-bottom: 20px;
+			line-height: 19px;
+			font-size: 16px;
+			&:last-of-type {
+				margin-bottom: 63px;
+			}
+		}
+	}
+
+	.offers__in {
+		margin-bottom: 63px;
+		overflow: hidden;
+	}
+
+	.item-list__price__value {
+		display: block;
+		width: 132px;
+		height: 50px;
+		margin-top: 73px;
+		margin-left: -12px;;
+		padding-left: 12px;
+		line-height: 56px;
+		font-family: "Roboto", sans-serif;
+		font-weight: 100;
+		font-size: 25px;
+		color: #FFF;
+		background: url('../img/icons/price_alt.png') no-repeat -32px -25px;
+		font-style: normal;
+	}
+
+	.item-list__img {
+		width: 200px;
+		padding: 7px 0 !important;
+		text-align: center;
+		line-height: 0;
+		margin: 0 7px;
+	}
+
+	.cell {
+		float: left
+	}
+
+	.row {
+		.clearfix();
+	}
+
+	.item-list__title {
+		width: 432px;
+	}
+
+	.item-list__location {
+		width: 216px;
+	}
+
+	.item-list__type {
+		width: 202px;
+	}
+
+	.item-list__title__ru {
+		margin-bottom: 17px;
+		font-size: 28px;
+		color: @magenta;
+		line-height: 36px;
+	}
+
+	.cell {
+		padding-top: 27px;
+		&.item-list__title {
+			padding-top: 22px;
+			margin-left: 1px;
+		}
+	}
+
+	.item-list__price {
+		width: 160px;
+		margin-left: 87px;
+	}
+
+	.item-list__title__for,
+	.item-list__location__country,
+	.item-list__location__district,
+	.item-list__location__house,
+	.item-list__type__wine-sort,
+	.item-list__type__grape-sort,
+	.item-list__type__alcohol,
+	.item-list__type__wine-vol {
+		font-size: 16px;
+		line-height: 19px;
+	}
+
+	.item-list__title__for {
+		margin-left: -2px;
+		font-style: italic;
+	}
+
+	.item-list__type__grape-sort, .item-list__type__wine-vol {
+		margin-bottom: 19px;
+	}
+
+	.item-list__type__alcohol {
+		margin-bottom: 20px;
+	}
+
+	.item-list__price__details__item {
+		margin-left: -1px;
+		line-height: 14px;
+		font-size: 12px;
+	}
+
+	.item-list__item {
+		position: relative;
+		margin-bottom: 18px;
+		border: 1px solid #CCC;
+		background: #FFF; /* Old browsers */
+		background: -moz-linear-gradient(top, #FFF 0%, #EEE 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FFF), color-stop(100%, #EEE)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top, #FFF 0%, #EEE 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top, #FFF 0%, #EEE 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top, #FFF 0%, #EEE 100%); /* IE10+ */
+		background: linear-gradient(to bottom, #FFF 0%, #EEE 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#eeeeee', GradientType=0); /* IE6-9 */
+		border-radius: 5px;
+		box-shadow: -1px 3px 5px 0px #CCC, 2px 2px 5px 0px #CCC;
+		float: left;
+		width: 100%;
+		&:after {
+			position: absolute;
+			right: -6px;
+			top: -7px;
+			width: 36px;
+			height: 36px;
+			content: '';
+			border-radius: 50%;
+			border: 1px solid #A9A9A9;
+			background-color: #FFF;
+			box-sizing: border-box;
+		}
+		&:last-child {
+			margin-bottom: 13px;
+		}
+	}
+
+	.item-list__type__in {
+		.clearfix();
+		margin-bottom: 20px;
+		i {
+			margin-top: -1px;
+		}
+	}
+
+	.item-list__type__wine-sort {
+		float: left;
+		margin-left: 15px;
+	}
+
+	.item-list__type__wine-sort__sub {
+		display: block;
+	}
+
+	.home-logos__list {
+		.clearfix();
+		padding: 118px 125px;
+		margin-bottom: 108px;
+		border: 1px solid darkgrey;
+		border-radius: 5px;
+		background: lightgrey;
+	}
+
+	.home-logo__list__item {
+		float: left;
+		margin: 5px;
+		width: 276px;
+		height: 276px;
+		background: #FFF;
+	}
+
+	.home-logo__list__logo {
+		width: 130px;
+		height: 130px;
+		margin: 0 auto;
+		margin-top: 73px;
+		border-radius: 75px;
+		background-color: @dark-red;
+		text-align: center;
+		font-size: 36px;
+		color: @white;
+		span {
+			display: block;
+			width: 130px;
+			padding-top: 30px;
+			text-align: center;
+			line-height: 34px;
+		}
+	}
+
+	.tooltip__in {
+		position: relative;
+		.tooltip {
+			display: none;
+			position: absolute;
+			left: 44px;
+			top: -27px;
+			z-index: 1000;
+			padding: 2px 12px;
+			font-style: normal;
+			color: @white;
+			background-color: #333;
+		}
+
+		&:hover {
+			display: block;
+			.tooltip {
+				display: block;
+			}
+		}
+	}
+
+	.icon-wine__red {
+		float: left;
+		width: 16px;
+		height: 35px;
+		background: url('../img/icons-s51a623a2b8.png') no-repeat 0px -824px;
+	}
+
+	body, html {
+		width: 100%;
+		height: 100%;
+	}
+
+	.footer {
+		margin: 0 auto;
+		.footer__in {
+			padding: 66px 0 86px;
+			position: relative;
+			.copyright {
+				position: absolute;
+				right: 0;
+				bottom: 30px;
+				color: #8C8C8C;
+				font-family: "Roboto", sans-serif;
+				font-weight: 100;
+				font-size: 13px;
+			}
+		}
+		.footer__nav, .footer__contacts {
+			font-family: "Roboto", sans-serif;
+			font-weight: 100;
+			font-size: 18px;
+			padding-left: 0;
+			width: 355px;
+			> * {
+				margin: -6px 0 0 20px;
+				line-height: 24px;
+			}
+			h4 {
+				font-size: 18px;
+			}
+			p {
+				font-size: 12px;
+				line-height: 17px;
+				margin-top: 0;
+			}
+		}
+		.footer__contacts {
+			width: 361px;
+		}
+	}
+
+	.offer .offer__year {
+		font-size: 36px;
+	}
+//}
+
+.grayGradient {
+	background: #FFF; /* Old browsers */
+	background: -moz-linear-gradient(top, #FFF 0%, #EEE 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FFF), color-stop(100%, #EEE)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #FFF 0%, #EEE 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #FFF 0%, #EEE 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #FFF 0%, #EEE 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #FFF 0%, #EEE 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#eeeeee', GradientType=0); /* IE6-9 */
+}
+
+}
