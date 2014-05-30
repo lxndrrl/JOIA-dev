@@ -1,0 +1,441 @@
+// Akrom General styles File
+* {
+  box-sizing: border-box;
+}
+@topbar: 77px;
+.clearfix{
+  zoom:1;
+  &:before, &:after{ content:""; display:table; }
+  &:after{ clear: both; }
+}
+
+.pr0 {
+  padding-right: 0;
+}
+0
+input[type="radio"] {
+  text-indent: -9999px;
+  position: relative;
+  width: 14px;
+  height: 14px;
+  &:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #ffffff;
+    border-radius: 50%;
+  }
+  &:after {
+    border-radius: 50%;
+  }
+}
+
+.h2 {
+  font-size: 15px;
+  padding-left: 70px;
+  height: 58px;
+  line-height: 58px;
+}
+
+.btn, .header .login {
+  padding: 0 24px;
+  height: 21px;
+  text-decoration: none;
+  line-height: 22px;
+}
+
+.cat_item {
+  text-align: center;
+  width: auto !important;
+  span {
+    position: static !important;
+    display: block !important;
+    background: none !important;
+    margin-left: 0 !important;
+    width: auto !important;
+    font-size: 14px;
+    color: #808080 !important;
+    &:before {
+      display: none !important;
+    }
+  }
+}
+
+.offer {
+  .offer__text {
+    padding: 0 25px 0 36px;
+  }
+  .offer__year {
+    font-size: 37px;
+    padding-top: 21px;
+  }
+  .offer__title {
+    font-size: 44px;
+  }
+  .offer__more {
+    font-size: 21px;
+  }
+}
+
+.entry.entry_big {
+  .entry__text {
+    padding: 33px 40px 69px 30px;
+    .entry__title {
+      font-size: 30px;
+    }
+  }
+}
+
+// Slider
+.superslider {
+  height: 89.9vh;
+  .superslider__text {
+    padding: 0 71px;
+  }
+}
+
+.b-catalog {
+  .superslider {
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 125.5vh;
+    .superslider__next {
+      right: 30px;
+    }
+    .superslider__playpause {
+      right: 30px;
+    }
+    .superslider__playpause {
+      right: 30px;
+    }
+    .superslider__pagi {
+      right: 50px;
+    }
+  }
+  .logoslider {
+    margin-bottom: 29px;
+    margin-top: 25px;
+    .logoslider__next,
+    .logoslider__prev {
+      top: 50%;
+    }
+  }
+}
+
+// Logoslider
+
+.logoslider {
+  margin-top: 24px;
+  img {
+    margin: 0 30px 0 0;
+  }
+}
+
+
+//////////////Catalog Page
+
+
+//\\END SearchWide
+.filters {
+  margin-bottom: 26px;
+  padding-left: 57px;
+  i {
+    vertical-align: top;
+    margin-top: 2px;
+  }
+}
+.view {
+  top: -6px;
+  a {
+    margin-left: 21px;
+    padding: 0 32px;
+    line-height: 40px;
+  }
+}
+
+.catalog {
+  margin-bottom: 61px;
+  .more {
+    padding-top: 0;
+    margin-top: 7px;
+    margin-right: 45px;
+  }
+}
+
+// Choosed List
+
+.choosed_list_container {
+  position: fixed;
+  bottom: 0;
+  right: 90px;
+  z-index: 100;
+  background-color: #000000;
+  -webkit-border-radius: 12px 12px 0 0;
+  -moz-border-radius: 12px 12px 0 0;
+  border-radius: 12px 12px 0 0;
+  width: 700px;
+  padding: 0 12px 0 10px;
+  &.collapsed {
+    .choosed_list_content {
+      display: none;
+    }
+  }
+  .choosed_list_header{
+    padding: 17px 0 12px;
+    .heading {
+      color: #E5E5E5;
+      font-size: 16px;
+      display: inline-block;
+      margin-left: 47px;
+      word-spacing: 2px;
+      float: left;
+    }
+    .actions {
+      float: right;
+      margin-right: 22px;
+      margin-top: 2px;
+      a {
+        display: inline-block;
+        width: 20px;
+        height: 14px;
+        border-style: solid;
+        border-width: 1px;
+        margin-left: 27px;
+        &.action_collapse {
+          border-width: 0;
+          border-bottom-width: 3px;
+          border-bottom-color: #E5E5E5;
+        }
+        &.action_show {
+          border-color: #E5E5E5;
+          border-top-width: 3px;
+        }
+      }
+    }
+  }
+  .choosed_list_content {
+    background-color: #ffffff;
+    padding: 30px 42px 30px 45px;
+    .choosed_product {
+      border-bottom: 1px solid #b2b2b2;
+      padding-bottom: 4px;
+      margin-bottom: 1px;
+      .choosed_product_pic {
+        width: 62px;
+        height: 54px;
+        float: left;
+        text-align: center;
+        margin-right: 8px;
+        padding: 2px;
+        img {
+          display: inline-block;
+          max-height: 100%;
+          max-width: 100%;
+        }
+      }
+      .choosed_product_text {
+        width: 450px;
+        float: left;
+        padding-top: 8px;
+        p {
+          font-size: 18px;
+          color: #B2004D;
+          line-height: 1;
+        }
+        span {
+          font-size: 14px;
+          color: #383838;
+        }
+      }
+      .choosed_product_act {
+        width: 36px;
+        float: right;
+        margin-top: 10px;
+        .checked, .checked_plus {
+          width: 36px;
+          height: 36px;
+          background: url(../img/icons/checked2.png);
+          cursor: pointer;
+          position: relative;
+          span {
+            display: none;
+            position: absolute;
+            background: #333333;
+            font-size: 11px;
+            color: #E5E5E5;
+            left: 20px;
+            top: 10px;
+            padding: 2px 4px;
+          }
+          &:hover span {
+            display: inline-block;
+          }
+        }
+        .checked_plus {
+          background: url(../img/icons/checked3.png);
+        }
+      }
+    }
+  }
+}
+
+//\\ End Choosed list
+
+
+// Generator Form
+
+.generator_form {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  padding: 43px 70px 69px;
+  margin-bottom: 104px;
+  background-image: -moz-linear-gradient(#ffffff, #e6e7e8);
+  background-image: -webkit-linear-gradient(#ffffff, #e6e7e8);
+  background-image: linear-gradient(#ffffff, #e6e7e8);
+  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.4);
+  border: 1px solid #B2B2B2;
+  .text_fields {
+    border-bottom: 1px solid #999999;
+    padding-bottom: 62px;
+    margin-bottom: 46px;
+    .field {
+      .text_field {
+        font-family: mr, sans-serif;
+        font-size: 20px;
+        height: 32px;
+        width: 76.95%;
+        float: left;
+        border-bottom: 1px dotted #000000;
+        background: none;
+        margin-right: 3.3%;
+      }
+      span {
+        display: inline-block;
+        line-height: 1;
+        padding-top: 12px;
+        font-size: 21px;
+        color: #383838;
+
+      }
+    }
+  }
+  .radios {
+    margin-bottom: 52px;
+    display: table;
+    width: 100%;
+    .radios_section {
+      display: table-cell;
+      padding-top: 20px;
+      &.radios_section1 {
+        width: 32.8%;
+        border-right: 1px solid #999999;
+      }
+      &.radios_section2 {
+        width: 34.4%;
+        border-right: 1px solid #999999;
+      }
+      &.radios_section2,
+      &.radios_section3 {
+        padding-left: 19px;
+      }
+
+      .radios_section_row {
+        margin-bottom: 2px;
+        .inputs {
+          width: 64px;
+          float: left;
+          line-height: 20px;
+          text-align: right;
+          margin-right: 12px;
+        }
+        .radio {
+          vertical-align: middle;
+          display: inline-block;
+        }
+        .text {
+          display: block;
+          border: 1px solid #999999;
+          max-width: 100%;
+          height: 21px;
+        }
+      }
+      label {
+        font-size: 18px;
+        color: #383838;
+        line-height: 17px;
+      }
+    }
+  }
+  .buttons {
+    width: 700px;
+    margin: 0 auto;
+    .btn {
+      line-height: 36px;
+      height: 36px;
+      font-size: 16px;
+      text-transform: uppercase;
+      padding: 0 0;
+      width: 270px;
+      text-align: center;
+      font-family: mr, "Myriad Pro", Arial, sans-serif;
+    }
+    .excel_btn {
+      float: left;
+    }
+    .pdf_btn {
+      float: right;
+      i {
+        display: inline-block;
+        width: 27px;
+        height: 28px;
+        background: url(../img/icons-s51a623a2b8.png) -40px -560px;
+        margin-right: 7px;
+        vertical-align: middle;
+      }
+    }
+  }
+}
+
+//\\ End Generator Form
+///////////////End catalog Page
+
+//\\Slider
+
+.footer {
+  .footer__in {
+    padding: 65px 0 87px 0;
+  }
+  .footer__nav {
+    left: 101px;
+    font-size: 21px;
+    ul {
+      line-height: 24px;
+      position: relative;
+      top: -4px;
+      li {
+        display: inline-block;
+        width: 100%;
+      }
+    }
+  }
+  .footer__contacts {
+    left: 98px;
+    padding-left: 19px;
+    font-size: 14px;
+    h4 {
+      font-size: 21px;
+      line-height: 0.8;
+      margin-bottom: 11px;
+    }
+    p {
+      line-height: 1.25;
+    }
+  }
+}
+.warning {
+  background-size: auto;
+  max-width: none;
+
+}
