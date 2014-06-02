@@ -1070,6 +1070,15 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
+	"\/o_proekte.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/o_proekte.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/sass\/_catalog.sass": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
