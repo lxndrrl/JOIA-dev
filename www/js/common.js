@@ -39,5 +39,6 @@ sbula.click(function () {
 	sbula.removeClass("active").not(sbula).add(this).addClass("active");
 });
 $('.popup .yes label').click(function () {
-	$('.popup').fadeOut(1000)
+	$('.popup').fadeOut(1000);
+	$('.blur').addClass('allow')
 });

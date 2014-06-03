@@ -1,11 +1,12 @@
-.popup { width:100%; min-height:100%; overflow:hidden; position:fixed; top:0px; z-index: 6000; background: url(../img/home-blur.jpg) no-repeat; background-size: 100%;}
-.popup .popup-content { border-radius: 8px; width: 610px; height: 360px; padding: 70px 90px; background: white; position: fixed; top: 50%; left: 50%; margin-left: -305px; margin-top: -180px; -o-box-sizing: border-box; -ms-box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; box-shadow: 2px 2px 15px black; }
-.popup .popup-content h1 { font-size: 32px; text-align: center; font-weight: lighter; color: #3B3B3B; }
-.popup .popup-content input { display: none;}
-.popup .popup-content label { position: relative; margin-top: 20px; cursor: pointer; font-size: 24px; display: inline-block; }
-.popup .popup-content label:after { content: ''; width: 30px; height: 30px; position: absolute; bottom: -40px; left: 0; border: 1px solid #B1B1B1; background: linear-gradient(top,white 50%,#E3E3E3); background: -o-linear-gradient(top,white 50%,#E3E3E3);background: -ms-linear-gradient(top,white 50%,#E3E3E3);background: -moz-linear-gradient(top,white 50%,#E3E3E3);background: -webkit-linear-gradient(top,white 50%,#E3E3E3);}
-.popup .popup-content .yes label:after { left: -2px; }
-.popup .popup-content .no label:after { left: 3px;}
-.popup .popup-content label.active:after { background: url(../img/radio_active.png) no-repeat 50%, linear-gradient(top,white 50%,#E3E3E3); background: url(../img/radio_active.png) no-repeat 50%, -ms-linear-gradient(top,white 50%,#E3E3E3);background: url(../img/radio_active.png) no-repeat 50%, -o-linear-gradient(top,white 50%,#E3E3E3);background: url(../img/radio_active.png) no-repeat 50%, -moz-linear-gradient(top,white 50%,#E3E3E3);background: url(../img/radio_active.png) no-repeat 50%, -webkit-linear-gradient(top,white 50%,#E3E3E3);}
-.popup .popup-content .yes { margin-top: 30px; width: 50%; text-align: center; float: left; height: 110px;border-right: 1px solid #C3C3C3;}
-.popup .popup-content .no { margin-top: 30px; text-align: center; width: 49%; float: right; }
+.popup {
+
+	background: transparent;
+}
+
+.blur {
+	filter: blur(10px);
+	transition: all 1s ease-in-out;
+	&.allow {
+		filter: blur(0);
+	}
+}
