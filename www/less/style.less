@@ -1,10 +1,21 @@
-@import "../css/screen.css";
+@import "screen";
 @import "vars";
 @import url(http://fonts.googleapis.com/css?family=Roboto:300|Roboto+Condensed:300&subset=cyrillic-ext,latin);
+
+#o_proekte-page, .b-catalog {
+	@import 'akrom';
+}
+
 #o_dome-page, #o_dome-a-page {
 	@import "house";
 }
-//@import "off-canvas-nav";
+
+@import "blur-common";
+.webkit, .chrome, .safari, .android, .ios, .opera {
+	@import "blur";
+}
+
+@import "blur-alt";
 
 /*common*/
 .h2 {
@@ -247,13 +258,13 @@
 			right: 0;
 			bottom: 28px;
 			color: #8C8C8C;
-//			font-family: "Roboto", sans-serif;
+			//			font-family: "Roboto", sans-serif;
 			font-weight: 100;
 			font-size: 13px;
 		}
 	}
 	.footer__nav, .footer__contacts {
-//		font-family: "Roboto", sans-serif;
+		//		font-family: "Roboto", sans-serif;
 		font-weight: 100;
 		font-size: 20px;
 		padding-left: 0;
@@ -285,6 +296,7 @@
 	padding-right: 0;
 	margin: 0 auto;
 }
+
 /*/footer*/
 
 @media only screen and (max-width: 1870px) {
@@ -326,6 +338,17 @@
 		.superslider__pagi {
 			right: 30px+15px+246px+20px+20px;
 			margin-right: 0;
+		}
+	}
+	.footer {
+		.footer__in {
+			.copyright {
+				position: relative;
+				right: auto;
+				bottom: auto;
+				text-align: center;
+				margin: 32px 0 0;
+			}
 		}
 	}
 }
@@ -382,6 +405,7 @@
 }
 
 @media only screen and (max-width: 900px) {
+
 	.superslider {
 		.superslider__next {
 			right: 30px;
@@ -396,8 +420,14 @@
 			margin-right: 0;
 		}
 	}
-}
-
-#o_proekte-page, #catalog-page {
-	@import 'akrom';
+	.footer {
+		.footer__in {
+			.footer__nav, .footer__contacts {
+				width: auto;
+				left: 0;
+				margin: 0 16px;
+				padding-right: 2px;
+			}
+		}
+	}
 }

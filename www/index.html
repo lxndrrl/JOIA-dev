@@ -6,11 +6,15 @@
 <head>
 	<meta charset="utf-8">
 	<title>Template</title>
-	<meta name="viewport" content="initial-scale=1"/>
+	<!--<meta name="viewport" content="initial-scale=1"/>-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" media="screen" href="css/style.css">
 </head>
-<body>
+<body class="lockScroll">
+<!-- begin top  -->
+<div class="blur">
 <div class="top">
+
 	<!-- begin header  -->
 	<div class="header">
 		<div class="header__in">
@@ -22,13 +26,13 @@
 				<li><a href="#">ПРОИЗВОДИТЕЛИ</a></li>
 				<li><a href="#">КОНТАКТЫ</a></li>
 			</ul>
-			<!--<select name="" id="" class="header__nav">-->
-				<!--<option value="">ГЛАВНАЯ</option>-->
-				<!--<option value="">О ПРОЕКТЕ</option>-->
-				<!--<option value="">КАТАЛОГ</option>-->
-				<!--<option value="">ПРОИЗВОДИТЕЛИ</option>-->
-				<!--<option value="">КОНТАКТЫ</option>-->
-			<!--</select>-->
+			<select name="" id="" class="header__nav">
+				<option value="">ГЛАВНАЯ</option>
+				<option value="">О ПРОЕКТЕ</option>
+				<option value="">КАТАЛОГ</option>
+				<option value="">ПРОИЗВОДИТЕЛИ</option>
+				<option value="">КОНТАКТЫ</option>
+			</select>
 			<!-- begin header__right  -->
 			<div class="header__right">
 				<div class="searchicon"></div>
@@ -378,7 +382,21 @@
 <div class="warning">
 
 </div>
+</div>
 <!-- end warning -->
+<!-- begin popup  -->
+
+<!-- end popup  -->
+<div class="popup" id="popup">
+    <div class="popup-content">
+    	<h1>Вам уже исполнилось 18 лет?</h1>
+        <form>
+            <p class="yes"><label for="yes">Да</label><input type="radio" name="yes_no" id="yes"></p>
+            <p class="no"><label for="no">Нет</label><input type="radio" name="yes_no" id="no"></p>
+        </form>
+    </div>
+</div>
 <script src="js/lib/head.js" data-headjs-load="js/init.js"></script>
 </body>
+
 </html>
