@@ -476,8 +476,26 @@
 
 </div>
 <!-- end warning -->
-
+<script>
+	var head_conf = {
+		screens: [240, 320, 480, 640, 768, 800, 900, 1024, 1280, 1440, 1680, 1920],
+		screensCss: { "gt": true, "gte": false, "lt": true, "lte": false, "eq": false },
+		browsers: [
+			{ ie: { min: 6, max: 11 } }
+			//,{ chrome : { min: 8, max: 31 } }
+			//,{ ff     : { min: 3, max: 26 } }
+			//,{ ios    : { min: 3, max:  7 } }
+			//,{ android: { min: 2, max:  4 } }
+			//,{ webkit : { min: 9, max: 12 } }
+			//,{ opera  : { min: 9, max: 12 } }
+		],
+		browserCss: { "gt": true, "gte": false, "lt": true, "lte": false, "eq": true },
+		html5: true,
+		page: "-page",
+		section: "-section",
+		head: "head"
+	};
+</script>
 <script src="js/lib/head.js" data-headjs-load="js/init.js"></script>
-<script src="js/lib/jquery.js"></script>
 </body>
 </html>

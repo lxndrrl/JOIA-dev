@@ -416,7 +416,7 @@
 			}
 		}
 		.header__nav {
-			left: 100px !important;
+			left: 100px;
 		}
 	}
 }
@@ -433,10 +433,103 @@
 
 @media only screen and (max-width: 900px) {
 	.portrait {
+		.header {
+			position: absolute;
+			background: transparent;
+			height: auto;
+			.header__in {
+				text-align: center;
+				left: auto;
+				top: auto;
+				a.header__logo {
+					position: static;
+					height: auto;
+					width: auto;
+					display: inline-block;
+					background: transparent;
+					margin: 64px 0 32px;
+					i {
+						position: static;
+						width: 115px;
+						height: 122px;
+						background: url('../img/icons-s51a623a2b8.png') 0 -275px no-repeat;
+						display: block;
+					}
+				}
+				ul.header__nav {
+					display: block;
+					position: relative;
+					top: auto;
+					left: auto;
+					text-align: center;
+					margin-bottom: 32px;
+					li {
+						float: none;
+						display: inline-block;
+						a {
+							color: @white;
+							margin-right: auto;
+							padding-left: 16px;
+							padding-right: 16px;
+							border-bottom: solid 1px @searchicon-bg;
+							border-left: solid 1px @searchicon-bg;
+							&.is-active {
+//								border-radius: @radius-mid * 2;
+								background: @searchicon-bg;
+								color: #333;
+							}
+						}
+					}
+
+				}
+				select.header__nav {
+					display: none;
+				}
+			}
+			.header__right {
+				position:static;
+				text-align: center;
+				display: inline-block;
+				.searchicon {
+					position: relative;
+					background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAO1JREFUeNqU078LAXEYx/FzYfNzk5TJaFNKYjFYSQZ/hvwBsvg1UCY2xT9gM8hukQGThWRjkcFw3pdnujhfT736Xn2fPvfc3fd07V0OFDDFAnM0ENYsZRiGLSc9OpqIYIA9fMhhjCrW2h9VlMlcH/aymMGtOqEugX08PwQucUZKdTozMIqdTc9WepQD7wjY9ARx+ydwhfyXfS+S0qMcOEQJGcueB3VccFINdMgal6NzkmPjRwJXxDBB7/2RDdtAp6wb+dpphHDASG5QQ0V6u2aoSqBZD/lDrNWRJynLK2qpBn4rc6K2XB9/Nb8EGABtf1thzY6X2AAAAABJRU5ErkJggg==) no-repeat 4px 4px;
+					background-color: @searchicon-bg;
+					border-radius: 50%;
+					&:after {
+						content: '';
+						position: absolute;
+						top: -4px;
+						right: -4px;
+						bottom: -4px;
+						left: -4px;
+						border: solid 1px @searchicon-bg;
+						border-radius: 50%;
+					}
+				}
+				.lang {
+					margin-left: 0;
+					a {
+						margin-left: 24px;
+						margin-right: 0;
+					}
+				}
+			}
+		}
 		.superslider {
+			margin-top: 0;
 			height: auto;
 			.superslider__slide {
-				height: 700px;
+				height: 928px;
+				&:after {
+					content: '';
+					position: absolute;
+					top: 0;
+					right: 0;
+					bottom: 0;
+					left: 0;
+					background: @superslirer-overay;
+					z-index: -1;
+				}
 			}
 		}
 	}
