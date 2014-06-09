@@ -30,20 +30,17 @@ head.ready(function () {
 	});
 	/*/расширяемый блок*/
 
-	/*блок на всю высоту вьюпорта*/
-	/*$(window).resize(function () {
-		$('.w-900 .superslider__slide, .lt-900 .superslider__slide').height($(window).height());
-	});
-	$('.w-900 .superslider__slide, .lt-900 .superslider__slide').height($(window).height());*/
-	/*/блок на всю высоту вьюпорта*/
-
-	$(window).resize(function(){
-		$(".top").height($(window).height());
-	});
-	$(".top").height($(window).height());
 
 });
 
+/*блок на всю высоту вьюпорта*/
+$(document).ready(function ($) {
+$(window).resize(function () {
+	$('.w-900 .superslider__slide, .lt-900 .superslider__slide').height($(window).height());
+});
+$('.w-900 .superslider__slide, .lt-900 .superslider__slide').height($(window).height());
+});
+/*/блок на всю высоту вьюпорта*/
 
 $('.popup-content').click(function (e) {
 	e.stopPropagation();

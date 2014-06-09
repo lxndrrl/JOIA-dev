@@ -476,9 +476,6 @@
 			right: 50%;
 			margin-right: -420px;
 		}
-		&.var-2 {
-			height: @superslider-height;
-		}
 	}
 }
 
@@ -586,11 +583,11 @@
 	}
 }
 
-@media only screen and (min-width: 901px) and (max-width: 902px) {
+@media only screen and (min-width: 901px) {
 	.superslider {
 		height: auto;
 		.superslider__slide {
-			height: 450px !important;
+			height: @superslider-height - 6 !important;
 		}
 	}
 }

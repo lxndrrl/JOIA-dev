@@ -207,26 +207,11 @@
 						 data-cycle-slides=">div"
 						 data-cycle-prev=".catslider__prev"
 						 data-cycle-next=".catslider__next">
-						<div><label for="#" class="cat_item"><i class="search__categicon1"></i><input type="radio"
-																									  name=""
-																									  id=""><span>белые</span></label>
-						</div>
-						<div><label for="#" class="cat_item"><i class="search__categicon2"></i><input type="radio"
-																									  name=""
-																									  id=""><span>красные</span></label>
-						</div>
-						<div><label for="#" class="cat_item"><i class="search__categicon3"></i><input type="radio"
-																									  name=""
-																									  id=""><span>розовые</span></label>
-						</div>
-						<div><label for="#" class="cat_item"><i class="search__categicon4"></i><input type="radio"
-																									  name=""
-																									  id=""><span>игристые</span></label>
-						</div>
-						<div><label for="#" class="cat_item"><i class="search__categicon1"></i><input type="radio"
-																									  name=""
-																									  id=""><span>Игристые</span></label>
-						</div>
+						<div><label for="#" class="cat_item"><i class="search__categicon1"></i><input type="radio" name="" id=""><span>белые</span></label></div>
+						<div><label for="#" class="cat_item"><i class="search__categicon2"></i><input type="radio" name="" id=""><span>красные</span></label></div>
+						<div><label for="#" class="cat_item"><i class="search__categicon3"></i><input type="radio" name="" id=""><span>розовые</span></label></div>
+						<div><label for="#" class="cat_item"><i class="search__categicon4"></i><input type="radio" name="" id=""><span>игристые</span></label></div>
+						<div><label for="#" class="cat_item"><i class="search__categicon1"></i><input type="radio" name="" id=""><span>Игристые</span></label></div>
 					</div>
 				</div>
 				<div class="catslider__next"></div>
@@ -244,8 +229,7 @@
 				<li><label for="#"><input type="radio" name="" id=""><span>Люсьен</span></label></li>
 				<li><label for="#"><input type="radio" name="" id=""><span>Лосьон</span></label></li>
 				<li><label for="#"><input type="radio" name="" id=""><span>Большая Арнаутская</span></label></li>
-				<li><label for="#"><input type="radio" name="" id=""><span>Парень из соседнего парадного</span></label>
-				</li>
+				<li><label for="#"><input type="radio" name="" id=""><span>Парень из соседнего парадного</span></label></li>
 				<li class="is-hidden"><label for="#"><input type="radio" name="" id=""><span>Испания</span></label></li>
 				<li class="is-hidden"><label for="#"><input type="radio" name="" id=""><span>Чили</span></label></li>
 			</ul>
@@ -696,8 +680,26 @@
 
 </div>
 <!-- end warning -->
-
+<script>
+	var head_conf = {
+		screens: [240, 320, 480, 640, 768, 800, 900, 1024, 1280, 1440, 1680, 1920],
+		screensCss: { "gt": true, "gte": false, "lt": true, "lte": false, "eq": false },
+		browsers: [
+			{ ie: { min: 6, max: 11 } }
+			//,{ chrome : { min: 8, max: 31 } }
+			//,{ ff     : { min: 3, max: 26 } }
+			//,{ ios    : { min: 3, max:  7 } }
+			//,{ android: { min: 2, max:  4 } }
+			//,{ webkit : { min: 9, max: 12 } }
+			//,{ opera  : { min: 9, max: 12 } }
+		],
+		browserCss: { "gt": true, "gte": false, "lt": true, "lte": false, "eq": true },
+		html5: true,
+		page: "-page",
+		section: "-section",
+		head: "head"
+	};
+</script>
 <script src="js/lib/head.js" data-headjs-load="js/init.js"></script>
-<script src="js/lib/jquery.js"></script>
 </body>
 </html>
