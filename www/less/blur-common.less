@@ -1,14 +1,12 @@
-.lockScroll {
+.blur {
 	overflow: hidden;
-	.blur {
-		filter: blur(10px);
-		transition: all 1s ease-in-out;
-	}
+	filter: blur(10px);
+	transition: all 1s;
+	height: 100%;
 	&.allow {
 		overflow: auto;
-		.blur {
-			filter: blur(0);
-		}
+		filter: none;
+		height: auto;
 	}
 }
 

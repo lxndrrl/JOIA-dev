@@ -50,5 +50,5 @@ sbula.click(function () {
 });
 $('.popup .yes label').click(function () {
 	$('.popup').fadeOut(1000);
-	$('.lockScroll').addClass('allow')
+	$('.blur').addClass('allow')
 });
