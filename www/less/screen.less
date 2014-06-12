@@ -334,19 +334,19 @@ body {
 @media only screen and (max-width: 1400px) {
 	.page {
 		width: 100%;
-		padding: 0 300px 0 30px
+		padding: 0 300px 0 @padding-base-horizontal;
 	}
 }
 
 @media only screen and (max-width: 990px) {
 	.page {
-		margin-right: 0
+		margin-right: 0;
 	}
 }
 
 @media only screen and (max-width: 900px) {
 	.page {
-		padding: 0 30px
+		padding: 0 @padding-base-horizontal;
 	}
 }
 
@@ -1021,7 +1021,7 @@ body {
 	position: absolute;
 	top: 50%;
 	margin-top: -30px;
-	left: 30px;
+	left: @padding-base-horizontal;
 	cursor: pointer
 }
 
@@ -1114,7 +1114,7 @@ body {
 	.superslider .superslider__text {
 		width: 100%;
 		margin-left: 0px;
-		left: 30px;
+		left: @padding-base-horizontal;
 		font-size: 50px
 	}
 }
@@ -1359,7 +1359,7 @@ body {
 	vertical-align: middle;
 	height: 36px;
 	line-height: 36px;
-	padding: 0 30px;
+	padding: 0 @padding-base-horizontal;
 	font-size: 16px;
 	text-decoration: none;
 	color: #383838

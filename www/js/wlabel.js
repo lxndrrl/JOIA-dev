@@ -6,7 +6,6 @@ $('.action_collapse').click(function(e){
 	$('.choosed_list_content').slideUp();
 	e.preventDefault();
 })
-
 $('.about_project_content .toggle_link').click(function(e){
 	$('.about_project_content .hided_content').slideToggle();
 	$(this).toggleClass('arrow_rotate').children('span').toggle();

@@ -52,3 +52,5 @@ $('.popup .yes label').click(function () {
 	$('.popup').fadeOut(1000);
 	$('.blur').addClass('allow')
 });
+
+//---
