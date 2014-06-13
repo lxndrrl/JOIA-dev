@@ -34,9 +34,9 @@ head.ready(function () {
 /*блок на всю высоту вьюпорта*/
 $(document).ready(function ($) {
 $(window).resize(function () {
-	$('.w-900 .superslider__slide, .lt-900 .superslider__slide').height($(window).height());
+	$('.w-900 .superslider__slide, .lt-900 .superslider__slide, .mobile .w-1280 .superslider__slide, .mobile .lt-1280 .superslider__slide').height($(window).height());
 });
-$('.w-900 .superslider__slide, .lt-900 .superslider__slide').height($(window).height());
+$('.w-900 .superslider__slide, .lt-900 .superslider__slide, .mobile .w-1280 .superslider__slide, .mobile .lt-1280 .superslider__slide').height($(window).height());
 });
 /*/блок на всю высоту вьюпорта*/
 
