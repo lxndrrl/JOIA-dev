@@ -1,1 +1,24 @@
 @import "is-active/is-active";
+
+.header__nav {
+	list-style: none;
+	position: absolute;
+	left: 296px;
+	top: 0;
+	font-weight: 400;
+	transition: left .2s linear;
+	li {
+		float: left;
+		a {
+			text-transform: uppercase;
+			text-decoration: none;
+			margin-right: 50px;
+			color: @nav-color;
+			float: left;
+			height: 63px;
+			line-height: 63px;
+			font-size: 18px;
+			padding-top: 3px;
+		}
+	}
+}
