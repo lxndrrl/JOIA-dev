@@ -1,0 +1,1 @@
+{"version":3,"file":"/= SyncFolder =/PROJECTS IN PROGRESS/JOIA/JOIA-dev/www/assets/blur/css/blur-allow.css","sources":["blur-allow.less"],"names":[],"mappings":"AAAA,YACE,aAAA,CACA,WAAA,CACA","sourcesContent":[".blur-allow {\n\t\toverflow: auto;\n\t\tfilter: none;\n\t\theight: auto;\n\t}"]}

@@ -40,17 +40,16 @@ $('.w-900 .superslider__slide, .lt-900 .superslider__slide, .mobile .w-1280 .sup
 });
 /*/блок на всю высоту вьюпорта*/
 
+//---
 
-$('.popup-content').click(function (e) {
+$('.popup__content').click(function (e) {
 	e.stopPropagation();
 });
 var sbula = $(".popup label");
 sbula.click(function () {
 	sbula.removeClass("active").not(sbula).add(this).addClass("active");
 });
-$('.popup .yes label').click(function () {
+$('.popup__content__yes label').click(function () {
 	$('.popup').fadeOut(1000);
-	$('.blur').addClass('allow')
+	$('.blur').addClass('blur-allow')
 });
-
-//---
