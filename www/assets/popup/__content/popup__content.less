@@ -30,6 +30,17 @@
 		font-weight: lighter;
 		color: @panel-black-h-color;
 	}
+	p {
+		margin-top: 30px;
+		text-align: center;
+		height: 110px;
+		&:hover {
+			label {
+				color: @panel-black-text-hover-color;
+				text-shadow: 0 0 32px fadeout(@panel-black-text-hover-color, 25%);
+			}
+		}
+	}
 	input {
 		display: none;
 	}
@@ -46,6 +57,8 @@
 			height: 30px;
 			position: absolute;
 			bottom: -40px;
+			left: 50%;
+			margin-left: -15px;
 			border: 1px solid #B1B1B1;
 			background: linear-gradient(top, white 50%, #E3E3E3);
 			background: -o-linear-gradient(top, white 50%, #E3E3E3);

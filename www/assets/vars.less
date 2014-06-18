@@ -26,11 +26,18 @@
 @BLACK-color-base:						#000;
 /// basic palette
 
+// logo palette
+@logo-color-1:							#8E3251;
+@logo-color-2:							#B44237;
+@logo-color-3:							#DC6E4B;
+/// logo palette
+
 // element colors
 @nav-color:								#383838;
 @nav-color-active:						#FC4A27;
 @panel-black-bg:						@BLACK-color-base;
-@panel-black-h-color:					@CLOUDS-color-base;
-@panel-black-text-color:				@CLOUDS-color-base;
+@panel-black-h-color:					lighten(@panel-black-bg, 75%);
+@panel-black-text-color:				lighten(@panel-black-bg, 50%);
+@panel-black-text-hover-color:			lighten(@panel-black-bg, 90%);
 @panel-black-devider-bg:				lighten(@panel-black-bg, 50%);
 /// element colors
