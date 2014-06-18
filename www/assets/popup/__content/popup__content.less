@@ -3,25 +3,32 @@
 .popup__content {
 	border-radius: 8px;
 	width: 610px;
-	height: 360px;
+	height: 470px;
 	padding: 70px 90px;
-	background: white;
+	background: @panel-black-bg;
 	position: fixed;
 	top: 50%;
 	left: 50%;
 	margin-left: -305px;
-	margin-top: -180px;
+	margin-top: -235px;
 	-o-box-sizing: border-box;
 	-ms-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	box-shadow: 2px 2px 15px black;
+	.popup__content__logo {
+		background: url('../img/icons-s51a623a2b8.png') 0 -275px no-repeat;
+		width: 115px;
+		height: 122px;
+		display: block;
+		margin: 0 auto 24px;
+	}
 	h1 {
 		font-size: 32px;
 		text-align: center;
 		font-weight: lighter;
-		color: #3B3B3B;
+		color: @panel-black-h-color;
 	}
 	input {
 		display: none;
@@ -32,6 +39,7 @@
 		cursor: pointer;
 		font-size: 24px;
 		display: inline-block;
+		color: @panel-black-text-color;
 		&:after {
 			content: '';
 			width: 30px;
