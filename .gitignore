@@ -1,3 +1,4 @@
 *.idea
 *_gsdata_
 *config.codekit
+*.codekit
