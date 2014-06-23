@@ -51,5 +51,5 @@ sbula.click(function () {
 });
 $('.popup__content__yes label').click(function () {
 	$('.popup').fadeOut(1000);
-	$('.blur').addClass('blur-allow')
+	$('.blur').addClass('blur-allow');
 });
