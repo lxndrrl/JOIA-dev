@@ -1,4 +1,4 @@
-```less
+```css
 // Clearfix
 //
 // For modern browsers
