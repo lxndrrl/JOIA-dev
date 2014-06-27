@@ -33,8 +33,16 @@
 /// logo palette
 
 // element colors
-@nav-color:								#383838;
-@nav-color-active:						#FC4A27;
+@text-color:							lighten(@BLACK-color-base, 22%);
+@nav-color:								@text-color;
+
+@link-color:							#A22E53;
+@headline-color:						@link-color;
+@substrate:								#E5704B;
+@nav-color-active:						#EB5D39;
+@footer-bg:								lighten(@BLACK-color-base, 20.39%);
+@footer-text-color:						lighten(@BLACK-color-base, 54.9%);
+@footer-text-hover-color:				lighten(@BLACK-color-base, 75%);
 @panel-black-bg:						@BLACK-color-base;
 @panel-black-h-color:					lighten(@panel-black-bg, 85%);
 @panel-black-text-color:				lighten(@panel-black-bg, 50%);
