@@ -86,7 +86,7 @@ $('.appeal_hiden_content .toggle_link').click(function(e){
 })
 /*/Развёртывание и свёртывание блоков*/
 
-/*Автоподбор высоты колонок*/
+/*Автоматическое выравнивание высоты колонок (float блоков)*/
 function setEqualHeight(columns)
 {
 	var tallestcolumn = 0;
@@ -105,4 +105,4 @@ function setEqualHeight(columns)
 $(document).ready(function() {
 	setEqualHeight($('.contacts__branches > .contacts__border-block'));
 });
-/*/Автоподбор высоты колонок*/
+/*/Автоматическое выравнивание высоты колонок (float блоков)*/
