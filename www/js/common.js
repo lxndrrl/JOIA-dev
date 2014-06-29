@@ -42,7 +42,6 @@ $('.w-900 .superslider__slide, .lt-900 .superslider__slide, .mobile .w-1280 .sup
 
 //---
 
-/*Оверлей ПопАпа и событиея на кнопки*/
 $('.popup__content').click(function (e) {
 	e.stopPropagation();
 });
@@ -55,54 +54,9 @@ $('.popup__content__yes label').click(function () {
 	$('.blur').addClass('blur-allow');
 });
 
-$('.popup__content__no #no').on('click', function() {
-	window.location = $(this).val();
-});
-/*/Оверлей ПопАпа и событиея на кнопки*/
 
-/*Развёртывание и свёртывание блоков*/
-$('.action_show').click(function(e){
-	$('.choosed_list_content').slideDown();
-	e.preventDefault();
-})
-$('.action_collapse').click(function(e){
-	$('.choosed_list_content').slideUp();
-	e.preventDefault();
-})
-$('.about_project_content .toggle_link').click(function(e){
-	$('.about_project_content .hided_content').slideToggle();
-	$(this).toggleClass('arrow_rotate').children('span').toggle();
-	e.preventDefault();
-})
-$('.appeal_content .toggle_link').click(function(e){
-	$(this).parent('.appeal_content').hide();
-	$('.appeal_hiden_content').slideDown();
-	e.preventDefault();
-})
-$('.appeal_hiden_content .toggle_link').click(function(e){
-	$(this).parent('.appeal_hiden_content').slideUp();
-	$('.appeal_content').show();
-	e.preventDefault();
-})
-/*/Развёртывание и свёртывание блоков*/
-
-/*Автоматическое выравнивание высоты колонок (float блоков)*/
-function setEqualHeight(columns)
-{
-	var tallestcolumn = 0;
-	columns.each(
-		function()
-		{
-			currentHeight = $(this).height();
-			if(currentHeight > tallestcolumn)
-			{
-				tallestcolumn = currentHeight;
-			}
-		}
-	);
-	columns.height(tallestcolumn);
-}
 $(document).ready(function() {
-	setEqualHeight($('.contacts__branches > .contacts__border-block'));
+	$('div.order-list').on('click', function() {
+			$('.choosed_list_content').slideToggle(400);
+	});
 });
-/*/Автоматическое выравнивание высоты колонок (float блоков)*/
