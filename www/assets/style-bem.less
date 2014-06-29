@@ -1,4 +1,5 @@
 @import "vars";
+@import "fonts";
 @import "mixins";
 @import "blur/blur";
 @import "top/top";
@@ -6,21 +7,14 @@
 @import "entries/entries";
 @import "search/search";
 @import "hide/hide";
-@import "map/map";
-@import "contacts/contacts";
-@import "footer/footer";
-@import "logoslider/logoslider";
-@import "page/page";
-@import "header-kp/header-kp";
-@import "page-kp-block/page-kp-block";
 
 body, html {
 	height: 100%;
 }
 
 body {
-	.font__MyriadPro-Regular;
 	font-size: 12px;
+	font-family: mr, "Myriad Pro", Arial, sans-serif;
 	line-height: 1.4;
 }
 
@@ -33,12 +27,4 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 input, textarea, select, button, h1, h2, h3, h4, h5, h6, a, span, a:focus {
 	outline: none;
-}
-
-img, fieldset, a img {
-	border: none;
-}
-
-.clearfix {
-	.clearfix();
 }
