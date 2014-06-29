@@ -1,0 +1,22 @@
+@import "__position/page-kp-block__category__row__position";
+@import "__product-compound/page-kp-block__category__row__product-compound";
+@import "__product-description/page-kp-block__category__row__product-description";
+@import "__product-displacement/page-kp-block__category__row__product-displacement";
+@import "__product-price/page-kp-block__category__row__product-price";
+
+.page-kp-block__category__row {
+	.clearfix();
+	margin-bottom: 10px;
+	border-bottom: dotted 1px @text-color;
+	padding-bottom: 10px;
+	> * {
+		float: left;
+		padding-right: @kp-columns-padding-right;
+		border: 0;
+	}
+	.page-kp-block__category__row {
+		padding-right: 0;
+		padding-bottom: 0;
+		margin-bottom: 0;
+	}
+}
