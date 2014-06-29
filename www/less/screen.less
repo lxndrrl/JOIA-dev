@@ -53,14 +53,6 @@ table {
 	width: 100%
 }
 
-label {
-	cursor: pointer;
-}
-
-.pull-right {
-	float: right !important;
-}
-
 /*@font-face {
 	font-family: mr;
 	src: url("fonts/MyriadPro-Regular.eot");
@@ -763,8 +755,6 @@ body {
 	color: #AF0A4E;
 	text-decoration: none;
 	font-size: 14px;
-	line-height: 1.2;
-	font-family: 'MyriadPro-Light';
 	display: inline-block;
 	margin-top: 3px
 }
@@ -879,7 +869,7 @@ body {
 	right: 0;
 	top: 0;
 	height: 156px;
-	border-right: 1px solid #c5c5c5
+	border-right: 1px solid #999
 }
 
 .search.search_wide .search__filter.is-last:before {
@@ -962,25 +952,23 @@ body {
 }
 
 .search.search_wide .search__reset a {
-	color: #af0a4e;
-	font-family: 'MyriadPro-Light';
+	color: #B00A4E;
 	font-size: 16px;
 	text-decoration: none;
-	border-bottom: 1px solid #af0a4e;
+	border-bottom: 1px solid #B00A4E;
 	padding-bottom: 2px
 }
 
 .search.search_wide .search__pdf {
 	text-align: right;
-	color: #af0a4e;
+	color: #B00A4E;
 	font-size: 16px;
 	padding-right: 90px
 }
 
 .search.search_wide .search__pdf a {
-	color: #af0a4e;
-	text-decoration: none;
-	font-family: 'MyriadPro-Light';
+	color: #B00A4E;
+	text-decoration: none
 }
 
 .search.search_wide .search__pdf i {
@@ -993,7 +981,7 @@ body {
 }
 
 .search.search_wide .search__pdf span {
-	border-bottom: 1px solid #af0a4e;
+	border-bottom: 1px solid #B00A4E;
 	padding-bottom: 2px;
 	display: inline-block;
 	vertical-align: middle
@@ -1010,20 +998,18 @@ body {
 }
 
 .superslider {
-	margin-top: 77px;
-	margin: 0 auto !important;
-	width: 1400px !important;
+	margin-top: 77px
 }
 
 .superslider .superslider__slide {
-	height: 715px;
+	height: 70vh;
 	width: 100%;
 	background-size: cover
 }
 
 .superslider .superslider__in {
 	position: absolute;
-	height: 715px;
+	height: 70vh;
 	top: 0;
 	left: 50%;
 	margin-left: -50%;
@@ -1035,7 +1021,7 @@ body {
 	width: 60px;
 	height: 61px;
 	position: absolute;
-	top: 45%;
+	top: 50%;
 	margin-top: -30px;
 	left: @padding-base-horizontal;
 	cursor: pointer
@@ -1046,7 +1032,7 @@ body {
 	width: 61px;
 	height: 61px;
 	position: absolute;
-	top: 45%;
+	top: 50%;
 	right: 280px;
 	cursor: pointer;
 	margin-top: -30px
@@ -1058,7 +1044,7 @@ body {
 
 .superslider .superslider__pagi {
 	position: absolute;
-	bottom: 85px;
+	bottom: 30px;
 	right: 300px;
 	text-align: right;
 	margin-right: 12px
@@ -1094,7 +1080,7 @@ body {
 .superslider .superslider__playpause {
 	position: absolute;
 	right: 280px;
-	bottom: 85px;
+	bottom: 30px;
 	background: url('../img/icons-s51a623a2b8.png') 0 -525px no-repeat;
 	width: 15px;
 	height: 22px;
@@ -1117,7 +1103,7 @@ body {
 
 .superslider .superslider__text {
 	position: absolute;
-	margin-left: -630px;
+	margin-left: -700px;
 	left: 50%;
 	bottom: 30px;
 	color: white;
@@ -1148,8 +1134,8 @@ body {
 
 .logoslider {
 	position: relative;
-	margin-bottom: 25px;
-	margin-top: 25px
+	margin-bottom: 14px;
+	margin-top: 12px
 }
 
 @media only screen and (max-width: 1200px) {
@@ -1164,7 +1150,7 @@ body {
 	-moz-filter: grayscale(100%);
 	filter: gray;
 	filter: grayscale(100%);
-	margin: 0 16px
+	margin: 0 15px
 }
 
 .logoslider img:hover {
@@ -1181,6 +1167,7 @@ body {
 
 .logoslider .logoslider__slides {
 	margin: 0 40px;
+	margin: 0 40px
 }
 
 @media only screen and (max-width: 900px) {
@@ -1190,12 +1177,12 @@ body {
 }
 
 .b-catalog .logoslider .logoslider__slides {
-	margin-right: 60px
+	margin-right: 50px
 }
 
 @media only screen and (max-width: 900px) {
 	.b-catalog .logoslider .logoslider__slides {
-		margin-right: 60px
+		margin-right: 50px
 	}
 }
 
@@ -1345,9 +1332,6 @@ body {
 }
 
 .filters span {
-	font-family: 'MyriadPro-Light';
-	font-size: 16px;
-	color: #3d3d3d;
 	display: inline-block;
 	vertical-align: middle;
 	margin-left: 5px
@@ -1373,8 +1357,6 @@ body {
 }
 
 .view a {
-	font-family: 'MyriadPro-Light';
-	font-size: 16px;
 	display: inline-block;
 	vertical-align: middle;
 	height: 36px;
@@ -1390,20 +1372,13 @@ body {
 	background: #F56541
 }
 
-.view_plitka_icon {
-	background: url('../img/view_plitka_icon.png') 0 0 no-repeat;
-	width: 17px;
-	height: 13px;
-	display: inline-block;
-}
-
 .wine {
 	border-radius: 10px;
 	margin: 17px 0 20px 0;
 	background-image: -moz-linear-gradient(#FFF, #E6E7E8);
 	background-image: -webkit-linear-gradient(#FFF, #E6E7E8);
 	background-image: linear-gradient(#FFF, #E6E7E8);
-	box-shadow:  0 -1px 2px rgba(0, 0, 0, 0.1), 0 3px 2px rgba(0, 0, 0, 0.15);
+	box-shadow: 0 5px 14px rgba(0, 0, 0, 0.4);
 	*zoom: 1;
 	padding: 13px 0;
 	height: 224px -13px -13px;
@@ -1434,6 +1409,7 @@ body {
 	color: transparent;
 	top: -7px;
 	right: 49px;
+	display: none
 }
 
 .wine .wine__check {
@@ -1442,7 +1418,7 @@ body {
 	right: -5px;
 	background: url('../img/icons-s51a623a2b8.png') 0 0 no-repeat;
 	width: 36px;
-	height: 37px
+	height: 36px
 }
 
 .wine.is-selected {
@@ -1452,7 +1428,7 @@ body {
 .wine.is-selected .wine__check {
 	background: url('../img/icons-s51a623a2b8.png') 0 -46px no-repeat;
 	width: 36px;
-	height: 37px
+	height: 36px
 }
 
 .wine.is-selected .wine__info {
@@ -1475,19 +1451,15 @@ body {
 	padding-top: 11px
 }
 
-.wine .wine__text h2,
-.wine .wine__text h2 a {
-	text-decoration: none;
-	font-size: 24px;
+.wine .wine__text h2 {
+	font-size: 30px;
 	font-weight: normal;
-	font-family: 'MyriadPro-Light';
 	color: #B00A4E;
-	line-height: 1.2 !important;
+	line-height: 1.1;
 	margin-bottom: 15px
 }
 
 .wine .wine__from {
-	font-size: 14px;
 	float: left;
 	width: 117px;
 	padding-right: 100px;

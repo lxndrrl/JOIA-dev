@@ -143,11 +143,13 @@
 }
 .choosed_list_container {
   position: fixed;
-  top: 65px;
+  bottom: 0;
   right: 90px;
   z-index: 100;
   background-color: #000000;
-  border-radius: 0 0 12px 12px;
+  -webkit-border-radius: 12px 12px 0 0;
+  -moz-border-radius: 12px 12px 0 0;
+  border-radius: 12px 12px 0 0;
   width: 700px;
   padding: 0 12px 0 10px;
 }
