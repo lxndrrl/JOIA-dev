@@ -33,11 +33,30 @@
 /// logo palette
 
 // element colors
-@nav-color:								#383838;
-@nav-color-active:						#FC4A27;
+@text-color:							lighten(@BLACK-color-base, 22%);
+@nav-color:								@text-color;
+
+@link-color:							#B2004D;
+@headline-color:						@link-color;
+@headline-kp-color:						#891924;
+@page-kp-block-border-bg-1:				lighten(@BLACK-color-base, 13%);
+@substrate:								#F76439;
+@nav-color-active:						#FF4A15;
+@footer-bg:								lighten(@BLACK-color-base, 20.39%);
+@footer-text-color:						lighten(@BLACK-color-base, 54.9%);
+@footer-text-hover-color:				lighten(@BLACK-color-base, 75%);
 @panel-black-bg:						@BLACK-color-base;
 @panel-black-h-color:					lighten(@panel-black-bg, 85%);
 @panel-black-text-color:				lighten(@panel-black-bg, 50%);
 @panel-black-text-hover-color:			lighten(@panel-black-bg, 90%);
 @panel-black-devider-bg:				lighten(@panel-black-bg, 50%);
 /// element colors
+
+//======================================
+// Metric
+//======================================
+
+@container-kp-width:					714px;
+@container-kp-padding:					16px;
+@kp-product-description-items-padding:	0 @kp-columns-padding-right 0 96px;
+@kp-columns-padding-right:				8px;

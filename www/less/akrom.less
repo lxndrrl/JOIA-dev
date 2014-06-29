@@ -234,81 +234,62 @@
 	margin-top: 0;
 	margin-bottom: 19px;
 	margin-right: 0;
-	height: 140px;
+	height: 225px;
 	.wine__pic {
 		vertical-align: middle;
 		//      width: 215px;
-		width: 10.48%;
-		height: 90%;
+		width: 15.48%;
 		img {
-			max-height: 100%;
 			margin-top: 7px;
 			margin-bottom: 7px;
 		}
 	}
 	.wine__text {
-		width: 39%;
+		//      width: 380px;
+		width: 27%;
 		padding-top: 23px;
 		//      margin-right: 52px;
-		margin-right: 1.5%;
+		margin-right: 3.8%;
 		h2 {
 			line-height: 36px;
 			padding-right: 50px;
-			margin-bottom: 4px;
+			margin-bottom: 14px;
 		}
 		p {
 			font-style: italic;
-			font-size: 14px;
-			font-family: 'MyriadPro-Light';
 		}
 	}
 	.wine__from {
 		line-height: 19px;
 		padding-top: 27px;
-		width: 7.0%;
-		margin-right: 3.5%;
+		//      width:110px;
+		width: 8.0%;
+		margin-right: 7.5%;
 		padding-right: 0;
-	}
-	.wine__size {
-		float: left;
-		padding-top: 25px;
-		margin-right: 40px;
-		p {
-			margin-bottom: 0;
-			font-family: 'MyriadPro-Light';
-			font-size: 14px;
-			line-height: 1.29;
-		}
 	}
 	.wine__type {
 		padding-top: 25px;
 		padding-right: 0;
-		margin-right: 20px;
+		margin-right: 83px;
 		width: 13.7%;
 		.wine__color {
-			font-family: 'MyriadPro-Light';
-			font-size: 14px;
 			line-height: 19px;
 			padding-top: 1px;
 			margin-bottom: 20px;
 			i {
 				margin-right: 15px;
-				margin-top: -5px;
 			}
 		}
 		p {
+			margin-bottom: 18px;
 			line-height: 20px;
-			font-family: 'MyriadPro-Light';
-			font-size: 14px;
 			word-spacing: -1px;
 		}
 	}
 	.wine_inf_price {
-		font-family: 'MyriadPro-Light';
-		font-size: 12px;
 		padding-top: 27px;
 		float: left;
-		width: 12%;
+		width: 16%;
 		position: relative;
 	}
 	.wine__inf {
@@ -320,21 +301,27 @@
 		bottom: auto;
 		right: auto;
 		left: 0;
-		top: 74px;
-		background: url('../img/icons/price_alt.png') no-repeat -30px -23px;
-		width: 179px;
-		height: 103px;
+		top: 157px;
+		background: url('../img/icons/price_alt.png') no-repeat -32px -25px;
+		width: 132px;
+		height: 50px;
 		position: absolute;
 		color: #FFF;
-		font-family: 'MyriadPro-Light';
-		font-size: 24px;
+		font-size: 30px;
 		font-weight: normal;
 		padding-left: 15px;
 		line-height: 60px;
 	}
 	.wine__check {
 		top: -6px;
-		right: 0;
+		right: -7px;
+	}
+	&.is-selected {
+		.wine__price {
+			background: url('../img/icons-s51a623a2b8.png') -2px -760px no-repeat;
+			width: 146px;
+			height: 55px;
+		}
 	}
 }
 
