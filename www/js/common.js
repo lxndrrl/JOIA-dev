@@ -60,3 +60,24 @@ $(document).ready(function() {
 			$('.choosed_list_content').slideToggle(400);
 	});
 });
+
+/*Автоматическое выравнивание высоты колонок (float блоков)*/
+function setEqualHeight(columns)
+{
+	var tallestcolumn = 0;
+	columns.each(
+		function()
+		{
+			currentHeight = $(this).height();
+			if(currentHeight > tallestcolumn)
+			{
+				tallestcolumn = currentHeight;
+			}
+		}
+	);
+	columns.height(tallestcolumn);
+}
+$(document).ready(function() {
+	setEqualHeight($('.contacts__branches > .contacts__border-block'));
+});
+/*/Автоматическое выравнивание высоты колонок (float блоков)*/
