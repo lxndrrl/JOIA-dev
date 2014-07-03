@@ -103,6 +103,17 @@ function setEqualHeight(columns)
 	columns.height(tallestcolumn);
 }
 $(document).ready(function() {
-	setEqualHeight($('.contacts__branches > .contacts__border-block'));
+	setEqualHeight($('.contacts__branches.branches > .contacts__border-block'));
+});
+$(document).ready(function() {
+	setEqualHeight($('.contacts__branches.distributors > .contacts__border-block'));
 });
 /*/Автоматическое выравнивание высоты колонок (float блоков)*/
+
+/* Adaptive Modal */
+$(document).ready(function() {
+	$(".fancybox").fancybox({
+		padding: 0
+	});
+});
+/*/ Adaptive Modal */
