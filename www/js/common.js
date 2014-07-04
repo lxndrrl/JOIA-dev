@@ -49,7 +49,7 @@ sbula.click(function () {
 });
 $('.popup__content__yes label').click(function () {
 	$('.popup').fadeOut(1000);
-	$('.blur').addClass('blur-allow');
+	$('.blur').addClass('blur_-allow');
 });
 
 $('.popup__content__no #no').on('click', function() {
