@@ -1,0 +1,22 @@
+.choosed_list_container {
+  @import '_list_header/choosed_list_header';
+  @import '_services/choosed_services';
+  @import '_mail_icon/services_mail_icon';
+  @import '_print_icon/services_print_icon';
+  @import '_call_icon/services_call_icon';
+  @import '_list_content/choosed_list_content';
+  position: fixed;
+  top: 65px;
+  right: 50%;
+  margin-right: -690px;
+  background-color: #000;
+  border-radius: 0 0 12px 12px;
+  width: 700px;
+  padding: 0 12px 0 10px;
+  z-index: 1100;
+  &.collapsed {
+    .choosed_list_content {
+      display: none;
+    }
+  }
+}

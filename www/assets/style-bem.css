@@ -89,6 +89,16 @@
 .hidden {
   display: none;
 }
+.popup-title_mini {
+  display: none;
+  position: absolute;
+  background: #333;
+  font-size: 11px;
+  color: #E5E5E5;
+  left: -10px;
+  top: -35px;
+  padding: 2px 4px;
+}
 .blur.blur-allow {
   overflow: auto;
   filter: none;
