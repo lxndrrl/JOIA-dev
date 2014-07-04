@@ -1,725 +1,832 @@
 <!doctype html>
 <!--[if lte IE 8]>
-<html class="lteie8"><![endif]-->
-<!--[if gt IE 8]><!-->
-<html><!--<![endif]-->
-<head>
-	<meta charset="utf-8">
-	<title>Template</title>
-	<meta name="viewport" content="initial-scale=1"/>
-	<link rel="stylesheet" media="screen" href="css/style.css">
-</head>
-<body class="b-catalog">
-<!-- begin top  -->
-<div class="top">
+	<html class="lteie8"><![endif]-->
+	<!--[if gt IE 8]><!-->
+	<html><!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<title>Template</title>
+		<meta name="viewport" content="initial-scale=1"/>
+		<link rel="stylesheet" media="screen" href="css/style.css">
+	</head>
+	<body class="b-catalog">
+		<!-- begin top  -->
+		<div class="top">
 
-	<!-- begin header  -->
-	<div class="header">
-		<div class="header__in">
-			<a href='#' class="header__logo"><i></i></a>
-			<ul class="header__nav">
-				<li><a href="#" class="is-active">ГЛАВНАЯ</a></li>
-				<li><a href="#">О ПРОЕКТЕ</a></li>
-				<li><a href="#">КАТАЛОГ</a></li>
-				<li><a href="#">ПРОИЗВОДИТЕЛИ</a></li>
-				<li><a href="#">КОНТАКТЫ</a></li>
-			</ul>
-			<!-- begin header__right  -->
-			<div class="header__right">
-				<div class="searchicon"></div>
-				<a href="#" class="login">ВХОД</a>
-
-				<div class="lang">
-					<a href="#" class="lang__en is-active"></a>
-					<a href="#" class="lang__ru"></a>
-				</div>
-			</div>
-			<!-- end header__right -->
-
-
-		</div>
-		<!-- end header in -->
-	</div>
-	<!-- end header -->
-
-
-	<!-- begin superslider  -->
-	<div class="superslider  cycle-slideshow"
-		 data-cycle-paused=false
-		 data-cycle-fx=scrollHorz
-		 data-cycle-timeout=6000
-		 data-cycle-speed=2000
-		 data-cycle-slides=".superslider__slide"
-		 data-cycle-pager=".superslider__pagi"
-		 data-cycle-prev=".superslider__prev"
-		 data-cycle-next=".superslider__next">
-		<div class="superslider__slides">
-			<!-- begin slide -->
-			<div class="superslider__slide" style="background-image: url(img/slider/bg-1.jpg);">
-				<div class="superslider__text">
-					<span>Винодельческий дом</span>
-					ЧЕЗАРИ
-				</div>
-			</div>
-			<!-- end slide -->
-			<!-- begin slide -->
-			<div class="superslider__slide" style="background-image: url(img/slider/bg-2.jpg);">
-				<div class="superslider__text">
-					<span>Винодельческий дом</span>
-					ОЖЬЕ
-				</div>
-			</div>
-			<!-- end slide -->
-			<!-- begin slide -->
-			<div class="superslider__slide" style="background-image: url(img/slider/bg-3.jpg);">
-				<div class="superslider__text">
-					<span>Винодельческий дом</span>
-					ФИНКА ВАЛЬПЬЕДРА
-				</div>
-			</div>
-			<!-- end slide -->
-			<!-- begin slide -->
-			<div class="superslider__slide" style="background-image: url(img/slider/bg-4.jpg);">
-				<div class="superslider__text">
-					<span>Винодельческий дом</span>
-					КАСА СИЛЬВА
-				</div>
-			</div>
-			<!-- end slide -->
-			<!-- begin slide -->
-			<div class="superslider__slide" style="background-image: url(img/slider/bg-5.jpg);">
-				<div class="superslider__text">
-					<span>Винодельческий дом</span>
-					ЛЮСЬЕН ЛЮРТОН
-				</div>
-			</div>
-			<!-- end slide -->
-			<!-- begin slide -->
-			<div class="superslider__slide" style="background-image: url(img/slider/bg-6.jpg);">
-				<div class="superslider__text">
-					<span>Винодельческий дом</span>
-					ХЕНКЕЛЬ
-				</div>
-			</div>
-			<!-- end slide -->
-			<!-- begin slide -->
-			<div class="superslider__slide" style="background-image: url(img/slider/bg-7.jpg);">
-				<div class="superslider__text">
-					<span>Винодельческий дом</span>
-					ПОДДЖО АЛЬ КАЗОНЕ
-				</div>
-			</div>
-			<!-- end slide -->
-		</div>
-		<!-- end slides -->
-		<div class="superslider__in">
-			<div class="superslider__next"></div>
-			<div class="superslider__prev"></div>
-			<div class="superslider__playpause"></div>
-			<div class="superslider__pagi"></div>
-		</div>
-
-	</div>
-	<!-- end superslider -->
-
-
-</div>
-<!-- end top -->
-
-<!-- begin page  -->
-<div class="page pr0 center">
-
-<!-- begin logoslider  -->
-<div class="logoslider center">
-	<div class="logoslider__in ">
-
-
-		<div class="logoslider__slides cycle-slideshow"
-			 data-cycle-paused=true
-			 data-cycle-fx="carousel"
-			 data-cycle-prev=".logoslider__prev"
-			 data-cycle-next=".logoslider__next">
-			<img src="img/logo1.png" alt="">
-			<img src="img/logo2.png" alt="">
-			<img src="img/logo3.png" alt="">
-			<img src="img/logo4.png" alt="">
-			<img src="img/logo5.png" alt="">
-			<img src="img/logo6.png" alt="">
-			<img src="img/logo7.png" alt="">
-		</div>
-		<div class="logoslider__next"></div>
-		<div class="logoslider__prev"></div>
-	</div>
-</div>
-<!-- end logoslider -->
-
-<!-- begin search  -->
-<div class="search search_wide">
-	<div class="search__input">
-		<div class="search__inputwrap clearfix">
-			<input type="text" name="" id="d" value="Шатонеф-дю-Пап АОС Кло де Л’Оратори де Пап">
-			<button class="search__inputicon"></button>
-		</div>
-	</div>
-	<ul class="search__switcher clearfix">
-		<li><a href="#" class="search__switcher1 is-active">Вино</a></li>
-		<li><a href="#" class="search__switcher2">Крепкий алкоголь</a></li>
-	</ul>
-	<div class="search__filters clearfix">
-		<div class="search__filters__wrapper clearfix">
-			<div class="search__filters__wrapped">
-				<!-- begin filter -->
-				<div class="search__filter search__filter1">
-					<h3 class="search__title">Страна</h3>
-
-					<ul class="search__options">
-						<li><label for="#"><input type="radio" name="" id=""><span>Италия</span></label></li>
-						<li><label for="#"><input type="radio" name="" id=""><span>Франция</span></label></li>
-						<li><label for="#"><input type="radio" name="" id=""><span>Испания</span></label></li>
-						<li><label for="#"><input type="radio" name="" id=""><span>Чили</span></label></li>
-						<li class="is-hidden"><label for="#"><input type="radio" name=""
-																	id=""><span>Испания</span></label></li>
-						<li class="is-hidden"><label for="#"><input type="radio" name="" id=""><span>Чили</span></label>
-						</li>
+			<!-- begin header  -->
+			<div class="header">
+				<div class="header__in">
+					<a href='#' class="header__logo"><i></i></a>
+					<ul class="header__nav">
+						<li><a href="#" class="is-active">ГЛАВНАЯ</a></li>
+						<li><a href="#">О ПРОЕКТЕ</a></li>
+						<li><a href="#">КАТАЛОГ</a></li>
+						<li><a href="#">ПРОИЗВОДИТЕЛИ</a></li>
+						<li><a href="#">КОНТАКТЫ</a></li>
 					</ul>
-					<a class="search__showall" href='#'>показать все</a>
-				</div>
-				<!-- end filter -->
+					<!-- begin header__right  -->
+					<div class="header__right">
+						<div class="searchicon"></div>
+						<a href="#" class="login">ВХОД</a>
 
-				<!-- begin filter -->
-				<div class="search__filter search__filter2">
-					<h3 class="search__title">Регион</h3>
-
-					<ul class="search__options">
-						<li><label for="#"><input type="radio" name="" id=""><span>Бордо</span></label></li>
-						<li><label for="#"><input type="radio" name="" id=""><span>Долина бла</span></label></li>
-						<li><label for="#"><input type="radio" name="" id=""><span>Долина бле</span></label></li>
-						<li><label for="#"><input type="radio" name="" id=""><span>Долина блю</span></label></li>
-						<li class="is-hidden"><label for="#"><input type="radio" name=""
-																	id=""><span>Испания</span></label></li>
-						<li class="is-hidden"><label for="#"><input type="radio" name="" id=""><span>Чили</span></label>
-						</li>
-					</ul>
-					<a class="search__showall" href='#'>показать все</a>
-				</div>
-				<!-- end filter -->
-
-				<!-- begin filter -->
-				<div class="search__filter search__filter3">
-					<h3 class="search__title">Категория</h3>
-
-					<div class="catslider">
-						<div class="catslider__in">
-							<div class="search__categ catslider__slides cycle-slideshow"
-								 data-cycle-paused=true
-								 data-cycle-fx="carousel"
-								 data-cycle-slides=">div"
-								 data-cycle-prev=".catslider__prev"
-								 data-cycle-next=".catslider__next">
-								<div><label for="#" class="cat_item"><i class="search__categicon1"></i><input
-										type="radio" name="" id=""><span>белые</span></label></div>
-								<div><label for="#" class="cat_item"><i class="search__categicon2"></i><input
-										type="radio" name="" id=""><span>красные</span></label></div>
-								<div><label for="#" class="cat_item"><i class="search__categicon3"></i><input
-										type="radio" name="" id=""><span>розовые</span></label></div>
-								<div><label for="#" class="cat_item"><i class="search__categicon4"></i><input
-										type="radio" name="" id=""><span>игристые</span></label></div>
-								<div><label for="#" class="cat_item"><i class="search__categicon1"></i><input
-										type="radio" name="" id=""><span>Игристые</span></label></div>
-							</div>
+						<div class="lang">
+							<a href="#" class="lang__en is-active"></a>
+							<a href="#" class="lang__ru"></a>
 						</div>
-						<div class="catslider__next"></div>
-						<div class="catslider__prev"></div>
 					</div>
-					<a class="search__showall" href='#'>показать все</a>
+					<!-- end header__right -->
+
+
 				</div>
-				<!-- end filter -->
-
-				<!-- begin filter -->
-				<div class="search__filter search__filter4">
-					<h3 class="search__title">Производитель</h3>
-
-					<ul class="search__options">
-						<li><label for="#"><input type="radio" name="" id=""><span>Люсьен</span></label></li>
-						<li><label for="#"><input type="radio" name="" id=""><span>Лосьон</span></label></li>
-						<li><label for="#"><input type="radio" name="" id=""><span>Большая Арнаутская</span></label>
-						</li>
-						<li><label for="#"><input type="radio" name="" id=""><span>Парень из соседнего парадного</span></label>
-						</li>
-						<li class="is-hidden"><label for="#"><input type="radio" name=""
-																	id=""><span>Испания</span></label></li>
-						<li class="is-hidden"><label for="#"><input type="radio" name="" id=""><span>Чили</span></label>
-						</li>
-					</ul>
-					<a class="search__showall" href='#'>показать все</a>
-				</div>
-				<!-- end filter -->
-
-				<!-- begin filter -->
-				<div class="search__filter is-last search__filter5">
-					<h3 class="search__title">Цена</h3>
-
-					<ul class="search__options">
-						<li><label for="#"><input type="radio" name="" id="">0 - 550</label></li>
-						<li><label for="#"><input type="radio" name="" id="">551 - 1000</label></li>
-					</ul>
-					<a class="search__showall" href='#'>показать все</a>
-				</div>
-				<!-- end filter -->
+				<!-- end header in -->
 			</div>
-		</div>
-		<div class="search__message">Перемотайте вправо чтобы открыть остальные фильтры</div>
-		<div class="search__reset"><a href="#">Сбросить параметры</a></div>
-		<div class="search__pdf"><a href="#"><i></i><span>Распечатать PDF</span></a></div>
-	</div>
-</div>
-<!-- end search -->
+			<!-- end header -->
 
 
-<!-- begin catalog  -->
-<div class="catalog">
-<div class="view">
-	<a href="#">ПО ЦЕНЕ</a>
-	<a href="#" class="is-active">ПО ЦВЕТУ ВИНА</a>
-</div>
-<div class="filters">
-	<span>Италия</span><i></i> / <span>Испания</span><i></i> / <span>красные</span><i></i> /
-	<span>0,75 л</span><i></i> / <span>550 - 1000 р.</span><i></i>
-</div>
-<div class="clr"></div>
-<!-- begin wine  -->
-<div class="wine">
-	<a href='#' class="wine__info"></a>
-
-	<div class="wine__check"></div>
-	<div class="wine__pic">
-		<img src="img/wine.png" alt="">
-	</div>
-	<div class="wine__text">
-		<h2>Шатонеф-дю-Пап АОС Кло де Л’Оратори де Пап</h2>
-
-		<p>Chateaneuf-du-Pape AOC Clos de L’Oratoire des Papes</p>
-	</div>
-	<div class="wine__from">
-		Франция<br>
-		Долина Роны<br>
-		«Ожье»
-	</div>
-	<div class="wine__type">
-		<div class="wine__color"><i class="color3"></i>красное<br>сухое</div>
-		<p class="wine_type_in">Белый Гренаж, Клерет, Русан, Бурбуленк</p>
-
-		<p>14 %</p>
-
-		<p>0,75 л</p>
-	</div>
-	<div class="wine_inf_price">
-		<div class="wine__inf">
-			WS 90<br>
-			WA 91<br>
-			International Wine Cellar 90<br>
-			Потенциал 30-40 лет
-		</div>
-		<div class="wine__price">
-			2500 р.
-		</div>
-	</div>
-</div>
-<!-- end wine -->
-<!-- begin wine  -->
-<div class="wine">
-	<a href='#' class="wine__info"></a>
-
-	<div class="wine__check"></div>
-	<div class="wine__pic">
-		<img src="img/wine.png" alt="">
-	</div>
-	<div class="wine__text">
-		<h2>Шатонеф-дю-Пап АОС Кло де Л’Оратори де Пап</h2>
-
-		<p>Chateaneuf-du-Pape AOC Clos de L’Oratoire des Papes</p>
-	</div>
-	<div class="wine__from">
-		Франция<br>
-		Долина Роны<br>
-		«Ожье»
-	</div>
-	<div class="wine__type">
-		<div class="wine__color"><i class="color3"></i>красное<br>сухое</div>
-		<p class="wine_type_in">Белый Гренаж, Клерет, Русан, Бурбуленк</p>
-
-		<p>14 %</p>
-
-		<p>0,75 л</p>
-	</div>
-	<div class="wine_inf_price">
-		<div class="wine__inf">
-			WS 90<br>
-			WA 91<br>
-			International Wine Cellar 90<br>
-			Потенциал 30-40 лет
-		</div>
-		<div class="wine__price">
-			2500 р.
-		</div>
-	</div>
-</div>
-<!-- end wine -->
-<!-- begin wine  -->
-<div class="wine">
-	<a href='#' class="wine__info"></a>
-
-	<div class="wine__check"></div>
-	<div class="wine__pic">
-		<img src="img/wine.png" alt="">
-	</div>
-	<div class="wine__text">
-		<h2>Шатонеф-дю-Пап АОС Кло де Л’Оратори де Пап</h2>
-
-		<p>Chateaneuf-du-Pape AOC Clos de L’Oratoire des Papes</p>
-	</div>
-	<div class="wine__from">
-		Франция<br>
-		Долина Роны<br>
-		«Ожье»
-	</div>
-	<div class="wine__type">
-		<div class="wine__color"><i class="color3"></i>красное<br>сухое</div>
-		<p class="wine_type_in">Белый Гренаж, Клерет, Русан, Бурбуленк</p>
-
-		<p>14 %</p>
-
-		<p>0,75 л</p>
-	</div>
-	<div class="wine_inf_price">
-		<div class="wine__inf">
-			WS 90<br>
-			WA 91<br>
-			International Wine Cellar 90<br>
-			Потенциал 30-40 лет
-		</div>
-		<div class="wine__price">
-			2500 р.
-		</div>
-	</div>
-</div>
-<!-- end wine -->
-<!-- begin wine  -->
-<div class="wine">
-	<a href='#' class="wine__info"></a>
-
-	<div class="wine__check"></div>
-	<div class="wine__pic">
-		<img src="img/wine.png" alt="">
-	</div>
-	<div class="wine__text">
-		<h2>Шатонеф-дю-Пап АОС Кло де Л’Оратори де Пап</h2>
-
-		<p>Chateaneuf-du-Pape AOC Clos de L’Oratoire des Papes</p>
-	</div>
-	<div class="wine__from">
-		Франция<br>
-		Долина Роны<br>
-		«Ожье»
-	</div>
-	<div class="wine__type">
-		<div class="wine__color"><i class="color3"></i>красное<br>сухое</div>
-		<p class="wine_type_in">Белый Гренаж, Клерет, Русан, Бурбуленк</p>
-
-		<p>14 %</p>
-
-		<p>0,75 л</p>
-	</div>
-	<div class="wine_inf_price">
-		<div class="wine__inf">
-			WS 90<br>
-			WA 91<br>
-			International Wine Cellar 90<br>
-			Потенциал 30-40 лет
-		</div>
-		<div class="wine__price">
-			2500 р.
-		</div>
-	</div>
-</div>
-<!-- end wine -->
-<!-- begin wine  -->
-<div class="wine">
-	<a href='#' class="wine__info"></a>
-
-	<div class="wine__check"></div>
-	<div class="wine__pic">
-		<img src="img/wine.png" alt="">
-	</div>
-	<div class="wine__text">
-		<h2>Шатонеф-дю-Пап АОС Кло де Л’Оратори де Пап</h2>
-
-		<p>Chateaneuf-du-Pape AOC Clos de L’Oratoire des Papes</p>
-	</div>
-	<div class="wine__from">
-		Франция<br>
-		Долина Роны<br>
-		«Ожье»
-	</div>
-	<div class="wine__type">
-		<div class="wine__color"><i class="color3"></i>красное<br>сухое</div>
-		<p class="wine_type_in">Белый Гренаж, Клерет, Русан, Бурбуленк</p>
-
-		<p>14 %</p>
-
-		<p>0,75 л</p>
-	</div>
-	<div class="wine_inf_price">
-		<div class="wine__inf">
-			WS 90<br>
-			WA 91<br>
-			International Wine Cellar 90<br>
-			Потенциал 30-40 лет
-		</div>
-		<div class="wine__price">
-			2500 р.
-		</div>
-	</div>
-</div>
-<!-- end wine -->
-<div>
-	<a href="#" class="more">показать еще 15</a>
-	<a href="#" class="more">показать все</a>
-</div>
-</div>
-<!-- end catalog -->
-<!-- begin generator_block -->
-<div class="generator_form gradiente_block">
-	<form action="">
-		<div class="text_fields">
-			<div class="field clearfix">
-				<input type="text" value="" class="text_field"/>
-				<span>Заголовок</span>
-			</div>
-			<div class="field clearfix">
-				<input type="text" value="" class="text_field"/>
-				<span>Предмет</span>
-			</div>
-			<div class="field clearfix">
-				<input type="text" value="" class="text_field"/>
-				<span>Коммерческие условия</span>
-			</div>
-			<div class="field clearfix">
-				<input type="text" value="" class="text_field"/>
-				<span>Дополнительный сервис</span>
-			</div>
-			<div class="field clearfix">
-				<input type="text" value="" class="text_field"/>
-				<span>Подпись</span>
-			</div>
-		</div>
-		<div class="radios clearfix">
-			<section class="radios_section radios_section1">
-				<div class="radios_section_row clearfix">
-					<div class="inputs clearfix">
-						<input type="radio" id="la1" class="radio" name="a"/>
+			<!-- begin superslider  -->
+			<div class="superslider  cycle-slideshow"
+			data-cycle-paused=false
+			data-cycle-fx=scrollHorz
+			data-cycle-timeout=6000
+			data-cycle-speed=2000
+			data-cycle-slides=".superslider__slide"
+			data-cycle-pager=".superslider__pagi"
+			data-cycle-prev=".superslider__prev"
+			data-cycle-next=".superslider__next">
+			<div class="superslider__slides">
+				<!-- begin slide -->
+				<div class="superslider__slide" style="background-image: url(img/slider/bg-1.jpg);">
+					<div class="superslider__text">
+						<span>Винодельческий дом</span>
+						ЧЕЗАРИ
 					</div>
-					<label for="la1">Ассортиментное предложение</label>
 				</div>
-				<div class="radios_section_row clearfix">
-					<div class="inputs clearfix">
-						<input type="radio" id="la2" class="radio" name="a"/>
+				<!-- end slide -->
+				<!-- begin slide -->
+				<div class="superslider__slide" style="background-image: url(img/slider/bg-2.jpg);">
+					<div class="superslider__text">
+						<span>Винодельческий дом</span>
+						ОЖЬЕ
 					</div>
-					<label for="la2">В виде КП</label>
 				</div>
-			</section>
-			<section class="radios_section radios_section2">
-				<div class="radios_section_row clearfix">
-					<div class="inputs clearfix">
-						<input type="radio" id="lb1" class="radio" name="b"/>
+				<!-- end slide -->
+				<!-- begin slide -->
+				<div class="superslider__slide" style="background-image: url(img/slider/bg-3.jpg);">
+					<div class="superslider__text">
+						<span>Винодельческий дом</span>
+						ФИНКА ВАЛЬПЬЕДРА
 					</div>
-					<label for="lb1">Фото</label>
 				</div>
-				<div class="radios_section_row clearfix">
-					<div class="inputs clearfix">
-						<input type="radio" id="lb2" class="radio" name="b"/>
+				<!-- end slide -->
+				<!-- begin slide -->
+				<div class="superslider__slide" style="background-image: url(img/slider/bg-4.jpg);">
+					<div class="superslider__text">
+						<span>Винодельческий дом</span>
+						КАСА СИЛЬВА
 					</div>
-					<label for="lb2">Оригинальное название</label>
 				</div>
-				<div class="radios_section_row clearfix">
-					<div class="inputs clearfix">
-						<input type="radio" id="lb2" class="radio" name="b"/>
+				<!-- end slide -->
+				<!-- begin slide -->
+				<div class="superslider__slide" style="background-image: url(img/slider/bg-5.jpg);">
+					<div class="superslider__text">
+						<span>Винодельческий дом</span>
+						ЛЮСЬЕН ЛЮРТОН
 					</div>
-					<label for="lb2">Оригинальное название</label>
 				</div>
-				<div class="radios_section_row clearfix">
-					<div class="inputs clearfix">
-						<input type="radio" id="lb2" class="radio" name="b"/>
+				<!-- end slide -->
+				<!-- begin slide -->
+				<div class="superslider__slide" style="background-image: url(img/slider/bg-6.jpg);">
+					<div class="superslider__text">
+						<span>Винодельческий дом</span>
+						ХЕНКЕЛЬ
 					</div>
-					<label for="lb2">Оригинальное название</label>
 				</div>
-				<div class="radios_section_row clearfix">
-					<div class="inputs clearfix">
-						<input type="radio" id="lb2" class="radio" name="b"/>
+				<!-- end slide -->
+				<!-- begin slide -->
+				<div class="superslider__slide" style="background-image: url(img/slider/bg-7.jpg);">
+					<div class="superslider__text">
+						<span>Винодельческий дом</span>
+						ПОДДЖО АЛЬ КАЗОНЕ
 					</div>
-					<label for="lb2">Оригинальное название</label>
 				</div>
-				<div class="radios_section_row clearfix">
-					<div class="inputs clearfix">
-						<input type="radio" id="lb2" class="radio" name="b"/>
-					</div>
-					<label for="lb2">Оригинальное название</label>
-				</div>
-			</section>
-			<section class="radios_section radios_section3">
-				<div class="radios_section_row clearfix">
-					<div class="inputs clearfix">
-						<input type="text" id="lc1" class="text" name="a"/>
-					</div>
-					<label for="lc1">Специальные условия</label>
-				</div>
-				<div class="radios_section_row clearfix">
-					<div class="inputs clearfix">
-						<input type="radio" id="lc2" class="radio" name="a"/>
-					</div>
-					<label for="lc2">Примечание</label>
-				</div>
-				<div class="radios_section_row clearfix">
-					<div class="inputs clearfix">
-						<input type="radio" id="lc2" class="radio" name="a"/>
-					</div>
-					<label for="lc2">Примечание</label>
-				</div>
-				<div class="radios_section_row clearfix">
-					<div class="inputs clearfix">
-						<input type="radio" id="lc2" class="radio" name="a"/>
-					</div>
-					<label for="lc2">Примечание</label>
-				</div>
-			</section>
+				<!-- end slide -->
+			</div>
+			<!-- end slides -->
+			<div class="superslider__in">
+				<div class="superslider__next"></div>
+				<div class="superslider__prev"></div>
+				<div class="superslider__playpause"></div>
+				<div class="superslider__pagi"></div>
+			</div>
+
 		</div>
-		<div class="buttons clearfix">
-			<button class="btn excel_btn"><i></i>СФОРМИРОВАТЬ EXEL</button>
-			<button class="btn pdf_btn"><i></i>СФОРМИРОВАТЬ PDF</button>
-		</div>
-	</form>
-</div>
-<!-- end generator_block -->
-</div>
-<!-- end page -->
+		<!-- end superslider -->
 
 
-<!-- begin choosed_list -->
-<div class="choosed_list_container collapsed">
-	<div class="choosed_list_header clearfix">
-		<span class="heading">Список выбранных напитков</span>
+	</div>
+	<!-- end top -->
 
-		<div class="actions">
-			<a href="#" class="action_collapse"></a>
-			<a href="#" class="action_show"></a>
+	<!-- begin page  -->
+	<div class="page pr0 center">
+
+		<!-- begin logoslider  -->
+		<div class="logoslider center">
+			<div class="logoslider__in ">
+
+
+				<div class="logoslider__slides cycle-slideshow"
+				data-cycle-paused=true
+				data-cycle-fx="carousel"
+				data-cycle-prev=".logoslider__prev"
+				data-cycle-next=".logoslider__next">
+				<img src="img/logo1.png" alt="">
+				<img src="img/logo2.png" alt="">
+				<img src="img/logo3.png" alt="">
+				<img src="img/logo4.png" alt="">
+				<img src="img/logo5.png" alt="">
+				<img src="img/logo6.png" alt="">
+				<img src="img/logo7.png" alt="">
+			</div>
+			<div class="logoslider__next"></div>
+			<div class="logoslider__prev"></div>
 		</div>
 	</div>
-	<div class="choosed_list_content">
-		<div class="choosed_product clearfix">
-			<div class="choosed_product_pic">
-				<img src="img/wine.png" alt=""/>
-			</div>
-			<div class="choosed_product_text">
-				<p>Шатонеф-дю-Пап АОС Кло де Л’Оратори де Пап</p>
-				<span>Chateaneuf-du-Pape AOC Clos de L’Oratoire des Papes</span>
-			</div>
-			<div class="choosed_product_act">
-				<div class="checked_plus"><span>Восстановить</span></div>
-			</div>
-		</div>
-		<div class="choosed_product clearfix">
-			<div class="choosed_product_pic">
-				<img src="img/wine.png" alt=""/>
-			</div>
-			<div class="choosed_product_text">
-				<p>Шатонеф-дю-Пап АОС Кло де Л’Оратори де Пап</p>
-				<span>Chateaneuf-du-Pape AOC Clos de L’Oratoire des Papes</span>
-			</div>
-			<div class="choosed_product_act">
-				<div class="checked"><span>Восстановить</span></div>
-			</div>
-		</div>
-		<div class="choosed_product clearfix">
-			<div class="choosed_product_pic">
-				<img src="img/wine.png" alt=""/>
-			</div>
-			<div class="choosed_product_text">
-				<p>Шатонеф-дю-Пап АОС Кло де Л’Оратори де Пап</p>
-				<span>Chateaneuf-du-Pape AOC Clos de L’Oratoire des Papes</span>
-			</div>
-			<div class="choosed_product_act">
-				<div class="checked"><span>Восстановить</span></div>
-			</div>
-		</div>
-		<div class="choosed_product clearfix">
-			<div class="choosed_product_pic">
-				<img src="img/wine.png" alt=""/>
-			</div>
-			<div class="choosed_product_text">
-				<p>Шатонеф-дю-Пап АОС Кло де Л’Оратори де Пап</p>
-				<span>Chateaneuf-du-Pape AOC Clos de L’Oratoire des Papes</span>
-			</div>
-			<div class="choosed_product_act">
-				<div class="checked"><span>Восстановить</span></div>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- end choosed_list -->
-<!-- begin footer  -->
-<div class="footer">
-	<div class="footer__in">
-		<h3 class="footer__logo"><img src="img/footer.png" alt="История в бокале"></h3>
+	<!-- end logoslider -->
 
-		<div class="footer__nav">
-			<ul>
-				<li><a href="#">ГЛАВНАЯ</a></li>
-				<li><a href="#">О ПРОЕКТЕ</a></li>
-				<li><a href="#">КАТАЛОГ</a></li>
-				<li><a href="#">ПРОИЗВОДИТЕЛИ</a></li>
-			</ul>
+	<!-- begin search  -->
+	<div class="search search_wide">
+		<div class="search__input">
+			<div class="search__inputwrap clearfix">
+				<input type="text" name="" id="d" value="Шатонеф-дю-Пап АОС Кло де Л’Оратори де Пап">
+				<button class="search__inputicon"></button>
+			</div>
 		</div>
-		<!-- end footer nav -->
-		<!-- begin footer__contacts  -->
-		<div class="footer__contacts">
-			<h4>КОНТАКТЫ</h4>
+		<ul class="search__switcher clearfix">
+			<li><a href="#" class="search__switcher1 is-active">Вино</a></li>
+			<li><a href="#" class="search__switcher2">Крепкий алкоголь</a></li>
+		</ul>
+		<div class="search__filters clearfix">
+			<div class="search__filters__wrapper clearfix">
+				<div class="search__filters__wrapped">
+					<!-- begin filter -->
+					<div class="search__filter search__filter1">
+						<h3 class="search__title">Страна</h3>
 
-			<p>Россия, 195248,<br>
-				Санкт-Петербург<br>
-				ул. Партизанская, 27<br>
-				тел.: +7 812 676 9800<br>
-				факс: +7 812 676 9801</p>
-		</div>
-		<!-- end footer__contacts -->
-		<div class="copyright">© 2014 - JOIA - All Rights Reserved</div>
-	</div>
-</div>
-<!-- end footer -->
-<!-- begin warning  -->
-<div class="warning">
+						<ul class="search__options">
+							<li><label for="#"><input type="radio" name="" id=""><span>Италия</span></label></li>
+							<li><label for="#"><input type="radio" name="" id=""><span>Франция</span></label></li>
+							<li><label for="#"><input type="radio" name="" id=""><span>Испания</span></label></li>
+							<li><label for="#"><input type="radio" name="" id=""><span>Чили</span></label></li>
+							<li class="is-hidden"><label for="#"><input type="radio" name=""
+								id=""><span>Испания</span></label></li>
+								<li class="is-hidden"><label for="#"><input type="radio" name="" id=""><span>Чили</span></label>
+								</li>
+							</ul>
+							<a class="search__showall" href='#'>показать все</a>
+						</div>
+						<!-- end filter -->
 
-</div>
-<!-- end warning -->
-<script>
-	var head_conf = {
-		screens: [240, 320, 480, 640, 768, 800, 900, 1024, 1280, 1440, 1680, 1920],
-		screensCss: { "gt": true, "gte": false, "lt": true, "lte": false, "eq": false },
-		browsers: [
-			{ ie: { min: 6, max: 11 } }
+						<!-- begin filter -->
+						<div class="search__filter search__filter2">
+							<h3 class="search__title">Регион</h3>
+
+							<ul class="search__options">
+								<li><label for="#"><input type="radio" name="" id=""><span>Бордо</span></label></li>
+								<li><label for="#"><input type="radio" name="" id=""><span>Долина бла</span></label></li>
+								<li><label for="#"><input type="radio" name="" id=""><span>Долина бле</span></label></li>
+								<li><label for="#"><input type="radio" name="" id=""><span>Долина блю</span></label></li>
+								<li class="is-hidden"><label for="#"><input type="radio" name=""
+									id=""><span>Испания</span></label></li>
+									<li class="is-hidden"><label for="#"><input type="radio" name="" id=""><span>Чили</span></label>
+									</li>
+								</ul>
+								<a class="search__showall" href='#'>показать все</a>
+							</div>
+							<!-- end filter -->
+
+							<!-- begin filter -->
+							<div class="search__filter search__filter3">
+								<h3 class="search__title">Категория</h3>
+
+								<div class="catslider">
+									<div class="catslider__in">
+										<div class="search__categ catslider__slides cycle-slideshow"
+										data-cycle-paused=true
+										data-cycle-fx="carousel"
+										data-cycle-slides=">div"
+										data-cycle-prev=".catslider__prev"
+										data-cycle-next=".catslider__next">
+										<div><label for="#" class="cat_item"><i class="search__categicon1"></i><input
+											type="radio" name="" id=""><span>белые</span></label></div>
+											<div><label for="#" class="cat_item"><i class="search__categicon2"></i><input
+												type="radio" name="" id=""><span>красные</span></label></div>
+												<div><label for="#" class="cat_item"><i class="search__categicon3"></i><input
+													type="radio" name="" id=""><span>розовые</span></label></div>
+													<div><label for="#" class="cat_item"><i class="search__categicon4"></i><input
+														type="radio" name="" id=""><span>игристые</span></label></div>
+														<div><label for="#" class="cat_item"><i class="search__categicon1"></i><input
+															type="radio" name="" id=""><span>Игристые</span></label></div>
+														</div>
+													</div>
+													<div class="catslider__next"></div>
+													<div class="catslider__prev"></div>
+												</div>
+												<a class="search__showall" href='#'>показать все</a>
+											</div>
+											<!-- end filter -->
+
+											<!-- begin filter -->
+											<div class="search__filter search__filter4">
+												<h3 class="search__title">Производитель</h3>
+
+												<ul class="search__options">
+													<li><label for="#"><input type="radio" name="" id=""><span>Люсьен</span></label></li>
+													<li><label for="#"><input type="radio" name="" id=""><span>Лосьон</span></label></li>
+													<li><label for="#"><input type="radio" name="" id=""><span>Большая Арнаутская</span></label>
+													</li>
+													<li><label for="#"><input type="radio" name="" id=""><span>Парень из соседнего парадного</span></label>
+													</li>
+													<li class="is-hidden"><label for="#"><input type="radio" name=""
+														id=""><span>Испания</span></label></li>
+														<li class="is-hidden"><label for="#"><input type="radio" name="" id=""><span>Чили</span></label>
+														</li>
+													</ul>
+													<a class="search__showall" href='#'>показать все</a>
+												</div>
+												<!-- end filter -->
+
+												<!-- begin filter -->
+												<div class="search__filter is-last search__filter5">
+													<h3 class="search__title">Цена</h3>
+
+													<ul class="search__options">
+														<li><label for="#"><input type="radio" name="" id="">0 - 550</label></li>
+														<li><label for="#"><input type="radio" name="" id="">551 - 1000</label></li>
+													</ul>
+													<a class="search__showall" href='#'>показать все</a>
+												</div>
+												<!-- end filter -->
+											</div>
+										</div>
+										<div class="search__message">Перемотайте вправо чтобы открыть остальные фильтры</div>
+										<div class="search__reset"><a href="#">Сбросить параметры</a></div>
+										<div class="search__pdf"><a href="#"><i></i><span>Распечатать PDF</span></a></div>
+									</div>
+								</div>
+								<!-- end search -->
+
+
+								<!-- begin catalog  -->
+								<div class="catalog">
+									<div class="view">
+										<a href="catalog_plitka.html"><i class="view_plitka_icon"></i></a>
+										<a href="javascript:void(0)">ПО ЦЕНЕ</a>
+										<a href="javascript:void(0)" class="is-active">ПО ЦВЕТУ ВИНА</a>
+									</div>
+									<div class="filters">
+										<span>Италия</span><i></i> / <span>Испания</span><i></i> / <span>красные</span><i></i> /
+										<span>0,75 л</span><i></i> / <span>550 - 1000 р.</span><i></i>
+									</div>
+									<div class="clr"></div>
+									<!-- begin wine  -->
+									<div class="wine">
+										<a href='javascript:void(0)' class="wine__info"></a>
+										<a href="javascript:void(0)" class="wine__check__area"></a>
+
+										<div class="wine__check"></div>
+										<div class="wine__pic">
+											<img src="img/wine.png" alt="">
+										</div>
+										<div class="wine__text">
+											<h2><a href="javascript:void(0)">Шатонеф-дю-Пап АОС Кло де Л’Оратори де Пап</a></h2>
+											<p>Chateaneuf-du-Pape AOC Clos de L’Oratoire des Papes</p>
+										</div>
+										<div class="wine__from">
+											Франция<br>
+											Долина Роны<br>
+											«Ожье»
+										</div>
+										<div class="wine__type">
+											<div class="wine__color"><i class="color2"></i>красное<br>сухое</div>
+											<p class="wine_type_in">Белый Гренаж, Клерет, Русан, Бурбуленк</p>
+
+										</div>
+										<div class="wine__size">
+											<p>14 %</p>
+											<p>0,75 л</p>
+										</div>
+										<div class="wine_inf_price">
+											<div class="wine__inf">
+												WS 90
+												WA 91<br>
+												International Wine Cellar 90<br>
+												Потенциал 30-40 лет
+											</div>
+											<div class="wine__price">
+												2500 р.
+											</div>
+										</div>
+										<div class="wine__full__info">
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit vel id possimus exercitationem aliquid esse, quas perferendis ratione dolorem nulla minima recusandae quae obcaecati deleniti dicta incidunt, vitae harum adipisci enim, nihil. Quae aliquam facere quibusdam, cumque, incidunt officia quidem itaque, assumenda dignissimos animi recusandae fuga eum inventore adipisci delectus non corrupti atque. Consequatur expedita voluptas adipisci assumenda, magni, optio, officiis nemo amet accusantium laudantium ea dicta cupiditate culpa repellendus illo facilis modi aspernatur quidem. Officia dolore tempora voluptate modi exercitationem totam pariatur similique? Quidem ipsa saepe cupiditate odit consectetur amet totam ipsam omnis officiis ullam. Quisquam nulla, doloremque consectetur!</p>
+										</div>
+									</div>
+									<!-- end wine -->
+									<!-- begin wine  -->
+									<div class="wine">
+										<a href='javascript:void(0)' class="wine__info"></a>
+										<a href="javascript:void(0)" class="wine__check__area"></a>
+
+										<div class="wine__check"></div>
+										<div class="wine__pic">
+											<img src="img/wine.png" alt="">
+										</div>
+										<div class="wine__text">
+											<h2><a href="javascript:void(0)">Шатонеф-дю-Пап АОС Кло де Л’Оратори де Пап</a></h2>
+											<p>Chateaneuf-du-Pape AOC Clos de L’Oratoire des Papes</p>
+										</div>
+										<div class="wine__from">
+											Франция<br>
+											Долина Роны<br>
+											«Ожье»
+										</div>
+										<div class="wine__type">
+											<div class="wine__color"><i class="color2"></i>красное<br>сухое</div>
+											<p class="wine_type_in">Белый Гренаж, Клерет, Русан, Бурбуленк</p>
+
+										</div>
+										<div class="wine__size">
+											<p>14 %</p>
+											<p>0,75 л</p>
+										</div>
+										<div class="wine_inf_price">
+											<div class="wine__inf">
+												WS 90
+												WA 91<br>
+												International Wine Cellar 90<br>
+												Потенциал 30-40 лет
+											</div>
+											<div class="wine__price">
+												2500 р.
+											</div>
+										</div>
+										<div class="wine__full__info">
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit vel id possimus exercitationem aliquid esse, quas perferendis ratione dolorem nulla minima recusandae quae obcaecati deleniti dicta incidunt, vitae harum adipisci enim, nihil. Quae aliquam facere quibusdam, cumque, incidunt officia quidem itaque, assumenda dignissimos animi recusandae fuga eum inventore adipisci delectus non corrupti atque. Consequatur expedita voluptas adipisci assumenda, magni, optio, officiis nemo amet accusantium laudantium ea dicta cupiditate culpa repellendus illo facilis modi aspernatur quidem. Officia dolore tempora voluptate modi exercitationem totam pariatur similique? Quidem ipsa saepe cupiditate odit consectetur amet totam ipsam omnis officiis ullam. Quisquam nulla, doloremque consectetur!</p>
+										</div>
+									</div>
+									<!-- end wine -->
+									<!-- begin wine  -->
+									<div class="wine">
+										<a href='javascript:void(0)' class="wine__info"></a>
+										<a href="javascript:void(0)" class="wine__check__area"></a>
+
+										<div class="wine__check"></div>
+										<div class="wine__pic">
+											<img src="img/wine.png" alt="">
+										</div>
+										<div class="wine__text">
+											<h2><a href="javascript:void(0)">Шатонеф-дю-Пап АОС Кло де Л’Оратори де Пап</a></h2>
+											<p>Chateaneuf-du-Pape AOC Clos de L’Oratoire des Papes</p>
+										</div>
+										<div class="wine__from">
+											Франция<br>
+											Долина Роны<br>
+											«Ожье»
+										</div>
+										<div class="wine__type">
+											<div class="wine__color"><i class="color2"></i>красное<br>сухое</div>
+											<p class="wine_type_in">Белый Гренаж, Клерет, Русан, Бурбуленк</p>
+
+										</div>
+										<div class="wine__size">
+											<p>14 %</p>
+											<p>0,75 л</p>
+										</div>
+										<div class="wine_inf_price">
+											<div class="wine__inf">
+												WS 90
+												WA 91<br>
+												International Wine Cellar 90<br>
+												Потенциал 30-40 лет
+											</div>
+											<div class="wine__price">
+												2500 р.
+											</div>
+										</div>
+										<div class="wine__full__info">
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit vel id possimus exercitationem aliquid esse, quas perferendis ratione dolorem nulla minima recusandae quae obcaecati deleniti dicta incidunt, vitae harum adipisci enim, nihil. Quae aliquam facere quibusdam, cumque, incidunt officia quidem itaque, assumenda dignissimos animi recusandae fuga eum inventore adipisci delectus non corrupti atque. Consequatur expedita voluptas adipisci assumenda, magni, optio, officiis nemo amet accusantium laudantium ea dicta cupiditate culpa repellendus illo facilis modi aspernatur quidem. Officia dolore tempora voluptate modi exercitationem totam pariatur similique? Quidem ipsa saepe cupiditate odit consectetur amet totam ipsam omnis officiis ullam. Quisquam nulla, doloremque consectetur!</p>
+										</div>
+									</div>
+									<!-- end wine -->
+									<!-- begin wine  -->
+									<div class="wine">
+										<a href='javascript:void(0)' class="wine__info"></a>
+										<a href="javascript:void(0)" class="wine__check__area"></a>
+
+										<div class="wine__check"></div>
+										<div class="wine__pic">
+											<img src="img/wine.png" alt="">
+										</div>
+										<div class="wine__text">
+											<h2><a href="javascript:void(0)">Шатонеф-дю-Пап АОС Кло де Л’Оратори де Пап</a></h2>
+											<p>Chateaneuf-du-Pape AOC Clos de L’Oratoire des Papes</p>
+										</div>
+										<div class="wine__from">
+											Франция<br>
+											Долина Роны<br>
+											«Ожье»
+										</div>
+										<div class="wine__type">
+											<div class="wine__color"><i class="color2"></i>красное<br>сухое</div>
+											<p class="wine_type_in">Белый Гренаж, Клерет, Русан, Бурбуленк</p>
+
+										</div>
+										<div class="wine__size">
+											<p>14 %</p>
+											<p>0,75 л</p>
+										</div>
+										<div class="wine_inf_price">
+											<div class="wine__inf">
+												WS 90
+												WA 91<br>
+												International Wine Cellar 90<br>
+												Потенциал 30-40 лет
+											</div>
+											<div class="wine__price">
+												2500 р.
+											</div>
+										</div>
+										<div class="wine__full__info">
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit vel id possimus exercitationem aliquid esse, quas perferendis ratione dolorem nulla minima recusandae quae obcaecati deleniti dicta incidunt, vitae harum adipisci enim, nihil. Quae aliquam facere quibusdam, cumque, incidunt officia quidem itaque, assumenda dignissimos animi recusandae fuga eum inventore adipisci delectus non corrupti atque. Consequatur expedita voluptas adipisci assumenda, magni, optio, officiis nemo amet accusantium laudantium ea dicta cupiditate culpa repellendus illo facilis modi aspernatur quidem. Officia dolore tempora voluptate modi exercitationem totam pariatur similique? Quidem ipsa saepe cupiditate odit consectetur amet totam ipsam omnis officiis ullam. Quisquam nulla, doloremque consectetur!</p>
+										</div>
+									</div>
+									<!-- end wine -->
+									<!-- begin wine  -->
+									<div class="wine">
+										<a href='javascript:void(0)' class="wine__info"></a>
+										<a href="javascript:void(0)" class="wine__check__area"></a>
+
+										<div class="wine__check"></div>
+										<div class="wine__pic">
+											<img src="img/wine.png" alt="">
+										</div>
+										<div class="wine__text">
+											<h2><a href="javascript:void(0)">Шатонеф-дю-Пап АОС Кло де Л’Оратори де Пап</a></h2>
+											<p>Chateaneuf-du-Pape AOC Clos de L’Oratoire des Papes</p>
+										</div>
+										<div class="wine__from">
+											Франция<br>
+											Долина Роны<br>
+											«Ожье»
+										</div>
+										<div class="wine__type">
+											<div class="wine__color"><i class="color2"></i>красное<br>сухое</div>
+											<p class="wine_type_in">Белый Гренаж, Клерет, Русан, Бурбуленк</p>
+
+										</div>
+										<div class="wine__size">
+											<p>14 %</p>
+											<p>0,75 л</p>
+										</div>
+										<div class="wine_inf_price">
+											<div class="wine__inf">
+												WS 90
+												WA 91<br>
+												International Wine Cellar 90<br>
+												Потенциал 30-40 лет
+											</div>
+											<div class="wine__price">
+												2500 р.
+											</div>
+										</div>
+										<div class="wine__full__info">
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit vel id possimus exercitationem aliquid esse, quas perferendis ratione dolorem nulla minima recusandae quae obcaecati deleniti dicta incidunt, vitae harum adipisci enim, nihil. Quae aliquam facere quibusdam, cumque, incidunt officia quidem itaque, assumenda dignissimos animi recusandae fuga eum inventore adipisci delectus non corrupti atque. Consequatur expedita voluptas adipisci assumenda, magni, optio, officiis nemo amet accusantium laudantium ea dicta cupiditate culpa repellendus illo facilis modi aspernatur quidem. Officia dolore tempora voluptate modi exercitationem totam pariatur similique? Quidem ipsa saepe cupiditate odit consectetur amet totam ipsam omnis officiis ullam. Quisquam nulla, doloremque consectetur!</p>
+										</div>
+									</div>
+									<!-- end wine -->
+									<!-- begin wine  -->
+									<div class="wine">
+										<a href='javascript:void(0)' class="wine__info"></a>
+										<a href="javascript:void(0)" class="wine__check__area"></a>
+
+										<div class="wine__check"></div>
+										<div class="wine__pic">
+											<img src="img/wine.png" alt="">
+										</div>
+										<div class="wine__text">
+											<h2><a href="javascript:void(0)">Шатонеф-дю-Пап АОС Кло де Л’Оратори де Пап</a></h2>
+											<p>Chateaneuf-du-Pape AOC Clos de L’Oratoire des Papes</p>
+										</div>
+										<div class="wine__from">
+											Франция<br>
+											Долина Роны<br>
+											«Ожье»
+										</div>
+										<div class="wine__type">
+											<div class="wine__color"><i class="color2"></i>красное<br>сухое</div>
+											<p class="wine_type_in">Белый Гренаж, Клерет, Русан, Бурбуленк</p>
+
+										</div>
+										<div class="wine__size">
+											<p>14 %</p>
+											<p>0,75 л</p>
+										</div>
+										<div class="wine_inf_price">
+											<div class="wine__inf">
+												WS 90
+												WA 91<br>
+												International Wine Cellar 90<br>
+												Потенциал 30-40 лет
+											</div>
+											<div class="wine__price">
+												2500 р.
+											</div>
+										</div>
+										<div class="wine__full__info">
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit vel id possimus exercitationem aliquid esse, quas perferendis ratione dolorem nulla minima recusandae quae obcaecati deleniti dicta incidunt, vitae harum adipisci enim, nihil. Quae aliquam facere quibusdam, cumque, incidunt officia quidem itaque, assumenda dignissimos animi recusandae fuga eum inventore adipisci delectus non corrupti atque. Consequatur expedita voluptas adipisci assumenda, magni, optio, officiis nemo amet accusantium laudantium ea dicta cupiditate culpa repellendus illo facilis modi aspernatur quidem. Officia dolore tempora voluptate modi exercitationem totam pariatur similique? Quidem ipsa saepe cupiditate odit consectetur amet totam ipsam omnis officiis ullam. Quisquam nulla, doloremque consectetur!</p>
+										</div>
+									</div>
+									<!-- end wine -->
+									<!-- begin wine  -->
+									<div class="wine">
+										<a href='javascript:void(0)' class="wine__info"></a>
+										<a href="javascript:void(0)" class="wine__check__area"></a>
+
+										<div class="wine__check"></div>
+										<div class="wine__pic">
+											<img src="img/wine.png" alt="">
+										</div>
+										<div class="wine__text">
+											<h2><a href="javascript:void(0)">Шатонеф-дю-Пап АОС Кло де Л’Оратори де Пап</a></h2>
+											<p>Chateaneuf-du-Pape AOC Clos de L’Oratoire des Papes</p>
+										</div>
+										<div class="wine__from">
+											Франция<br>
+											Долина Роны<br>
+											«Ожье»
+										</div>
+										<div class="wine__type">
+											<div class="wine__color"><i class="color2"></i>красное<br>сухое</div>
+											<p class="wine_type_in">Белый Гренаж, Клерет, Русан, Бурбуленк</p>
+
+										</div>
+										<div class="wine__size">
+											<p>14 %</p>
+											<p>0,75 л</p>
+										</div>
+										<div class="wine_inf_price">
+											<div class="wine__inf">
+												WS 90
+												WA 91<br>
+												International Wine Cellar 90<br>
+												Потенциал 30-40 лет
+											</div>
+											<div class="wine__price">
+												2500 р.
+											</div>
+										</div>
+										<div class="wine__full__info">
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit vel id possimus exercitationem aliquid esse, quas perferendis ratione dolorem nulla minima recusandae quae obcaecati deleniti dicta incidunt, vitae harum adipisci enim, nihil. Quae aliquam facere quibusdam, cumque, incidunt officia quidem itaque, assumenda dignissimos animi recusandae fuga eum inventore adipisci delectus non corrupti atque. Consequatur expedita voluptas adipisci assumenda, magni, optio, officiis nemo amet accusantium laudantium ea dicta cupiditate culpa repellendus illo facilis modi aspernatur quidem. Officia dolore tempora voluptate modi exercitationem totam pariatur similique? Quidem ipsa saepe cupiditate odit consectetur amet totam ipsam omnis officiis ullam. Quisquam nulla, doloremque consectetur!</p>
+										</div>
+									</div>
+									<!-- end wine -->
+									<div>
+										<a href="javascript:void(0)" class="more">показать еще 15</a>
+										<a href="javascript:void(0)" class="more">показать все</a>
+									</div>
+								</div>
+								<!-- end catalog -->
+								<!-- begin generator_block -->
+								<div class="generator_form gradiente_block">
+									<form action="">
+										<div class="text_fields">
+											<div class="field clearfix">
+												<input type="text" value="" class="text_field"/>
+												<span>Заголовок</span>
+											</div>
+											<div class="field clearfix">
+												<input type="text" value="" class="text_field"/>
+												<span>Предмет</span>
+											</div>
+											<div class="field clearfix">
+												<input type="text" value="" class="text_field"/>
+												<span>Коммерческие условия</span>
+											</div>
+											<div class="field clearfix">
+												<input type="text" value="" class="text_field"/>
+												<span>Дополнительный сервис</span>
+											</div>
+											<div class="field clearfix">
+												<input type="text" value="" class="text_field"/>
+												<span>Подпись</span>
+											</div>
+										</div>
+										<div class="radios clearfix">
+											<section class="radios_section radios_section1">
+												<div class="radios_section_row clearfix">
+													<div class="inputs clearfix">
+														<input type="radio" id="la1" class="radio" name="a"/>
+													</div>
+													<label for="la1">Ассортиментное предложение</label>
+												</div>
+												<div class="radios_section_row clearfix">
+													<div class="inputs clearfix">
+														<input type="radio" id="la2" class="radio" name="a"/>
+													</div>
+													<label for="la2">В виде КП</label>
+												</div>
+											</section>
+											<section class="radios_section radios_section2">
+												<div class="radios_section_row clearfix">
+													<div class="inputs clearfix">
+														<input type="radio" id="lb1" class="radio" name="b"/>
+													</div>
+													<label for="lb1">Фото</label>
+												</div>
+												<div class="radios_section_row clearfix">
+													<div class="inputs clearfix">
+														<input type="radio" id="lb2" class="radio" name="b"/>
+													</div>
+													<label for="lb2">Оригинальное название</label>
+												</div>
+												<div class="radios_section_row clearfix">
+													<div class="inputs clearfix">
+														<input type="radio" id="lb2" class="radio" name="b"/>
+													</div>
+													<label for="lb2">Оригинальное название</label>
+												</div>
+												<div class="radios_section_row clearfix">
+													<div class="inputs clearfix">
+														<input type="radio" id="lb2" class="radio" name="b"/>
+													</div>
+													<label for="lb2">Оригинальное название</label>
+												</div>
+												<div class="radios_section_row clearfix">
+													<div class="inputs clearfix">
+														<input type="radio" id="lb2" class="radio" name="b"/>
+													</div>
+													<label for="lb2">Оригинальное название</label>
+												</div>
+												<div class="radios_section_row clearfix">
+													<div class="inputs clearfix">
+														<input type="radio" id="lb2" class="radio" name="b"/>
+													</div>
+													<label for="lb2">Оригинальное название</label>
+												</div>
+											</section>
+											<section class="radios_section radios_section3">
+												<div class="radios_section_row clearfix">
+													<div class="inputs clearfix">
+														<input type="text" id="lc1" class="text" name="a"/>
+													</div>
+													<label for="lc1">Специальные условия</label>
+												</div>
+												<div class="radios_section_row clearfix">
+													<div class="inputs clearfix">
+														<input type="radio" id="lc2" class="radio" name="a"/>
+													</div>
+													<label for="lc2">Примечание</label>
+												</div>
+												<div class="radios_section_row clearfix">
+													<div class="inputs clearfix">
+														<input type="radio" id="lc2" class="radio" name="a"/>
+													</div>
+													<label for="lc2">Примечание</label>
+												</div>
+												<div class="radios_section_row clearfix">
+													<div class="inputs clearfix">
+														<input type="radio" id="lc2" class="radio" name="a"/>
+													</div>
+													<label for="lc2">Примечание</label>
+												</div>
+											</section>
+										</div>
+										<div class="buttons clearfix">
+											<button class="btn excel_btn"><i></i>СФОРМИРОВАТЬ EXEL</button>
+											<button class="btn pdf_btn"><i></i>СФОРМИРОВАТЬ PDF</button>
+										</div>
+									</form>
+								</div>
+								<!-- end generator_block -->
+							</div>
+							<!-- end page -->
+
+
+							<!-- begin choosed_list -->
+							<div class="choosed_list_container collapsed">
+								<div class="choosed_list_header clearfix">
+									<span class="heading">Список выбранных напитков</span>
+
+									<div class="actions">
+										<a href="#" class="action_collapse"></a>
+										<a href="#" class="action_show"></a>
+									</div>
+								</div>
+								<div class="choosed_list_content">
+									<div class="choosed_product clearfix">
+										<div class="choosed_product_pic">
+											<img src="img/wine.png" alt=""/>
+										</div>
+										<div class="choosed_product_text">
+											<p>Шатонеф-дю-Пап АОС Кло де Л’Оратори де Пап</p>
+											<span>Chateaneuf-du-Pape AOC Clos de L’Oratoire des Papes</span>
+										</div>
+										<div class="choosed_product_act">
+											<div class="checked_plus"><span>Восстановить</span></div>
+										</div>
+									</div>
+									<div class="choosed_product clearfix">
+										<div class="choosed_product_pic">
+											<img src="img/wine.png" alt=""/>
+										</div>
+										<div class="choosed_product_text">
+											<p>Шатонеф-дю-Пап АОС Кло де Л’Оратори де Пап</p>
+											<span>Chateaneuf-du-Pape AOC Clos de L’Oratoire des Papes</span>
+										</div>
+										<div class="choosed_product_act">
+											<div class="checked"><span>Восстановить</span></div>
+										</div>
+									</div>
+									<div class="choosed_product clearfix">
+										<div class="choosed_product_pic">
+											<img src="img/wine.png" alt=""/>
+										</div>
+										<div class="choosed_product_text">
+											<p>Шатонеф-дю-Пап АОС Кло де Л’Оратори де Пап</p>
+											<span>Chateaneuf-du-Pape AOC Clos de L’Oratoire des Papes</span>
+										</div>
+										<div class="choosed_product_act">
+											<div class="checked"><span>Восстановить</span></div>
+										</div>
+									</div>
+									<div class="choosed_product clearfix">
+										<div class="choosed_product_pic">
+											<img src="img/wine.png" alt=""/>
+										</div>
+										<div class="choosed_product_text">
+											<p>Шатонеф-дю-Пап АОС Кло де Л’Оратори де Пап</p>
+											<span>Chateaneuf-du-Pape AOC Clos de L’Oratoire des Papes</span>
+										</div>
+										<div class="choosed_product_act">
+											<div class="checked"><span>Восстановить</span></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- end choosed_list -->
+							<!-- begin footer  -->
+							<div class="footer">
+								<div class="footer__in">
+									<h3 class="footer__logo"><img src="img/footer.png" alt="История в бокале"></h3>
+
+									<div class="footer__nav">
+										<ul>
+											<li><a href="#">ГЛАВНАЯ</a></li>
+											<li><a href="#">О ПРОЕКТЕ</a></li>
+											<li><a href="#">КАТАЛОГ</a></li>
+											<li><a href="#">ПРОИЗВОДИТЕЛИ</a></li>
+										</ul>
+									</div>
+									<!-- end footer nav -->
+									<!-- begin footer__contacts  -->
+									<div class="footer__contacts">
+										<h4>КОНТАКТЫ</h4>
+
+										<p>Россия, 195248,<br>
+											Санкт-Петербург<br>
+											ул. Партизанская, 27<br>
+											тел.: +7 812 676 9800<br>
+											факс: +7 812 676 9801</p>
+										</div>
+										<!-- end footer__contacts -->
+										<div class="copyright">© 2014 - JOIA - All Rights Reserved</div>
+									</div>
+								</div>
+								<!-- end footer -->
+								<!-- begin warning  -->
+								<div class="warning">
+
+								</div>
+								<!-- end warning -->
+								<script>
+								var head_conf = {
+									screens: [240, 320, 480, 640, 768, 800, 900, 1024, 1280, 1440, 1680, 1920],
+									screensCss: { "gt": true, "gte": false, "lt": true, "lte": false, "eq": false },
+									browsers: [
+									{ ie: { min: 6, max: 11 } }
 			//,{ chrome : { min: 8, max: 31 } }
 			//,{ ff     : { min: 3, max: 26 } }
 			//,{ ios    : { min: 3, max:  7 } }
 			//,{ android: { min: 2, max:  4 } }
 			//,{ webkit : { min: 9, max: 12 } }
 			//,{ opera  : { min: 9, max: 12 } }
-		],
-		browserCss: { "gt": true, "gte": false, "lt": true, "lte": false, "eq": true },
-		html5: true,
-		page: "-page",
-		section: "-section",
-		head: "head"
-	};
-</script>
-<script src="js/lib/head.js" data-headjs-load="js/init.js"></script>
-</body>
-</html>
+			],
+			browserCss: { "gt": true, "gte": false, "lt": true, "lte": false, "eq": true },
+			html5: true,
+			page: "-page",
+			section: "-section",
+			head: "head"
+		};
+		</script>
+		<script src="js/lib/head.js" data-headjs-load="js/init.js"></script>
+	</body>
+	</html>

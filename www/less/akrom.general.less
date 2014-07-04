@@ -77,8 +77,6 @@ input[type="radio"] {
 .h2 {
 	font-size: 15px;
 	padding-left: 70px;
-	height: 58px;
-	line-height: 58px;
 }
 
 .btn/*, .header .login*/  {
@@ -422,10 +420,11 @@ input[type="radio"] {
 
 .lf {
 	font-size: 42px;
-	font-weight: 100;
+	font-weight: normal;
 	text-transform: none;
-	letter-spacing: -2px;
-	word-spacing: 2px;
+	line-height: 50px;
+	padding-top: 8px;
+	margin-bottom: 0;
 }
 
 .toggle_link {
@@ -438,6 +437,7 @@ input[type="radio"] {
 	span {
 		display: block;
 		margin-bottom: 15px;
+		.font__MyriadPro-Light;
 	}
 	i {
 		display: block;
@@ -504,11 +504,18 @@ blockquote {
 			font-size: 16px;
 			line-height: 19px;
 			margin-bottom: 16px;
+			.font__MyriadPro-Light;
 		}
 		blockquote {
 			margin-left: -288px;
 			float: left;
-			font-family: 'MyriadPro-Light', sans-serif;
+			.font__MyriadPro-Light;
+		}
+		.toggle_link {
+			opacity: 0.6;
+			&:hover {
+				opacity: 1;
+			}
 		}
 	}
 	&.toggled {
@@ -547,9 +554,6 @@ blockquote {
 ////////////About Project
 
 .about_project {
-	.h2 {
-		margin-bottom: 0;
-	}
 	.about_project_content {
 		padding-bottom: 47px;
 		.std_content_paddings();
