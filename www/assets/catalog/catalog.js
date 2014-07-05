@@ -1,6 +1,6 @@
 $(document).ready(function () {
 	// Выделение элемента в каталоге при нажатии
-	$('.wine .wine__check__area').click(function (event) {
+	$('.wine .wine__check__area').click(function () {
 		$(this).parents('.wine').toggleClass('is-selected');
 	});
 
@@ -11,7 +11,7 @@ $(document).ready(function () {
 
 	// Увеличение блока в плиточном каталоге
 	$('.wine__square .wine__info').on('click', function () {
-		$(this).parents('.wine').toggleClass('wine__square__big')
+		$(this).parents('.wine').toggleClass('wine__square__big');
 	});
 
 });

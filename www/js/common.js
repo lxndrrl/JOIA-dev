@@ -1,3 +1,7 @@
+// @codekit-append "../assets/catalog/catalog.js"
+// @codekit-append "../assets/header/__in/__right/order-list/order-list.js"
+// @codekit-append "../assets/signin-form/signin-form.js"
+
 head.ready(function () {
 	$(window).scroll(function () {
 		t = $(this).scrollTop();
@@ -5,17 +9,17 @@ head.ready(function () {
 		if (t > 100) {
 			b.addClass('is-nottop');
 		} else {
-			b.removeClass('is-nottop')
+			b.removeClass('is-nottop');
 		}
 	});
 
-	$('.search__switcher a').click(function (event) {
+	$('.search__switcher a').click(function () {
 		$('.search__switcher a').removeClass('is-active');
 		$(this).addClass('is-active');
 		return false;
 	});
 
-	$('.superslider__playpause').click(function (event) {
+	$('.superslider__playpause').click(function () {
 		$('.superslider').cycle('stop');
 	});
 
@@ -50,6 +54,7 @@ sbula.click(function () {
 $('.popup__content__yes label').click(function () {
 	$('.popup').fadeOut(1000);
 	$('.blur').addClass('blur_-allow');
+	$('.popup__content').fadeOut(1000);
 });
 
 $('.popup__content__no #no').on('click', function() {
@@ -61,26 +66,26 @@ $('.popup__content__no #no').on('click', function() {
 $('.action_show').click(function(e){
 	$('.choosed_list_content').slideDown();
 	e.preventDefault();
-})
+});
 $('.action_collapse').click(function(e){
 	$('.choosed_list_content').slideUp();
 	e.preventDefault();
-})
+});
 $('.about_project_content .toggle_link').click(function(e){
 	$('.about_project_content .hided_content').slideToggle();
 	$(this).toggleClass('arrow_rotate').children('span').toggle();
 	e.preventDefault();
-})
+});
 $('.appeal_content .toggle_link').click(function(e){
 	$(this).parent('.appeal_content').hide();
 	$('.appeal_hiden_content').slideDown();
 	e.preventDefault();
-})
+});
 $('.appeal_hiden_content .toggle_link').click(function(e){
 	$(this).parent('.appeal_hiden_content').slideUp();
 	$('.appeal_content').show();
 	e.preventDefault();
-})
+});
 /*/Развёртывание и свёртывание блоков*/
 
 /*Автоматическое выравнивание высоты колонок (float блоков)*/
