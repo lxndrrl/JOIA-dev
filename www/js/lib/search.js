@@ -58,7 +58,7 @@
             {
                 name:'Розовые',
                 id:'white',
-                icon_class: '__categicon3'
+                icon_class: 'search__categicon3'
             },
             {
                 name:'Игристые',
