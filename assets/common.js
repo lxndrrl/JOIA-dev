@@ -113,9 +113,17 @@ $(document).ready(function() {
 /*/Автоматическое выравнивание высоты колонок (float блоков)*/
 
 /* Adaptive Modal */
-$(document).ready(function() {
+/*$(document).ready(function() {
 	$(".fancybox").fancybox({
 		padding: 0
 	});
+});*/
+$('.entry').fancybox({
+	padding: 0,
+	helpers: {
+		overlay: {
+			locked: true
+		}
+	}
 });
 /*/ Adaptive Modal */
