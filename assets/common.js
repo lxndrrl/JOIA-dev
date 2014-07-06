@@ -118,11 +118,11 @@ $(document).ready(function() {
 		padding: 0
 	});
 });*/
-$('.entry').fancybox({
+$('.fancybox').fancybox({
 	padding: 0,
 	helpers: {
 		overlay: {
-			locked: true
+			locked: false
 		}
 	}
 });
