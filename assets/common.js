@@ -1,6 +1,6 @@
 // @codekit-append "catalog/catalog.js"
-// @codekit-append "assets/header/__in/__right/order-list/order-list.js"
-// @codekit-append "assets/signin-form/signin-form.js"
+// @codekit-append "header/__in/__right/order-list/order-list.js"
+// @codekit-append "signin-form/signin-form.js"
 
 head.ready(function () {
 	$(window).scroll(function () {
