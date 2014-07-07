@@ -1,6 +1,7 @@
 // @codekit-append "catalog/catalog.js"
 // @codekit-append "header/__in/__right/order-list/order-list.js"
 // @codekit-append "signin-form/signin-form.js"
+// @codekit-append "fancybox/fancybox.js"
 
 head.ready(function () {
 	$(window).scroll(function () {
@@ -111,19 +112,3 @@ $(document).ready(function() {
 	setEqualHeight($('.contacts__branches.distributors > .contacts__border-block'));
 });
 /*/Автоматическое выравнивание высоты колонок (float блоков)*/
-
-/* Adaptive Modal */
-/*$(document).ready(function() {
-	$(".fancybox").fancybox({
-		padding: 0
-	});
-});*/
-$('.fancybox').fancybox({
-	padding: 0,
-	helpers: {
-		overlay: {
-			locked: false
-		}
-	}
-});
-/*/ Adaptive Modal */
