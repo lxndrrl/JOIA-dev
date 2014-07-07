@@ -1,7 +1,4 @@
-
-
-
-
+<!--@import "../=kit=vars/vars.kit"-->
 <!doctype html>
 <!--[if lte IE 8]>
 	<html class="lteie8"><![endif]-->
@@ -50,74 +47,7 @@
 			<!-- end header -->
 
 
-			<!-- begin superslider  -->
-<div class="superslider  cycle-slideshow"
-	 data-cycle-fx=fade
-	 data-cycle-timeout=6000
-	 data-cycle-speed=2000
-	 data-cycle-slides=".superslider__slide"
-	 data-cycle-pager=".superslider__pagi"
-	 data-cycle-prev=".superslider__prev"
-	 data-cycle-next=".superslider__next">
-	<div class="superslider__slides">
-		<!-- begin slide -->
-		<div class="superslider__slide" style="background-image: url(img/slider/joia.jpg);">
-			<div class="superslider__text">
-				<span>Проект</span>
-				JOIA
-			</div>
-		</div>
-		<!-- end slide -->
-		<!-- begin slide -->
-		<div class="superslider__slide" style="background-image: url(img/slider/Cesari.jpg);">
-			<div class="superslider__text">
-				<span>Винодельческий дом</span>
-				ЧЕЗАРИ
-			</div>
-		</div>
-		<!-- end slide -->
-		<!-- begin slide -->
-		<div class="superslider__slide" style="background-image: url(img/slider/Poggio_Antico.jpg);">
-			<div class="superslider__text">
-				<span>Винодельческий дом</span>
-				ПОДДЖО АНТИКО
-			</div>
-		</div>
-		<!-- end slide -->
-		<!-- begin slide -->
-		<div class="superslider__slide" style="background-image: url(img/slider/Henkell.jpg);">
-			<div class="superslider__text">
-				<span>Винодельческий дом</span>
-				ХЕНКЕЛЬ
-			</div>
-		</div>
-		<!-- end slide -->
-		<!-- begin slide -->
-		<div class="superslider__slide" style="background-image: url(img/slider/Ogier-alt.jpg);">
-			<div class="superslider__text">
-				<span>Винодельческий дом</span>
-				ОЖЬЕ
-			</div>
-		</div>
-		<!-- end slide -->
-		<!-- begin slide -->
-		<div class="superslider__slide" style="background-image: url(img/slider/bg-5.jpg);">
-			<div class="superslider__text">
-				<span>Винодельческий дом</span>
-				ЛЮСЬЕН ЛЮРТОН
-			</div>
-		</div>
-	</div>
-	<!-- end slides -->
-	<div class="superslider__in">
-		<div class="superslider__next"></div>
-		<div class="superslider__prev"></div>
-		<div class="superslider__playpause"></div>
-		<div class="superslider__pagi"></div>
-	</div>
-
-</div>
-<!-- end superslider -->
+			<!--@import "../superslider/superslider.kit"-->
 
 
 	</div>
@@ -136,13 +66,13 @@
 				data-cycle-fx="carousel"
 				data-cycle-prev=".logoslider__prev"
 				data-cycle-next=".logoslider__next">
-				<img src="img/logo1.png" alt="">
-				<img src="img/logo2.png" alt="">
-				<img src="img/logo3.png" alt="">
-				<img src="img/logo4.png" alt="">
-				<img src="img/logo5.png" alt="">
-				<img src="img/logo6.png" alt="">
-				<img src="img/logo7.png" alt="">
+				<img src="<!--@path-img-->logo1.png" alt="">
+				<img src="<!--@path-img-->logo2.png" alt="">
+				<img src="<!--@path-img-->logo3.png" alt="">
+				<img src="<!--@path-img-->logo4.png" alt="">
+				<img src="<!--@path-img-->logo5.png" alt="">
+				<img src="<!--@path-img-->logo6.png" alt="">
+				<img src="<!--@path-img-->logo7.png" alt="">
 			</div>
 			<div class="logoslider__next"></div>
 			<div class="logoslider__prev"></div>
@@ -292,7 +222,7 @@
 
 										<div class="wine__check"></div>
 										<div class="wine__pic">
-											<img src="img/bottles/altero-brunello-di-montalchino.png" alt="">
+											<img src="<!--@path-img-->bottles/altero-brunello-di-montalchino.png" alt="">
 										</div>
 										<div class="wine__text">
 											<h2><a href="javascript:void(0)">Аромо Сира</a></h2>
@@ -335,7 +265,7 @@
 
 										<div class="wine__check"></div>
 										<div class="wine__pic">
-											<img src="img/bottles/amarone-delle-valpolichella-klassiko.png" alt="">
+											<img src="<!--@path-img-->bottles/amarone-delle-valpolichella-klassiko.png" alt="">
 										</div>
 										<div class="wine__text">
 											<h2><a href="javascript:void(0)">Шатонеф-дю-Пап АОС Кло де Л’Оратори де Пап</a></h2>
@@ -378,7 +308,7 @@
 
 										<div class="wine__check"></div>
 										<div class="wine__pic">
-											<img src="img/bottles/aromo_sira.png" alt="">
+											<img src="<!--@path-img-->bottles/aromo_sira.png" alt="">
 										</div>
 										<div class="wine__text">
 											<h2><a href="javascript:void(0)">Шатонеф-дю-Пап АОС Кло де Л’Оратори де Пап</a></h2>
@@ -421,7 +351,7 @@
 
 										<div class="wine__check"></div>
 										<div class="wine__pic">
-											<img src="img/bottles/donelli-lambrusko-dell-emiliya-_krasnoe.png" alt="">
+											<img src="<!--@path-img-->bottles/donelli-lambrusko-dell-emiliya-_krasnoe.png" alt="">
 										</div>
 										<div class="wine__text">
 											<h2><a href="javascript:void(0)">Шатонеф-дю-Пап АОС Кло де Л’Оратори де Пап</a></h2>
@@ -464,7 +394,7 @@
 
 										<div class="wine__check"></div>
 										<div class="wine__pic">
-											<img src="img/bottles/kasa-de-barro-karmener.png" alt="">
+											<img src="<!--@path-img-->bottles/kasa-de-barro-karmener.png" alt="">
 										</div>
 										<div class="wine__text">
 											<h2><a href="javascript:void(0)">Шатонеф-дю-Пап АОС Кло де Л’Оратори де Пап</a></h2>
@@ -507,7 +437,7 @@
 
 										<div class="wine__check"></div>
 										<div class="wine__pic">
-											<img src="img/bottles/klo_de_loratori_de_pap_krasnoe_p-u.png" alt="">
+											<img src="<!--@path-img-->bottles/klo_de_loratori_de_pap_krasnoe_p-u.png" alt="">
 										</div>
 										<div class="wine__text">
 											<h2><a href="javascript:void(0)">Шатонеф-дю-Пап АОС Кло де Л’Оратори де Пап</a></h2>
@@ -550,7 +480,7 @@
 
 										<div class="wine__check"></div>
 										<div class="wine__pic">
-											<img src="img/bottles/klo-de-l'oratori-de-pap-shatonef-dyu-pap_aos_krasnoe.png" alt="">
+											<img src="<!--@path-img-->bottles/klo-de-l'oratori-de-pap-shatonef-dyu-pap_aos_krasnoe.png" alt="">
 										</div>
 										<div class="wine__text">
 											<h2><a href="javascript:void(0)">Шатонеф-дю-Пап АОС Кло де Л’Оратори де Пап</a></h2>
@@ -735,7 +665,7 @@
 								<div class="choosed_list_content">
 									<div class="choosed_product clearfix">
 										<div class="choosed_product_pic">
-											<img src="img/wine.png" alt=""/>
+											<img src="<!--@path-img-->wine.png" alt=""/>
 										</div>
 										<div class="choosed_product_text">
 											<span>Франция</span>
@@ -752,7 +682,7 @@
 									</div>
 									<div class="choosed_product clearfix">
 										<div class="choosed_product_pic">
-											<img src="img/wine.png" alt=""/>
+											<img src="<!--@path-img-->wine.png" alt=""/>
 										</div>
 										<div class="choosed_product_text">
 											<span>Франция</span>
@@ -769,7 +699,7 @@
 									</div>
 									<div class="choosed_product clearfix">
 										<div class="choosed_product_pic">
-											<img src="img/wine.png" alt=""/>
+											<img src="<!--@path-img-->wine.png" alt=""/>
 										</div>
 										<div class="choosed_product_text">
 											<span>Франция</span>
@@ -786,7 +716,7 @@
 									</div>
 									<div class="choosed_product clearfix">
 										<div class="choosed_product_pic">
-											<img src="img/wine.png" alt=""/>
+											<img src="<!--@path-img-->wine.png" alt=""/>
 										</div>
 										<div class="choosed_product_text">
 											<span>Франция</span>
@@ -803,7 +733,7 @@
 									</div>
 									<div class="choosed_product clearfix">
 										<div class="choosed_product_pic">
-											<img src="img/wine.png" alt=""/>
+											<img src="<!--@path-img-->wine.png" alt=""/>
 										</div>
 										<div class="choosed_product_text">
 											<span>Франция</span>
@@ -820,7 +750,7 @@
 									</div>
 									<div class="choosed_product clearfix">
 										<div class="choosed_product_pic">
-											<img src="img/wine.png" alt=""/>
+											<img src="<!--@path-img-->wine.png" alt=""/>
 										</div>
 										<div class="choosed_product_text">
 											<span>Франция</span>
@@ -859,7 +789,7 @@
 							<!-- begin footer  -->
 							<div class="footer">
 								<div class="footer__in">
-									<h3 class="footer__logo"><img src="img/footer.png" alt="История в бокале"></h3>
+									<h3 class="footer__logo"><img src="<!--@path-img-->footer.png" alt="История в бокале"></h3>
 
 									<div class="footer__nav">
 										<ul>
