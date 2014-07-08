@@ -3,7 +3,7 @@
 // @codekit-append "signin-form/signin-form.js"
 // @codekit-append "fancybox/fancybox.js"
 
-head.ready(function () {
+$(document).ready(function () {
 	$(window).scroll(function () {
 		t = $(this).scrollTop();
 		b = $('body');
@@ -25,13 +25,13 @@ head.ready(function () {
 	});
 
 	$('.search').search();
-
-	/*расширяемый блок*/
-	$('.expander').click(function () {
-		$(this).closest('.expandable__in').toggleClass('expanded').find('.expandable').slideToggle();
-	});
-	/*/расширяемый блок*/
 });
+
+/*расширяемый блок*/
+$('.expander').click(function () {
+	$(this).closest('.expandable__in').toggleClass('expanded').find('.expandable').slideToggle();
+});
+/*/расширяемый блок*/
 
 /*блок на всю высоту вьюпорта*/
 $(document).ready(function ($) {
@@ -43,25 +43,6 @@ $('.w-900 .superslider__slide, .lt-900 .superslider__slide, .mobile .w-1280 .sup
 /*/блок на всю высоту вьюпорта*/
 
 //---
-
-/*Оверлей ПопАпа и событиея на кнопки*/
-$('.popup__content').click(function (e) {
-	e.stopPropagation();
-});
-var sbula = $(".popup label");
-sbula.click(function () {
-	sbula.removeClass("active").not(sbula).add(this).addClass("active");
-});
-$('.popup__content__yes label').click(function () {
-	$('.popup').fadeOut(1000);
-	$('.blur').addClass('blur_-allow');
-	$('.popup__content').fadeOut(1000);
-});
-
-$('.popup__content__no #no').on('click', function() {
-	window.location = $(this).val();
-});
-/*/Оверлей ПопАпа и событиея на кнопки*/
 
 /*Развёртывание и свёртывание блоков*/
 $('.action_show').click(function(e){
