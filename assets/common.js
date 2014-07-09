@@ -3,7 +3,8 @@
 // @codekit-append "signin-form/signin-form.js"
 // @codekit-append "fancybox/fancybox.js"
 
-head.ready(function() {
+
+
 	$(window).scroll(function () {
 		t = $(this).scrollTop();
 		b = $('body');
@@ -14,6 +15,9 @@ head.ready(function() {
 		}
 	});
 
+
+$(document).ready(function() {
+
 	$('.search__switcher a').click(function () {
 		$('.search__switcher a').removeClass('is-active');
 		$(this).addClass('is-active');
@@ -23,15 +27,7 @@ head.ready(function() {
 	$('.superslider__playpause').click(function () {
 		$('.superslider').cycle('stop');
 	});
-
-	$('.search').search();
-
 });
-
-
-/*$(document).ready(function() {
-	$('.search').search();
-});*/
 
 /*расширяемый блок*/
 $('.expander').click(function () {

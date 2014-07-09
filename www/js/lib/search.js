@@ -108,7 +108,7 @@
 
 
 
-$.fn.search = function( options ) {
+$.fn.search = function(options) {
     // fix mistakes with the ready state
     var o;
 
@@ -205,4 +205,6 @@ $.fn.search = function( options ) {
 
     });
 };
+
+$('.search').search();
 
