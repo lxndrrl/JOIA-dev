@@ -11,7 +11,7 @@
 	<meta charset="utf-8">
 	<title>Template</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" media="screen" href="css/style.css">
+	<link rel="stylesheet" media="screen" href="css/style-bem.css">
 </head>
 <body>
 <div class="blur">
@@ -39,92 +39,6 @@
 </div>
 </div>
 <!-- end header__right -->
-		<!-- begin search  -->
-<script id="update-search" type="text/x-jsrender">
-                <div>
-                    <!-- begin filter -->
-                    <div class="search__filter">
-                        <h3 class="search__title">Страна</h3>
-
-                        <ul class="search__options">
-                            {{for country}}
-                            <li><label for="{{:id}}"><input type="radio" name="country" id="{{:id}}">{{:name}}</label></li>
-                            {{/for}}
-                        </ul>
-                        <a class="search__showall" href='#'>показать все</a>
-                    </div>
-                    <!-- end filter -->
-
-                    <!-- begin filter -->
-                    <div class="search__filter">
-                        <h3 class="search__title">Регион</h3>
-
-                        <ul class="search__options">
-                            {{for region}}
-                            <li><label for="{{:id}}"><input type="radio" name="region" id="{{:id}}">{{:name}}</label></li>
-                            {{/for}}
-
-                        </ul>
-                        <a class="search__showall" href='#'>показать все</a>
-                    </div>
-                    <!-- end filter -->
-
-                    <!-- begin filter -->
-                    <div class="search__filter">
-                        <h3 class="search__title">Категория</h3>
-
-                        <ul class="search__categ">
-                            {{for category}}
-                            <li><label for="{{:id}}"><i class="{{:icon_class}}"></i><input type="radio" name="category" id="{{:id}}"><span>{{:name}}</span></label></li>
-                            {{/for}}
-
-                        </ul>
-                        <a class="search__showall" href='#'>показать все</a>
-                    </div>
-                    <!-- end filter -->
-
-                    <!-- begin filter -->
-                    <div class="search__filter">
-                        <h3 class="search__title">Производитель</h3>
-
-                        <ul class="search__options">
-                            {{for produce}}
-                            <li><label for="{{:id}}"><input type="radio" name="produce" id="{{:id}}">{{:name}}</label></li>
-                            {{/for}}
-
-                        </ul>
-                        <a class="search__showall" href='#'>показать все</a>
-                    </div>
-                    <!-- end filter -->
-
-                    <!-- begin filter -->
-                    <div class="search__filter is-last">
-                        <h3 class="search__title">Цена</h3>
-
-                        <ul class="search__options">
-                            {{for price}}
-                            <li><label for="{{:id}}"><input type="radio" name="price" id="{{:id}}">{{:from}}-{{:to}}</label></li>
-                            {{/for}}
-
-                        </ul>
-                        <a class="search__showall" href='#'>показать все</a>
-                    </div>
-                    <!-- end filter -->
-                    <div class="search__submit">ПОЛНЫЙ КАТАЛОГ</div>
-                </div>
-
-
-
-
-		</script>
-<div class="search">
-	<ul class="search__switcher">
-		<li><a href="#" class="search__switcher1 is-active">Вино</a></li>
-		<li><a href="#" class="search__switcher2">Крепкий алкоголь</a></li>
-	</ul>
-	<div class="search__filters" data-template="#update-search"></div>
-</div>
-<!-- end search -->
 	</div>
 	<!-- end header in -->
 </div>
@@ -448,6 +362,67 @@
 <!-- end modal -->
 	</div>
 	<!-- end entries -->
+	<a href="#" class="more">показать ещё</a>
+</div>
+<!-- end b -->
+<!-- begin b  -->
+<div class="b">
+	<h2 class="h2">ЛУЧШИЕ ПРЕДЛОЖЕНИЯ</h2>
+	<!-- begin offers  -->
+	<div class="offers">
+		<!-- begin offer  -->
+		<a href='#' class="offer">
+			<div class="offer__img">
+				<img src="img/offer.jpg" alt="">
+			</div>
+			<div class="offer__text">
+				<div class="offer__year">2011</div>
+				<h3 class="offer__title">Montefiore
+					Пино Гриджио</h3>
+
+				<div class="offer__more">делле Венецие IGT
+					Montefiore Pinot Grigio delle Venezie IGT
+				</div>
+				<div class="offer__type">полусухое</div>
+			</div>
+		</a>
+		<!-- end offer -->
+		<!-- begin offer  -->
+		<a href='#' class="offer">
+			<div class="offer__img">
+				<img src="img/offer.jpg" alt="">
+			</div>
+			<div class="offer__text">
+				<div class="offer__year">2011</div>
+				<h3 class="offer__title">Montefiore
+					Пино Гриджио</h3>
+
+				<div class="offer__more">делле Венецие IGT
+					Montefiore Pinot Grigio delle Venezie IGT
+				</div>
+				<div class="offer__type">полусухое</div>
+			</div>
+		</a>
+		<!-- end offer -->
+		<!-- begin offer  -->
+		<a href='#' class="offer">
+			<div class="offer__img">
+				<img src="img/offer.jpg" alt="">
+			</div>
+			<div class="offer__text">
+				<div class="offer__year">2011</div>
+				<h3 class="offer__title">Montefiore
+					Пино Гриджио</h3>
+
+				<div class="offer__more">делле Венецие IGT
+					Montefiore Pinot Grigio delle Venezie IGT
+				</div>
+				<div class="offer__type">полусухое</div>
+			</div>
+		</a>
+		<!-- end offer -->
+	</div>
+	<!-- end offers -->
 	<a href="#" class="more">показать ещё</a>
 </div>
 <!-- end b -->

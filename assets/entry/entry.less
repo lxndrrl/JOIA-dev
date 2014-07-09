@@ -1,6 +1,7 @@
 @import "_big/entry_big";
 @import "__text/entry__text";
 @import "__img/entry__img";
+@import "__introtext/entry__introtext";
 
 .entry {
 	float: left;
@@ -14,7 +15,20 @@
 	font-family: "MyriadPro-Light", sans-serif;
 	box-sizing: border-box;
 	padding: 0 20px;
+	* {
+		transition: all 0.2s ease-in-out;
+	}
 	&:last-child {
 		float: right
+	}
+	&:hover {
+		.entry__text {
+			top: 0;
+			bottom: 0;
+			.entry__introtext {
+				opacity: 1;
+				margin-top: 8px;
+			}
+		}
 	}
 }
