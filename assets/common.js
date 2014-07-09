@@ -3,7 +3,7 @@
 // @codekit-append "signin-form/signin-form.js"
 // @codekit-append "fancybox/fancybox.js"
 
-$(document).ready(function () {
+head.ready(function() {
 	$(window).scroll(function () {
 		t = $(this).scrollTop();
 		b = $('body');
@@ -25,7 +25,13 @@ $(document).ready(function () {
 	});
 
 	$('.search').search();
+
 });
+
+
+/*$(document).ready(function() {
+	$('.search').search();
+});*/
 
 /*расширяемый блок*/
 $('.expander').click(function () {
