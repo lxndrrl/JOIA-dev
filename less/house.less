@@ -149,7 +149,7 @@
 		border: 1px solid #CCC;
 		border-top: 0;
 		border-radius: 0 0 5px 5px;
-		background: url('../img/offers/berries.jpg') no-repeat #EBEBEB;
+		background: url('../img/ogier_back.jpg') no-repeat #EBEBEB;
 		box-shadow: -1px 3px 5px 0px #CCC, 2px 2px 5px 0px #CCC;
 	}
 
@@ -164,15 +164,25 @@
 		width: 270px;
 		height: 800px;
 		margin-left: 61px;
-		margin-top: 9px;
-		background: url('../img/bottle.png');
+		margin-top: 30px;
+		// background: url('../img/bottle.png');
+		img {
+			max-width: 100%;
+		}
 	}
 
 	.best-offers__description {
 		float: left;
 		padding: 34px 76px 25px 242px;
 
-		h3 {
+		.best-offers__description__rus {
+			margin: 0 0 12px;
+			font-size: 42px;
+			color: #FF4914;
+			font-family: "MyriadPro-Light",sans-serif;
+			font-weight: 300;
+		}
+		.best-offers__description__fr {
 			margin: 0 0 12px;
 			font-size: 42px;
 			color: #FF4914;
@@ -188,12 +198,15 @@
 	}
 
 	.best-offers__logo {
-		border: dashed 1px #000;
+		// border: dashed 1px #000;
 		width: 175px;
 		position: absolute;
 		top: 33px;
 		bottom: 34px;
 		left: 26px;
+		img {
+			max-width: 100%;
+		}
 
 		span {
 			width: 128px;
@@ -269,9 +282,11 @@
 
 	.house__expander__details {
 		width: 822px;
-		margin: 21px 110px 0 143px;
+		margin: 0 110px 0 143px;
 		color: #3A393A;
-
+		.house__expander__details__link {
+			color: #f56541;
+		}
 		blockquote {
 			padding: 24px 0;
 			margin-bottom: 47px;
@@ -364,10 +379,15 @@
 
 	.item-list__img {
 		width: 200px;
+		height: 200px;
 		padding: 7px 0 !important;
 		text-align: center;
 		line-height: 0;
 		margin: 0 7px;
+		img {
+			max-width: 100%;
+			max-height: 100%;
+		}
 	}
 
 	.cell {
@@ -532,6 +552,10 @@
 
 	.tooltip__in {
 		position: relative;
+		height: 320px;
+		img {
+			max-height: 100%;
+		}
 		.tooltip {
 			display: none;
 			position: absolute;

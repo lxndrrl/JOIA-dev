@@ -2,8 +2,7 @@
 // @codekit-append "header/__in/__right/order-list/order-list.js"
 // @codekit-append "signin-form/signin-form.js"
 // @codekit-append "fancybox/fancybox.js"
-
-
+// @codekit-append "best-offers/best-offers.js"
 
 	$(window).scroll(function () {
 		t = $(this).scrollTop();
