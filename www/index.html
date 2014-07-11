@@ -11,6 +11,7 @@
 	<meta charset="utf-8">
 	<title>Template</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" media="screen" href="css/style-bem.css">
 	<link rel="stylesheet" media="screen" href="css/style.css">
 </head>
 <body>
@@ -26,13 +27,13 @@
 	<li><a href="index.html" class="is-active">ГЛАВНАЯ</a></li>
 	<li><a href="o_proekte.html">О ПРОЕКТЕ</a></li>
 	<li><a href="catalog.html">КАТАЛОГ</a></li>
-	<li><a href="o_dome.html">ПРОИЗВОДИТЕЛИ</a></li>
+	<li><a href="o_dome-a.html">ПРОИЗВОДИТЕЛИ</a></li>
 	<li><a href="contacts.html">КОНТАКТЫ</a></li>
 </ul>
 		<!-- begin header__right  -->
 <div class="header__right">
 	<div class="searchicon"></div>
-	<a href="#" class="login">ВХОД</a>
+	<a href="javascript:void(0)" class="login">ВХОД</a>
 	<div class="lang">
 	<a href="#" class="lang__en is-active"></a>
 	<a href="#" class="lang__ru"></a>
@@ -354,6 +355,7 @@
 										<span>игристые</span>
 									</label>
 								</div>
+
 							</div>
 						</div>
 						<div class="catslider__next"></div>
@@ -398,7 +400,7 @@
 		</div>
 		<div class="search__message">Перемотайте вправо чтобы открыть остальные фильтры</div>
 		<div class="search__reset"><a href="#">Сбросить параметры</a></div>
-		<div class="search__pdf"><a href="#"><i></i><span>Распечатать PDF</span></a></div>
+		<div class="search__pdf"><a href="cat-export.pdf" target="_blank"><i></i><span>Распечатать PDF</span></a></div>
 	</div>
 </div>
 <!-- end wide search -->
@@ -603,6 +605,7 @@
 		head: "head"
 	};
 </script>
+	<script type="text/javascript" src="js/lib/head.js"></script>
 	<script type="text/javascript" src="js/lib/jquery.js"></script>
 	<script type="text/javascript" src="js/lib/cycle.js"></script>
 	<script type="text/javascript" src="js/lib/carousel.js"></script>
