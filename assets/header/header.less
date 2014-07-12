@@ -1,6 +1,8 @@
 @import "__in/header__in";
+@import 'is-nottop/is-nottop';
 
 .header {
+  height: @topbar;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -8,4 +10,6 @@
 	height: 66px;
 	background: #FFF;
 	z-index: 5000;
+  @import '__nav/header__nav';
+  @import '__right/header__right';
 }

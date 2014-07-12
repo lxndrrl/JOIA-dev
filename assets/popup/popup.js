@@ -16,3 +16,15 @@ $('.popup__content__no #no').on('click', function() {
 	window.location = $(this).val();
 });
 /*/Оверлей ПопАпа и события на кнопки*/
+
+
+// Не показывать попап если пользователь нажал на кнопку ДА
+	$('#yes').on('click', function() {
+	$.cookie('CLickYesClass', 'click_yes');
+	});
+
+	$(document).ready(function() {
+		if ($.cookie('CLickYesClass') === 'click_yes') {
+			$('#popup').css('display', 'none');
+		}
+	});
