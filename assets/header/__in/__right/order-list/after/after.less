@@ -1,0 +1,18 @@
+&:after {
+  content: 'Список выбранных напитков';
+  background: #000;
+  position: absolute;
+  color: #b2b2b2;
+  min-width: 200px;
+  display: none;
+  text-align: center;
+  padding: 2px 5px;
+  left: 50%;
+  margin-left: -100px;
+  bottom: -30px;
+}
+&:hover {
+  &:after {
+    display: block !important;
+  }
+}

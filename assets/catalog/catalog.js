@@ -1,7 +1,18 @@
 $(document).ready(function () {
-	// Выделение элемента в каталоге при нажатии
 	$('.wine .wine__check__area').on('click', function() {
+
+		// Выделение элемента в каталоге при нажатии
 		$(this).parents('.wine').toggleClass('is-selected');
+
+		// Появление списка при выборе хотя бы одного вина
+		if ($('.wine').hasClass('is-selected')) {
+			$('.choosed_list_container').fadeIn(400);
+			$('.choosed_list_container').addClass('show');
+		}
+		else {
+			$('.choosed_list_container').fadeOut('400');
+			$('.choosed_list_container').removeClass('show');
+		}
 	});
 
 	// Выпадающее полное описание вина в горизонтальном каталоге
@@ -13,5 +24,6 @@ $(document).ready(function () {
 	$('.wine__square .wine__info').on('click', function () {
 		$(this).parents('.wine').toggleClass('wine__square__big');
 	});
+
 
 });
