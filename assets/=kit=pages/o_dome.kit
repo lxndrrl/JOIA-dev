@@ -7,8 +7,9 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Template</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" media="screen" href="css/style.css">
+		<meta name="viewport" content="initial-scale=1"/>
+	<link rel="stylesheet" media="screen" href="<!--@path-css-->style.css">
+	<link rel="stylesheet" media="screen" href="<!--@path-css-->style-bem.css">
 	</head>
 	<body>
 		<!--<div class="background"></div>-->
@@ -16,35 +17,16 @@
 		<div class="top houses">
 
 		<!--@import "../header/header.kit"-->
-		<!--@import "../superslider/superslider.kit"-->
-
+		<div class="top__in">
+	<!--@import "../superslider/superslider.kit"-->
+	<!--@import "../logoslider/logoslider.kit"-->
+	</div>
 
 		</div>
 		<!-- end top -->
 
-
 	<!-- begin page  -->
 	<div class="page houses">
-		<!-- begin logoslider  -->
-		<div class="logoslider ">
-			<div class="logoslider__in ">
-				<div class="logoslider__slides cycle-slideshow"
-				data-cycle-fx="carousel"
-				data-cycle-prev=".logoslider__prev"
-				data-cycle-next=".logoslider__next">
-				<img src="img/logo1.png" alt="">
-				<img src="img/logo2.png" alt="">
-				<img src="img/logo3.png" alt="">
-				<img src="img/logo4.png" alt="">
-				<img src="img/logo5.png" alt="">
-				<img src="img/logo6.png" alt="">
-				<img src="img/logo7.png" alt="">
-			</div>
-			<div class="logoslider__next"></div>
-			<div class="logoslider__prev"></div>
-		</div>
-	</div>
-	<!-- end logoslider -->
 	<div class="house__in">
 		<div class="house__in__wrap">
 			<div class="house__expander__in expandable__in">
