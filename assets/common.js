@@ -3,6 +3,7 @@
 // @codekit-append "signin-form/signin-form.js"
 // @codekit-append "best-offers/best-offers.js"
 // @codekit-append "popup/popup.js"
+// @codekit-append "entry/entry.js"
 
 head.ready(function () {
 	$(window).scroll(function () {
