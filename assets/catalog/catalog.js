@@ -1,6 +1,6 @@
 $(document).ready(function () {
 	// Выделение элемента в каталоге при нажатии
-	$('.wine .wine__check__area').click(function () {
+	$('.wine .wine__check__area').on('click', function() {
 		$(this).parents('.wine').toggleClass('is-selected');
 	});
 

@@ -1,30 +1,41 @@
-/*Оверлей ПопАпа и события на кнопки*/
-$('.popup__content').click(function (e) {
-	e.stopPropagation();
-});
-var sbula = $(".popup label");
-sbula.click(function () {
-	sbula.removeClass("active").not(sbula).add(this).addClass("active");
-});
-$('.popup__content__yes label').click(function () {
-	$('.popup').fadeOut(1000);
-	$('.blur').addClass('blur_-allow');
-	$('.popup__content').fadeOut(1000);
-});
+  $('#yes').on('click', function() {
+    $.cookie('CLickYesClass', 'click_yes');
+  });
 
-$('.popup__content__no #no').on('click', function() {
-	window.location = $(this).val();
-});
-/*/Оверлей ПопАпа и события на кнопки*/
+  $(document).ready(function() {
+
+    // Нажатие на кнопку нет
+    $('.popup__content__no #no').on('click', function() {
+      window.location = $(this).val();
+    });
+
+    // Для начала вытащим popup
+    $('body > .blur').addClass('blur_-disallow');
+    $('#popup').css('display', 'block');
+
+    // Не показывать попап если пользователь нажал на кнопку ДА
+    if ($.cookie('CLickYesClass') === 'click_yes') {
+      $('#popup').css('display', 'none');
+      $('#popup').siblings('body > .blur').addClass('blur_-allow');
+      $('#popup').siblings('body > .blur').removeClass('blur_-disallow');
+    }
+    else {
+
+      /*Оверлей ПопАпа и события на кнопки*/
+      $('.popup__content').click(function (e) {
+        e.stopPropagation();
+      });
+      var sbula = $(".popup label");
+      sbula.click(function () {
+        sbula.removeClass("active").not(sbula).add(this).addClass("active");
+      });
+      $('.popup__content__yes label').click(function () {
+        $('.popup').fadeOut(1000);
+        $('.blur').addClass('blur_-allow');
+        $('.popup__content').fadeOut(1000);
+      });
 
 
-// Не показывать попап если пользователь нажал на кнопку ДА
-	$('#yes').on('click', function() {
-	$.cookie('CLickYesClass', 'click_yes');
-	});
-
-	$(document).ready(function() {
-		if ($.cookie('CLickYesClass') === 'click_yes') {
-			$('#popup').css('display', 'none');
-		}
-	});
+      /*/Оверлей ПопАпа и события на кнопки*/
+    }
+  });

@@ -3,6 +3,8 @@
 // @codekit-append "signin-form/signin-form.js"
 // @codekit-append "fancybox/fancybox.js"
 // @codekit-append "best-offers/best-offers.js"
+// @codekit-append "popup/popup.js"
+// @codekit-append "entry/entry.js"
 
 	$(window).scroll(function () {
 		t = $(this).scrollTop();

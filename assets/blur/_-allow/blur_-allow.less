@@ -1,7 +1,10 @@
 .blur {
-	&.blur_-allow {
-		overflow: auto;
-		filter: none;
-		height: auto;
-	}
+  &.blur_-allow {
+    overflow: auto;
+    filter: none !important;
+    height: auto;
+  }
+  &.blur_-disallow {
+    filter: blur(10px);
+  }
 }
