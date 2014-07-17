@@ -8,23 +8,9 @@
 	height: 66px;
 	background: #FFF;
 	z-index: 5000;
-  &.is-shadow {
-    .header__in {
-      &:before {
-        content: '';
-        display: block;
-        position: absolute;
-        width: 100000px;
-        height: 100000px;
-        left: -10000px;
-        top: -10000px;
-        background: rgba(0,0,0, .5);
-        z-index: 10;
-      }
-      li {
-        position: relative;
-        z-index: 20;
-      }
-    }
+  @import 'is-shadow/is-shadow';
+  li {
+    position: relative;
+    z-index: 20;
   }
 }
