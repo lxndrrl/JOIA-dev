@@ -7,7 +7,7 @@
 
                         <ul class="search__options">
                             {{for country}}
-                            <li><label for="{{:id}}"><input type="radio" name="country" id="{{:id}}">{{:name}}</label></li>
+                            <li><label for="{{:id}}"><input type="checkbox" name="country" id="{{:id}}">{{:name}}</label></li>
                             {{/for}}
                         </ul>
                         <a class="search__showall" href='#'>показать все</a>
@@ -20,7 +20,7 @@
 
                         <ul class="search__options">
                             {{for region}}
-                            <li><label for="{{:id}}"><input type="radio" name="region" id="{{:id}}">{{:name}}</label></li>
+                            <li><label for="{{:id}}"><input type="checkbox" name="region" id="{{:id}}">{{:name}}</label></li>
                             {{/for}}
 
                         </ul>
@@ -34,7 +34,7 @@
 
                         <ul class="search__categ">
                             {{for category}}
-                            <li><label for="{{:id}}"><i class="{{:icon_class}}"></i><input type="radio" name="category" id="{{:id}}"><span>{{:name}}</span></label></li>
+                            <li><label for="{{:id}}"><i class="{{:icon_class}}"></i><input type="checkbox" name="category" id="{{:id}}"><span>{{:name}}</span></label></li>
                             {{/for}}
 
                         </ul>
@@ -48,7 +48,7 @@
 
                         <ul class="search__options">
                             {{for produce}}
-                            <li><label for="{{:id}}"><input type="radio" name="produce" id="{{:id}}">{{:name}}</label></li>
+                            <li><label for="{{:id}}"><input type="checkbox" name="produce" id="{{:id}}">{{:name}}</label></li>
                             {{/for}}
 
                         </ul>
