@@ -7,9 +7,25 @@
 	top: 0;
 	left: 0;
 	right: 0;
-	height: 66px;
 	background: #FFF;
 	z-index: 5000;
-  @import '__nav/header__nav';
-  @import '__right/header__right';
+  &.is-shadow {
+    .header__in {
+      &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 100000px;
+        height: 100000px;
+        left: -10000px;
+        top: -10000px;
+        background: rgba(0,0,0, .5);
+        z-index: 10;
+      }
+      li {
+        position: relative;
+        z-index: 20;
+      }
+    }
+  }
 }

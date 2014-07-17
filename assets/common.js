@@ -5,6 +5,7 @@
 // @codekit-append "best-offers/best-offers.js"
 // @codekit-append "popup/popup.js"
 // @codekit-append "entry/entry.js"
+// @codekit-append "open-filter/open-filter.js"
 
 	$(window).scroll(function () {
 		t = $(this).scrollTop();
