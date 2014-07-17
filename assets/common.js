@@ -4,6 +4,7 @@
 // @codekit-append "best-offers/best-offers.js"
 // @codekit-append "popup/popup.js"
 // @codekit-append "entry/entry.js"
+// @codekit-append "open-filter/open-filter.js"
 
 head.ready(function () {
 	$(window).scroll(function () {
