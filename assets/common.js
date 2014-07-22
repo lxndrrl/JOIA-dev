@@ -6,6 +6,7 @@
 // @codekit-append "entry/entry.js"
 // @codekit-append "open-filter/open-filter.js"
 // @codekit-append "is-radio/is-radio.js"
+// @codekit-append "is-checkbox/is-checkbox.js"
 
 head.ready(function () {
 	$(window).scroll(function () {

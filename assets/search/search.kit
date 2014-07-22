@@ -38,7 +38,15 @@
 
                         <ul class="search__categ">
                             {{for category}}
-                            <li><label for="{{:id}}"><i class="{{:icon_class}}"></i><input type="radio" name="category" id="{{:id}}"><span>{{:name}}</span></label></li>
+                            <li>
+                            <label for="{{:id}}">
+                            <a href="javascript:void(0)" class="is-checkbox">
+                                <i class="{{:icon_class}}"></i>
+                                <!-- <input type="radio" name="category" id="{{:id}}"> -->
+                                <span>{{:name}}</span>
+                            </a>
+                            </label>
+                            </li>
                             {{/for}}
 
                         </ul>
