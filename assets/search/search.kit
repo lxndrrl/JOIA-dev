@@ -7,7 +7,9 @@
 
                         <ul class="search__options">
                             {{for country}}
-                            <li><label for="{{:id}}"><input type="checkbox" name="country" id="{{:id}}">{{:name}}</label></li>
+                            <li><label for="{{:id}}">
+                            <!-- <input type="radio" name="country" id="{{:id}}"> -->
+                            <a class="is-radio" href="javascript:void(0)"><span>{{:name}}</span></a></label></li>
                             {{/for}}
                         </ul>
                         <a class="search__showall" href='#'>показать все</a>
@@ -20,7 +22,9 @@
 
                         <ul class="search__options">
                             {{for region}}
-                            <li><label for="{{:id}}"><input type="checkbox" name="region" id="{{:id}}">{{:name}}</label></li>
+                            <li><label for="{{:id}}">
+                            <!-- <input type="radio" name="region" id="{{:id}}"> -->
+                            <a class="is-radio" href="javascript:void(0)"><span>{{:name}}</span></a></label></li>
                             {{/for}}
 
                         </ul>
@@ -48,7 +52,9 @@
 
                         <ul class="search__options">
                             {{for produce}}
-                            <li><label for="{{:id}}"><input type="checkbox" name="produce" id="{{:id}}">{{:name}}</label></li>
+                            <li><label for="{{:id}}">
+                            <!-- <input type="radio" name="produce" id="{{:id}}"> -->
+                            <a class="is-radio" href="javascript:void(0)"><span>{{:name}}</span></a></label></li>
                             {{/for}}
 
                         </ul>
@@ -62,7 +68,9 @@
 
                         <ul class="search__options">
                             {{for price}}
-                            <li><label for="{{:id}}"><input type="radio" name="price" id="{{:id}}">{{:from}}-{{:to}}</label></li>
+                            <li><label for="{{:id}}">
+                            <!-- <input type="radio" name="price" id="{{:id}}"> -->
+                            <a class="is-radio" href="javascript:void(0)"><span>{{:from}}-{{:to}}</span></a></label></li>
                             {{/for}}
 
                         </ul>

@@ -5,6 +5,7 @@
 // @codekit-append "best-offers/best-offers.js"
 // @codekit-append "entry/entry.js"
 // @codekit-append "open-filter/open-filter.js"
+// @codekit-append "is-radio/is-radio.js"
 
 	$(window).scroll(function () {
 		t = $(this).scrollTop();
