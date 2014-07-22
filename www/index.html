@@ -44,7 +44,9 @@
 
                         <ul class="search__options">
                             {{for country}}
-                            <li><label for="{{:id}}"><input type="radio" name="country" id="{{:id}}">{{:name}}</label></li>
+                            <li><label for="{{:id}}">
+                            <!-- <input type="radio" name="country" id="{{:id}}"> -->
+                            <a class="is-radio" href="javascript:void(0)"><span>{{:name}}</span></a></label></li>
                             {{/for}}
                         </ul>
                         <a class="search__showall" href='#'>показать все</a>
@@ -57,7 +59,9 @@
 
                         <ul class="search__options">
                             {{for region}}
-                            <li><label for="{{:id}}"><input type="radio" name="region" id="{{:id}}">{{:name}}</label></li>
+                            <li><label for="{{:id}}">
+                            <!-- <input type="radio" name="region" id="{{:id}}"> -->
+                            <a class="is-radio" href="javascript:void(0)"><span>{{:name}}</span></a></label></li>
                             {{/for}}
 
                         </ul>
@@ -85,7 +89,9 @@
 
                         <ul class="search__options">
                             {{for produce}}
-                            <li><label for="{{:id}}"><input type="radio" name="produce" id="{{:id}}">{{:name}}</label></li>
+                            <li><label for="{{:id}}">
+                            <!-- <input type="radio" name="produce" id="{{:id}}"> -->
+                            <a class="is-radio" href="javascript:void(0)"><span>{{:name}}</span></a></label></li>
                             {{/for}}
 
                         </ul>
@@ -99,7 +105,9 @@
 
                         <ul class="search__options">
                             {{for price}}
-                            <li><label for="{{:id}}"><input type="radio" name="price" id="{{:id}}">{{:from}}-{{:to}}</label></li>
+                            <li><label for="{{:id}}">
+                            <!-- <input type="radio" name="price" id="{{:id}}"> -->
+                            <a class="is-radio" href="javascript:void(0)"><span>{{:from}}-{{:to}}</span></a></label></li>
                             {{/for}}
 
                         </ul>
@@ -244,13 +252,12 @@
 					<h3 class="search__title">Страна</h3>
 
 					<ul class="search__options">
-						<li><label for="#"><input type="radio" name="" id=""><span>Италия</span></label></li>
-						<li><label for="#"><input type="radio" name="" id=""><span>Франция</span></label></li>
-						<li><label for="#"><input type="radio" name="" id=""><span>Испания</span></label></li>
-						<li><label for="#"><input type="radio" name="" id=""><span>Чили</span></label></li>
-						<li class="is-hidden"><label for="#"><input type="radio" name=""
-																	id=""><span>Испания</span></label></li>
-						<li class="is-hidden"><label for="#"><input type="radio" name="" id=""><span>Чили</span></label>
+						<li><a class="is-radio" href="javascript:void(0)"><span>Италия</span></a></li>
+						<li><a class="is-radio" href="javascript:void(0)"><span>Франция</span></a></li>
+						<li><a class="is-radio" href="javascript:void(0)"><span>Испания</span></a></li>
+						<li><a class="is-radio" href="javascript:void(0)"><span>Чили</span></a></li>
+						<li class="is-hidden"><a class="is-radio" href="javascript:void(0)"><span>Испания</span></a></li>
+						<li class="is-hidden"><a class="is-radio" href="javascript:void(0)"><span>Чили</span></a></label>
 						</li>
 					</ul>
 					<a class="search__showall" href='#'>показать все</a>
@@ -262,13 +269,12 @@
 					<h3 class="search__title">Регион</h3>
 
 					<ul class="search__options">
-						<li><label for="#"><input type="radio" name="" id=""><span>Бордо</span></label></li>
-						<li><label for="#"><input type="radio" name="" id=""><span>Долина бла</span></label></li>
-						<li><label for="#"><input type="radio" name="" id=""><span>Долина бле</span></label></li>
-						<li><label for="#"><input type="radio" name="" id=""><span>Долина блю</span></label></li>
-						<li class="is-hidden"><label for="#"><input type="radio" name=""
-																	id=""><span>Испания</span></label></li>
-						<li class="is-hidden"><label for="#"><input type="radio" name="" id=""><span>Чили</span></label>
+						<li><a class="is-radio" href="javascript:void(0)"><span>Бордо</span></a></li>
+						<li><a class="is-radio" href="javascript:void(0)"><span>Долина бла</span></a></li>
+						<li><a class="is-radio" href="javascript:void(0)"><span>Долина бле</span></a></li>
+						<li><a class="is-radio" href="javascript:void(0)"><span>Долина блю</span></a></li>
+						<li class="is-hidden"><a class="is-radio" href="javascript:void(0)"><span>Испания</span></a></li>
+						<li class="is-hidden"><a class="is-radio" href="javascript:void(0)"><span>Чили</span></a></label>
 						</li>
 					</ul>
 					<a class="search__showall" href='#'>показать все</a>
@@ -310,15 +316,12 @@
 					<h3 class="search__title">Производитель</h3>
 
 					<ul class="search__options">
-						<li><label for="#"><input type="radio" name="" id=""><span>Люсьен</span></label></li>
-						<li><label for="#"><input type="radio" name="" id=""><span>Лосьон</span></label></li>
-						<li><label for="#"><input type="radio" name="" id=""><span>Большая Арнаутская</span></label>
-						</li>
-						<li><label for="#"><input type="radio" name="" id=""><span>Парень из соседнего парадного</span></label>
-						</li>
-						<li class="is-hidden"><label for="#"><input type="radio" name=""
-																	id=""><span>Испания</span></label></li>
-						<li class="is-hidden"><label for="#"><input type="radio" name="" id=""><span>Чили</span></label>
+						<li><a class="is-radio" href="javascript:void(0)"><span>Люсьен</span></a></li>
+						<li><a class="is-radio" href="javascript:void(0)"><span>Лосьон</span></a></li>
+						<li><a class="is-radio" href="javascript:void(0)"><span>Большая Арнаутская</span></a></li>
+						<li><a class="is-radio" href="javascript:void(0)"><span>Парень из соседнего парадного</span></a></li>
+						<li class="is-hidden"><a class="is-radio" href="javascript:void(0)"><span>Испания</span></a></li>
+						<li class="is-hidden"><a class="is-radio" href="javascript:void(0)"><span>Чили</span></a></label>
 						</li>
 					</ul>
 					<a class="search__showall" href='#'>показать все</a>
@@ -330,8 +333,8 @@
 					<h3 class="search__title">Цена</h3>
 
 					<ul class="search__options">
-						<li><label for="#"><input type="radio" name="" id="">0 - 550</label></li>
-						<li><label for="#"><input type="radio" name="" id="">551 - 1000</label></li>
+						<li><a class="is-radio" href="javascript:void(0)"><span>0 - 550</span></a></li>
+						<li><a class="is-radio" href="javascript:void(0)"><span>551 - 1000</span></a></li>
 					</ul>
 					<a class="search__showall" href='#'>показать все</a>
 				</div>

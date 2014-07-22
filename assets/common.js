@@ -5,6 +5,7 @@
 // @codekit-append "popup/popup.js"
 // @codekit-append "entry/entry.js"
 // @codekit-append "open-filter/open-filter.js"
+// @codekit-append "is-radio/is-radio.js"
 
 head.ready(function () {
 	$(window).scroll(function () {
