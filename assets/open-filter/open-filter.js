@@ -6,7 +6,7 @@ $(document).ready(function() {
     $(this).fadeOut('400');
     $('body').addClass('is-filter');
     $('.top .search').fadeIn(400);
-    $('.header').append('<span class="is-shadow"></span>');
+    // $('.header').append('<span class="is-shadow"></span>');
 
     // $('span.is-shadow').on('click', function() {
     //   $('.open-filter__link').fadeIn(400);
