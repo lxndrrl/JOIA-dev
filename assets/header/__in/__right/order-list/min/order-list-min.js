@@ -1,0 +1,1 @@
+$(document).ready(function(){$("div.order-list").on("click",function(){$(".choosed_list_container").fadeToggle("400")})});
