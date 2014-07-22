@@ -44,9 +44,9 @@
 
                         <ul class="search__options">
                             {{for country}}
-                            <li><label for="{{:id}}">
+                            <li><div>
                             <!-- <input type="radio" name="country" id="{{:id}}"> -->
-                            <a class="is-checkbox" href="javascript:void(0)"><span>{{:name}}</span></a></label></li>
+                            <a class="is-checkbox" href="javascript:void(0)"><span>{{:name}}</span></a></div></li>
                             {{/for}}
                         </ul>
                         <a class="search__showall" href='#'>показать все</a>
@@ -59,9 +59,9 @@
 
                         <ul class="search__options">
                             {{for region}}
-                            <li><label for="{{:id}}">
+                            <li><div>
                             <!-- <input type="radio" name="region" id="{{:id}}"> -->
-                            <a class="is-checkbox" href="javascript:void(0)"><span>{{:name}}</span></a></label></li>
+                            <a class="is-checkbox" href="javascript:void(0)"><span>{{:name}}</span></a></div></li>
                             {{/for}}
 
                         </ul>
@@ -76,13 +76,13 @@
                         <ul class="search__categ">
                             {{for category}}
                             <li>
-                            <label for="{{:id}}">
+                            <div>
                             <a href="javascript:void(0)" class="is-checkbox">
                                 <i class="{{:icon_class}}"></i>
                                 <!-- <input type="radio" name="category" id="{{:id}}"> -->
                                 <span>{{:name}}</span>
                             </a>
-                            </label>
+                            </div>
                             </li>
                             {{/for}}
 
@@ -97,9 +97,9 @@
 
                         <ul class="search__options">
                             {{for produce}}
-                            <li><label for="{{:id}}">
+                            <li><div>
                             <!-- <input type="radio" name="produce" id="{{:id}}"> -->
-                            <a class="is-checkbox" href="javascript:void(0)"><span>{{:name}}</span></a></label></li>
+                            <a class="is-checkbox" href="javascript:void(0)"><span>{{:name}}</span></a></div></li>
                             {{/for}}
 
                         </ul>
@@ -113,9 +113,9 @@
 
                         <ul class="search__options">
                             {{for price}}
-                            <li><label for="{{:id}}">
+                            <li><div>
                             <!-- <input type="radio" name="price" id="{{:id}}"> -->
-                            <a class="is-radio" href="javascript:void(0)"><span>{{:from}}-{{:to}}</span></a></label></li>
+                            <a class="is-radio" href="javascript:void(0)"><span>{{:from}}-{{:to}}</span></a></div></li>
                             {{/for}}
 
                         </ul>
@@ -265,7 +265,7 @@
 						<li><a class="is-checkbox" href="javascript:void(0)"><span>Испания</span></a></li>
 						<li><a class="is-checkbox" href="javascript:void(0)"><span>Чили</span></a></li>
 						<li class="is-hidden"><a class="is-checkbox" href="javascript:void(0)"><span>Испания</span></a></li>
-						<li class="is-hidden"><a class="is-checkbox" href="javascript:void(0)"><span>Чили</span></a></label>
+						<li class="is-hidden"><a class="is-checkbox" href="javascript:void(0)"><span>Чили</span></a>
 						</li>
 					</ul>
 					<a class="search__showall" href='#'>показать все</a>
@@ -282,7 +282,7 @@
 						<li><a class="is-checkbox" href="javascript:void(0)"><span>Долина бле</span></a></li>
 						<li><a class="is-checkbox" href="javascript:void(0)"><span>Долина блю</span></a></li>
 						<li class="is-hidden"><a class="is-checkbox" href="javascript:void(0)"><span>Испания</span></a></li>
-						<li class="is-hidden"><a class="is-checkbox" href="javascript:void(0)"><span>Чили</span></a></label>
+						<li class="is-hidden"><a class="is-checkbox" href="javascript:void(0)"><span>Чили</span></a>
 						</li>
 					</ul>
 					<a class="search__showall" href='#'>показать все</a>
@@ -301,49 +301,49 @@
 								 data-cycle-prev=".catslider__prev"
 								 data-cycle-next=".catslider__next">
 								<div>
-									<label for="#" class="cat_item">
+									<div class="cat_item">
 										<a class="is-checkbox" href="javascript:void(0)">
 											<i class="search__categicon1"></i>
 											<!-- <input type="radio" name="" id=""> -->
 											<span>белые</span>
 										</a>
-									</label>
+									</div>
 								</div>
 								<div>
-									<label for="#" class="cat_item">
+									<div class="cat_item">
 										<a href="javascript:void(0)" class="is-checkbox">
 											<i class="search__categicon2"></i>
 											<!-- <input type="radio" name="" id=""> -->
 											<span>красные</span>
 										</a>
-									</label>
+									</div>
 								</div>
 								<div>
-									<label for="#" class="cat_item">
+									<div class="cat_item">
 										<a href="javascript:void(0)" class="is-checkbox">
 											<i class="search__categicon3"></i>
 											<!-- <input type="radio" name="" id=""> -->
 											<span>розовые</span>
 										</a>
-									</label>
+									</div>
 								</div>
 								<div>
-									<label for="#" class="cat_item">
+									<div class="cat_item">
 										<a href="javascript:void(0)" class="is-checkbox">
 											<i class="search__categicon4"></i>
 											<!-- <input type="radio" name="" id=""> -->
 											<span>игристые</span>
 										</a>
-									</label>
+									</div>
 								</div>
 								<div>
-									<label for="#" class="cat_item">
+									<div class="cat_item">
 										<a href="javascript:void(0)" class="is-checkbox">
 											<i class="search__categicon1"></i>
 											<!-- <input type="radio" name="" id=""> -->
 											<span>Игристые</span>
 										</a>
-									</label>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -364,7 +364,7 @@
 						<li><a class="is-checkbox" href="javascript:void(0)"><span>Большая Арнаутская</span></a></li>
 						<li><a class="is-checkbox" href="javascript:void(0)"><span>Парень из соседнего парадного</span></a></li>
 						<li class="is-hidden"><a class="is-checkbox" href="javascript:void(0)"><span>Испания</span></a></li>
-						<li class="is-hidden"><a class="is-checkbox" href="javascript:void(0)"><span>Чили</span></a></label>
+						<li class="is-hidden"><a class="is-checkbox" href="javascript:void(0)"><span>Чили</span></a>
 						</li>
 					</ul>
 					<a class="search__showall" href='#'>показать все</a>

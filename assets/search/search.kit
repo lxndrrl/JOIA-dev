@@ -7,9 +7,9 @@
 
                         <ul class="search__options">
                             {{for country}}
-                            <li><label for="{{:id}}">
+                            <li><div>
                             <!-- <input type="radio" name="country" id="{{:id}}"> -->
-                            <a class="is-checkbox" href="javascript:void(0)"><span>{{:name}}</span></a></label></li>
+                            <a class="is-checkbox" href="javascript:void(0)"><span>{{:name}}</span></a></div></li>
                             {{/for}}
                         </ul>
                         <a class="search__showall" href='#'>показать все</a>
@@ -22,9 +22,9 @@
 
                         <ul class="search__options">
                             {{for region}}
-                            <li><label for="{{:id}}">
+                            <li><div>
                             <!-- <input type="radio" name="region" id="{{:id}}"> -->
-                            <a class="is-checkbox" href="javascript:void(0)"><span>{{:name}}</span></a></label></li>
+                            <a class="is-checkbox" href="javascript:void(0)"><span>{{:name}}</span></a></div></li>
                             {{/for}}
 
                         </ul>
@@ -39,13 +39,13 @@
                         <ul class="search__categ">
                             {{for category}}
                             <li>
-                            <label for="{{:id}}">
+                            <div>
                             <a href="javascript:void(0)" class="is-checkbox">
                                 <i class="{{:icon_class}}"></i>
                                 <!-- <input type="radio" name="category" id="{{:id}}"> -->
                                 <span>{{:name}}</span>
                             </a>
-                            </label>
+                            </div>
                             </li>
                             {{/for}}
 
@@ -60,9 +60,9 @@
 
                         <ul class="search__options">
                             {{for produce}}
-                            <li><label for="{{:id}}">
+                            <li><div>
                             <!-- <input type="radio" name="produce" id="{{:id}}"> -->
-                            <a class="is-checkbox" href="javascript:void(0)"><span>{{:name}}</span></a></label></li>
+                            <a class="is-checkbox" href="javascript:void(0)"><span>{{:name}}</span></a></div></li>
                             {{/for}}
 
                         </ul>
@@ -76,9 +76,9 @@
 
                         <ul class="search__options">
                             {{for price}}
-                            <li><label for="{{:id}}">
+                            <li><div>
                             <!-- <input type="radio" name="price" id="{{:id}}"> -->
-                            <a class="is-radio" href="javascript:void(0)"><span>{{:from}}-{{:to}}</span></a></label></li>
+                            <a class="is-radio" href="javascript:void(0)"><span>{{:from}}-{{:to}}</span></a></div></li>
                             {{/for}}
 
                         </ul>
