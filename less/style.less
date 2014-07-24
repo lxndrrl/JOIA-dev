@@ -1,7 +1,6 @@
 @import "screen";
 @import "vars";
 
-
 #o_proekte-page, .b-catalog {
 	@import 'akrom';
 }
@@ -10,10 +9,8 @@
 	@import "house";
 }
 
-
 @import "contacts";
 @import "wlabel";
-
 
 /*common*/
 .clearfix {
@@ -273,7 +270,7 @@
 				height: 88px;
 				.search__switcher1,
 				.search__switcher2 {
-					font-family: 'MyriadPro-Light',Sans-Serif;
+					font-family: 'MyriadPro-Light', Sans-Serif;
 					font-size: 22px;
 					position: static;
 					float: none;
@@ -500,8 +497,9 @@
 		width: 361px;
 	}
 }
-
 /*/footer*/
+
+@import "../assets/style-bem";
 
 @media only screen and (max-width: 1870px) {
 	.superslider {
@@ -521,7 +519,7 @@
 	.is-filter {
 		.superslider {
 			.superslider__next {
-				margin-right: -400px-15px ;
+				margin-right: -400 px-15px;
 			}
 			.superslider__playpause {
 				margin-right: -420-15px;
@@ -531,6 +529,7 @@
 			}
 		}
 	}
+
 	.superslider {
 		.superslider__next {
 			right: 50%;
@@ -561,17 +560,16 @@
 		}
 	}
 
-/*	.b {
-		.entries {
-			.entry {
-				width: 32.5%;
-				&.entry_big {
-					width: 63%;
+	/*	.b {
+			.entries {
+				.entry {
+					width: 32.5%;
+					&.entry_big {
+						width: 63%;
+					}
 				}
 			}
-		}
-	}*/
-
+		}*/
 	.pr0 {
 		width: 100%;
 		padding: 0 30px;
@@ -675,16 +673,16 @@
 		margin: 12px 0 14px;
 	}
 
-/*	.b {
-		.entries {
-			.entry {
-				width: 48%;
-				&.entry_big {
-					width: 100%;
+	/*	.b {
+			.entries {
+				.entry {
+					width: 48%;
+					&.entry_big {
+						width: 100%;
+					}
 				}
 			}
-		}
-	}*/
+		}*/
 	.offers {
 		padding: 0;
 		margin: 0;
@@ -805,6 +803,7 @@
 @media only screen and (max-width: 900px) {
 	.mixin-layout-narrow();
 }
+
 @media only screen and (max-width: 840px) {
 	.superslider {
 		.superslider__next,
@@ -824,6 +823,7 @@
 		}
 	}
 }
+
 @media only screen and (max-width: 600px) {
 	.header {
 		.header__in {
@@ -847,8 +847,7 @@
 	.superslider {
 		.superslider__next,
 		.superslider__prev,
-		.superslider__text
-		{
+		.superslider__text {
 			display: none;
 		}
 		.superslider__playpause {
@@ -894,6 +893,7 @@
 			}
 		}
 	}
+
 	.superslider {
 		.superslider__playpause,
 		.superslider__pagi,
@@ -901,6 +901,7 @@
 			display: none;
 		}
 	}
+
 	.offers {
 		.offer {
 			.offer__img {
@@ -916,7 +917,5 @@
 }
 
 .home-logos__list {
-  margin-top: 56px;
+	margin-top: 56px;
 }
-
-@import "../assets/style-bem";
