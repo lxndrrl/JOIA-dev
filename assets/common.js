@@ -7,7 +7,8 @@
 // @codekit-append "open-filter/open-filter.js"
 // @codekit-append "is-radio/is-radio.js"
 // @codekit-append "is-checkbox/is-checkbox.js"
-// @codekit-append "map/map.js"
+// @codekit-append "baners/baners.js"
+// @codekit-append "eventslider/item/item.js"
 
 	$(window).scroll(function () {
 		t = $(this).scrollTop();
