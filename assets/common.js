@@ -9,6 +9,7 @@
 // @codekit-append "is-checkbox/is-checkbox.js"
 // @codekit-append "baners/baners.js"
 // @codekit-append "eventslider/item/item.js"
+// @codekit-append "house/house.js"
 
 	$(window).scroll(function () {
 		t = $(this).scrollTop();

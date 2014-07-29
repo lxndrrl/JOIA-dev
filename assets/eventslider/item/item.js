@@ -1,5 +1,6 @@
 $(document).ready(function() {
   $(".fancybox").fancybox({
+    closeBtn  : false,
     width : 560,
     helpers : {
       overlay : {
