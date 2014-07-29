@@ -1,7 +1,7 @@
 // Настройки hover интерактивной карты
 
 $(function () {
-    $('.mapHiLight').maphilight({ stroke: false, fillColor: 'f29500', fillOpacity: 1 });
+    $('.mapHiLight').maphilight({ strokeColor: 'f5dfb5', fillColor: 'f29500', fillOpacity: 1 });
 });
 
 // Плавная прокрутка при клике на ссылку
@@ -13,4 +13,5 @@ $(document).ready(function() {
         jQuery("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 800);
         return false;
     });
+    $('.top').css('min-height', '950px');
 });
