@@ -10,6 +10,7 @@
 // @codekit-append "baners/baners.js"
 // @codekit-append "eventslider/item/item.js"
 // @codekit-append "house/house.js"
+// @codekit-append "map/map.js"
 
 	$(window).scroll(function () {
 		t = $(this).scrollTop();
