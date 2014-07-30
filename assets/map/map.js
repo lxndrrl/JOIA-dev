@@ -13,5 +13,7 @@ $(document).ready(function() {
         jQuery("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 800);
         return false;
     });
-    $('.top').css('min-height', '950px');
+    if ($(".map").length) {
+      $('.top').css('min-height', '950px');
+    };
 });
