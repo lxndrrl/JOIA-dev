@@ -1,24 +1,24 @@
 <!--@import "../=kit=vars/vars.kit"-->
-<!doctype html>
-<!--[if lte IE 8]>
-<html class="lteie8"><![endif]-->
-<!--[if gt IE 8]><!-->
-<html><!--<![endif]-->
-<head>
-	<meta charset="utf-8">
-	<title>Template</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" media="screen" href="<!--@path-css-->style-bem.css">
-	<link rel="stylesheet" media="screen" href="<!--@path-css-->style.css">
-</head>
-<body>
-<!--<div class="background"></div>-->
+<!--@import "../=kit=pages-begin-end/page-b-catalog-begin.kit"-->
+
 <!-- begin top  -->
 <div class="top houses">
+	<!--@import "../header/header.kit"-->
+	<div class="top__in">
+		<!--@import "../superslider/superslider.kit"-->
+		<div class="page pr0">
+			<!--@import "../logoslider/logoslider.kit"-->
+		</div>
+	</div>
+</div>
+<!-- end top -->
 
-<!--@import "../header/header.kit"-->
-<div class="top__in">
-	<!--@import "../superslider/superslider.kit"-->
+<!-- begin page  -->
+<div class="page houses">
+
+	<!--@import "../header/header.kit"-->
+	<div class="top__in">
+		<!--@import "../superslider/superslider.kit"-->
 		<div class="page pr0">
 			<!--@import "../logoslider/logoslider.kit"-->
 		</div>
@@ -27,144 +27,10 @@
 <!-- end top -->
 <!-- begin page  -->
 <div class="page houses">
-	<ul class="home-logos__list">
-		<li class="home-logo__list__item">
-			<img src="img/dom-a-logos/o_dome-a_-_logos-01.jpg">
-		</li>
-		<li class="home-logo__list__item">
-			<img src="img/dom-a-logos/o_dome-a_-_logos-02.jpg">
-		</li>
-		<li class="home-logo__list__item">
-			<img src="img/dom-a-logos/o_dome-a_-_logos-03.jpg">
-		</li>
-		<li class="home-logo__list__item">
-			<img src="img/dom-a-logos/o_dome-a_-_logos-04.jpg">
-		</li>
-		<li class="home-logo__list__item">
-			<img src="img/dom-a-logos/o_dome-a_-_logos-05.jpg">
-		</li>
-		<li class="home-logo__list__item">
-			<img src="img/dom-a-logos/o_dome-a_-_logos-06.jpg">
-		</li>
-		<li class="home-logo__list__item">
-			<img src="img/dom-a-logos/o_dome-a_-_logos-07.jpg">
-		</li>
-		<li class="home-logo__list__item">
-			<img src="img/dom-a-logos/o_dome-a_-_logos-08.jpg">
-		</li>
-		<li class="home-logo__list__item">
-			<img src="img/dom-a-logos/o_dome-a_-_logos-09.jpg">
-		</li>
-		<li class="home-logo__list__item">
-			<img src="img/dom-a-logos/o_dome-a_-_logos-10.jpg">
-		</li>
-		<li class="home-logo__list__item">
-			<img src="img/dom-a-logos/o_dome-a_-_logos-11.jpg">
-		</li>
-		<li class="home-logo__list__item">
-			<a href="o_dome.html"><img src="img/dom-a-logos/o_dome-a_-_logos-12.jpg"></a>
-		</li>
-		<li class="home-logo__list__item">
-			<img src="img/dom-a-logos/o_dome-a_-_logos-13.jpg">
-		</li>
-		<li class="home-logo__list__item">
-			<img src="img/dom-a-logos/o_dome-a_-_logos-14.jpg">
-		</li>
-		<li class="home-logo__list__item">
-			<img src="img/dom-a-logos/o_dome-a_-_logos-15.jpg">
-		</li>
-		<li class="home-logo__list__item">
-			<img src="img/dom-a-logos/o_dome-a_-_logos-16.jpg">
-		</li>
-		<li class="home-logo__list__item">
-			<img src="img/dom-a-logos/o_dome-a_-_logos-17.jpg">
-		</li>
-		<li class="home-logo__list__item">
-			<img src="img/dom-a-logos/o_dome-a_-_logos-18.jpg">
-		</li>
-		<li class="home-logo__list__item">
-			<img src="img/dom-a-logos/o_dome-a_-_logos-19.jpg">
-		</li>
-		<li class="home-logo__list__item">
-			<img src="img/dom-a-logos/o_dome-a_-_logos-20.jpg">
-		</li>
-		<li class="home-logo__list__item">
-			<img src="img/dom-a-logos/o_dome-a_-_logos-21.jpg">
-		</li>
-		<li class="home-logo__list__item">
-			<img src="img/dom-a-logos/o_dome-a_-_logos-22.jpg">
-		</li>
-		<li class="home-logo__list__item">
-			<img src="img/dom-a-logos/o_dome-a_-_logos-23.jpg">
-		</li>
-		<li class="home-logo__list__item">
-			<img src="img/dom-a-logos/o_dome-a_-_logos-24.jpg">
-		</li>
-		<li class="home-logo__list__item">
-			<img src="img/dom-a-logos/o_dome-a_-_logos-25.jpg">
-		</li>
-		<li class="home-logo__list__item">
-			<img src="img/dom-a-logos/o_dome-a_-_logos-26.jpg">
-		</li>
-	</ul>
+	<!--@import "../home-logos/__list/home-logos__list.kit"-->
 </div>
 <!-- end page -->
 
-
-<!-- begin footer  -->
-<div class="footer">
-	<div class="footer__in">
-		<h3 class="footer__logo"><img src="img/footer.png" alt="История в бокале"></h3>
-
-		<div class="footer__nav">
-			<ul>
-				<li><a href="#">ГЛАВНАЯ</a></li>
-				<li><a href="#">О ПРОЕКТЕ</a></li>
-				<li><a href="#">КАТАЛОГ</a></li>
-				<li><a href="#">ПРОИЗВОДИТЕЛИ</a></li>
-			</ul>
-		</div>
-		<!-- end footer nav -->
-		<!-- begin footer__contacts  -->
-		<div class="footer__contacts">
-			<h4>КОНТАКТЫ</h4>
-
-			<p>Россия, 195248,<br>
-				Санкт-Петербург<br>
-				ул. Партизанская, 27<br>
-				тел.: +7 812 676 9800<br>
-				факс: +7 812 676 9801</p>
-		</div>
-		<!-- end footer__contacts -->
-		<div class="copyright">© 2014 - JOIA - All Rights Reserved</div>
-	</div>
-</div>
-<!-- end footer -->
-<!-- begin warning  -->
-<div class="warning">
-
-</div>
-<!-- end warning -->
-<script>
-	var head_conf = {
-		screens: [240, 320, 480, 640, 768, 800, 900, 1024, 1280, 1440, 1680, 1920],
-		screensCss: { "gt": true, "gte": false, "lt": true, "lte": false, "eq": false },
-		browsers: [
-			{ ie: { min: 6, max: 11 } }
-			//,{ chrome : { min: 8, max: 31 } }
-			//,{ ff     : { min: 3, max: 26 } }
-			//,{ ios    : { min: 3, max:  7 } }
-			//,{ android: { min: 2, max:  4 } }
-			//,{ webkit : { min: 9, max: 12 } }
-			//,{ opera  : { min: 9, max: 12 } }
-		],
-		browserCss: { "gt": true, "gte": false, "lt": true, "lte": false, "eq": true },
-		html5: true,
-		page: "-page",
-		section: "-section",
-		head: "head"
-	};
-</script>
-<script src="js/lib/head.js" data-headjs-load="js/init.js"></script>
-</body>
-</html>
+<!--@import "../footer/footer.kit"-->
+<!--@import "../warning/warning.kit"-->
+<!--@import "../=kit=pages-begin-end/page-end.kit"
