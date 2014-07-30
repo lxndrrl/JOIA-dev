@@ -16,14 +16,14 @@ $(document).ready(function () {
 	});
 
 	// Выпадающее полное описание вина в горизонтальном каталоге
-	$('.wine .wine__info').on('click', function () {
+	/*$('.wine .wine__info').on('click', function () {
 		$(this).siblings('.wine__full__info').slideToggle(400);
-	});
+	});*/ //Алексей попросил закомментить
 
 	// Увеличение блока в плиточном каталоге
-	$('.wine__square .wine__info').on('click', function () {
+	/*$('.wine__square .wine__info').on('click', function () {
 		$(this).parents('.wine').toggleClass('wine__square__big');
-	});
+	});*/ //Алексей попросил закомментить
 
 
 });
