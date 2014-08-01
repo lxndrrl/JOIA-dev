@@ -10,7 +10,7 @@ $(document).ready(function() {
       }
     }
   }); // fancybox
-  $('.fancy-close').on('click', function() {
+  $('.item__full').on('click', function() {
      $.fancybox.close();
   });
 });

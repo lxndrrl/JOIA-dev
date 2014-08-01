@@ -2,7 +2,7 @@ $(document).ready(function () {
 	$('.wine .wine__check__area').on('click', function() {
 
 		// Выделение элемента в каталоге при нажатии
-		/*$(this).parents('.wine').toggleClass('is-selected');*/ //Алексей попросил закомментить
+		$(this).parents('.wine').toggleClass('is-selected'); //Алексей попросил закомментить
 
 		// Появление списка при выборе хотя бы одного вина
 		if ($('.wine').hasClass('is-selected')) {
