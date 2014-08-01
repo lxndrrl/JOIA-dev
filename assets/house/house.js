@@ -17,7 +17,7 @@ $(document).ready(function() {
 
 
 $("a.house__slider__bottles__link").click(function () {
-  var elementClick = $(this).attr("href")
+  var elementClick = $(this).attr("href");
   var destination = $(elementClick).offset().top - 70;
   jQuery("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 800);
   return false;
