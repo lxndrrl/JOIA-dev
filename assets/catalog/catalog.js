@@ -16,9 +16,9 @@ $(document).ready(function () {
 	});
 
 	// Выпадающее полное описание вина в горизонтальном каталоге
-	$('.wine .wine__info').on('click', function () {
+	/*$('.wine .wine__info').on('click', function () {
 		$(this).siblings('.wine__full__info').slideToggle(400);
-	}); //Алексей попросил закомментить
+	});*/ //Алексей попросил закомментить
 
 	// Увеличение блока в плиточном каталоге
 	/*$('.wine__square .wine__info').on('click', function () {
