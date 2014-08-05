@@ -16,7 +16,7 @@ $(document).ready(function () {
 	});
 
 	// Выпадающее полное описание вина в горизонтальном каталоге
-	/*$('.wine .wine__info').on('click', function () {
+	/*$('.wine__info, .wine__pic, .wine__text').on('click', function () {
 		$(this).siblings('.wine__full__info').slideToggle(400);
 	});*/ //Алексей попросил закомментить
 
@@ -26,4 +26,31 @@ $(document).ready(function () {
 	});*/ //Алексей попросил закомментить
 
 
+	// Появление полей при нажатии на элементы КП
+	$('.radios_section .radio, .radios_section label').on('click', function() {
+		if ($(this).prop('checked') === true) {
+			$(this).parents('.radios_section_row').after('<div class="radios_section_field field clearfix special_conditions_text">
+				<input type="text" value="" class="text_field">
+				</div>');
+		} else {
+			$(this).parents('.radios_section_row').next('.field').remove();
+		}
+
+		$('.radios_section_field .text_field').bind('hastext', function() {
+			$(this).addClass('is-focus');
+		});
+
+		$('.radios_section_field .text_field').bind('notext', function() {
+			$(this).removeClass('is-focus');
+		});
+
+	});
+
+
+
+
+
 });
+
+
+
