@@ -16,7 +16,7 @@ $(document).ready(function () {
 	});
 
 	// Выпадающее полное описание вина в горизонтальном каталоге
-	$('.wine .wine__info').on('click', function () {
+	$('.wine__info, .wine__pic, .wine__text').on('click', function () {
 		$(this).siblings('.wine__full__info').slideToggle(400);
 	});
 
