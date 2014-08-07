@@ -11,6 +11,7 @@
 // @codekit-append "eventslider/item/item.js"
 // @codekit-append "house/house.js"
 // @codekit-append "map/map.js"
+// @codekit-append "blur/blur.js"
 
 	$(window).scroll(function () {
 		t = $(this).scrollTop();
