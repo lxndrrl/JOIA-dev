@@ -14,7 +14,7 @@
 	text-align: left;
 	vertical-align: top;
 	position: relative;
-	>* {
+	> * {
 		margin: 6px 0 0 20px;
 		line-height: 24px;
 	}
@@ -27,5 +27,12 @@
 		font-size: 13px;
 		line-height: 17px;
 		margin-top: -2px;
+	}
+	a {
+		color: @footer-text-color;
+		text-decoration: none;
+		&:hover {
+			color: @footer-text-hover-color;
+		}
 	}
 }
