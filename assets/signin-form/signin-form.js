@@ -1,17 +1,21 @@
-// Открыть форму входа
-$('.login').click(function(){
-	$('.signin-form').removeClass('hidden').addClass('as-table');
-	$('.blur').addClass('blur_-popup-launched');
-//	$('.popup__content').addClass('hidden');
-	// $('.popup').fadeIn(1000);
-});
-/// Открыть форму входа
+$(document).ready(function() {
+  // Открыть форму входа
+  $('.login').click(function(){
+    $('.signin-form').removeClass('hidden').removeClass('is-hidden').addClass('as-table');
+    // $('.blur').addClass('blur_-popup-launched');
+  //  $('.popup__content').addClass('hidden');
+    // $('.popup').fadeIn(1000);
+  });
+  /// Открыть форму входа
 
-// Закрыть форму входа
-$('.signin-form__btn-close').click(function(){
-	$('.signin-form').addClass('hidden').removeClass('as-table');
-	$('.blur').removeClass('blur_-popup-launched');
-//	$('.popup__content').removeClass('hidden');
-	// $('.popup').fadeOut(1000);
+  // Закрыть форму входа
+
+  $('.signin-form__btn-close').on('click', function() {
+    $('.signin-form').addClass('is-hidden');
+    setTimeout(function () {
+      $('.signin-form').addClass('hidden');
+    }, 1200);
+  });
+
+
 });
-/// Закрыть форму входа
