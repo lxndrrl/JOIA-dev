@@ -1,5 +1,7 @@
+
 $('#yes').on('click', function () {
 	$.cookie('CLickYesClass', 'click_yes');
+	$('.blur-wrap').fadeOut('400');
 });
 
 $(document).ready(function () {
@@ -15,6 +17,7 @@ $(document).ready(function () {
 
 	// Не показывать попап если пользователь нажал на кнопку ДА
 	if ($.cookie('CLickYesClass') === 'click_yes') {
+		$('.blur-wrap').css('display', 'none');
 		$('#popup').css('display', 'none');
 		$('#popup__content').css('display', 'none');
 		$('#popup').siblings('body > .blur').addClass('blur_-allow');
