@@ -14,7 +14,7 @@ $(document).ready(function() {
     $('.signin-form').addClass('is-hidden');
     setTimeout(function () {
       $('.signin-form').addClass('hidden');
-    }, 1200);
+    }, 500);
   });
 
 
