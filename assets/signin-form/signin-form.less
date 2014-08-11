@@ -11,17 +11,19 @@
 	transition: all 1s;
 	background-color: rgba(255,255,255,0.8);
 	box-sizing: border-box;
+	overflow: hidden;
 	&.as-table {
-		-webkit-animation: signin-form_in 1.5s;
-		animation: signin-form_in 1.5s;
+		-webkit-animation: signin-form_in .7s;
+		animation: signin-form_in .7s;
 	}
 	&.is-hidden {
-		-webkit-animation: signin-form_out 1.5s;
-		animation: signin-form_out 1.5s;
+		-webkit-animation: signin-form_out .7s;
+		animation: signin-form_out .7s;
 	}
 	* {
 		box-sizing: border-box;
 	}
+	@import 'blur-wrap/blur-wrap';
 }
 
 
