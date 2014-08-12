@@ -1,0 +1,28 @@
+.toggle_link {
+	display: table;
+	font-size: 14px;
+	color: #B2B2B2;
+	text-decoration: none;
+	text-align: center;
+	margin: 0 auto;
+	span {
+		display: block;
+		margin-bottom: 15px;
+		.font__MyriadPro-Light;
+	}
+	i {
+		display: block;
+		margin: 0 auto;
+		width: 36px;
+		height: 30px;
+		background: url("@{path-img}icons-s51a623a2b8.png") 76px -858px;
+	}
+	&.active {
+		span {
+			display: none;
+		}
+		i {
+			background: url("@{path-img}icons-s51a623a2b8.png") 40px -892px;
+		}
+	}
+}

@@ -1,0 +1,47 @@
+.about_project_content {
+	padding-bottom: 47px;
+	.std_content_paddings();
+	border-radius: 0 0 6px 6px;
+	font-size: 16px;
+	border-top: 0;
+	article {
+		padding-right: 25.7%;
+		margin-bottom: 47px;
+	}
+	h1 {
+		color: @h1_color;
+		text-transform: uppercase;
+		font-size: 36px;
+		margin-top: 47px;
+		margin-bottom: 10px;
+
+	}
+	h2 {
+		font-weight: normal;
+		font-size: 22px;
+		line-height: 26px;
+		margin-bottom: 13px;
+		margin-top: 14px;
+	}
+	p.selected {
+		.orange_border();
+		padding: 18px 0 19px;
+		strong {
+			color: #FF4A15;
+		}
+	}
+	p {
+		margin-bottom: 12px;
+		line-height: 19px;
+	}
+	ul {
+		li {
+			list-style: none;
+			line-height: 19px;
+			margin-bottom: 12px;
+			&:before {
+				content: "• ";
+			}
+		}
+	}
+}
