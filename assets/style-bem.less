@@ -32,8 +32,20 @@
 @import '../assets/baners/baners';
 @import '../assets/eventslider/eventslider';
 @import 'catalog/catalog';
+@import "offer/offer";
+@import "filters/filters";
+@import "view/view";
+@import "toggle/toggle";
+@import "mb_block/mb_block";
+@import "appeal/appeal";
+@import "about_project/about_project";
+@import "events/events";
 
 
+
+* {
+	box-sizing: border-box;
+}
 
 body, html {
 	height: 100%;
@@ -68,16 +80,63 @@ textarea {
 	overflow: auto
 }
 
+blockquote {
+	.orange_border();
+	font-size: 24px;
+	text-align: center;
+	width: 536px;
+	line-height: 29px;
+	padding: 33px 50px 40px;
+	margin-top: 45px;
+	margin-bottom: 40px;
+	margin-right: 38px;
+}
+
 input, button {
 	margin: 0;
 	padding: 0;
 	border: 0
 }
 
+input[type="radio"] {
+	text-indent: -9999px;
+	position: relative;
+	width: 14px;
+	height: 14px;
+	&:before {
+		content: "";
+		position: absolute;
+		left: 0;
+		top: 0;
+		background: #FFF;
+		border-radius: 50%;
+	}
+	&:after {
+		border-radius: 50%;
+	}
+}
+
 img, fieldset, a img {
 	border: none;
 }
 
+h1, h2, h3, h4, h5 {
+	font-family: 'MyriadPro-Light', sans-serif;
+	font-weight: normal;
+}
+
+.h2 {
+	font-size: 15px;
+	padding-left: 70px;
+}
+
 .clearfix {
 	.clearfix();
+}
+
+.btn {
+	padding: 0 24px;
+	height: 21px;
+	text-decoration: none;
+	line-height: 22px;
 }

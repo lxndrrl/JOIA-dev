@@ -1,0 +1,1 @@
+{"version":3,"file":"/omarr/sites/nesco/git-nesco/JOIA-dev/www/css/margin-padding.css","sources":["margin-padding.less"],"names":[],"mappings":"AAAA,sBACE,mBAAA,CACA,oBAAA,CACA","sourcesContent":[".std_content_paddings {\n  padding-left: 10.15%;\n  padding-right: 10.15%;\n  padding-top: 4.4%;\n}\n"]}
