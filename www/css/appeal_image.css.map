@@ -1,1 +1,0 @@
-{"version":3,"file":"/omarr/sites/nesco/git-nesco/JOIA-dev/www/css/appeal_image.css","sources":["appeal_image.less"],"names":[],"mappings":"AAAA,aACC,KACC","sourcesContent":[".appeal_image {\n\timg {\n\t\tdisplay: block;\n\t}\n}\n"]}
