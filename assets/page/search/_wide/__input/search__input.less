@@ -1,8 +1,36 @@
 .search__input {
+  @import '__inputicon/search__inputicon';
+  padding: 20px 52px 20px 66px;
+  position: relative;
+  font-size: 0;
   padding: 0px 72px 0 69px;
   margin-bottom: 23px;
-  @import '__inputicon/search__inputicon';
+  .search__inputwrap {
+    position: relative;
+  }
+  .search__inputicon {
+    text-shadow: none;
+    color: transparent;
+    background: url("@{path-img}icons-s51a623a2b8.png") 0 -931px no-repeat;
+    width: 33px;
+    height: 33px;
+    top: 0;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    font: 0/0;
+  }
   input {
+    line-height: 1;
+    border: 1px solid #B2B2B2;
+    padding: 4px 0 4px 10px;
+    height: 23px;
+    line-height: 33px;
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
     padding: 2px 0 0px 21px;
     height: 34px;
     font-size: 16px;
@@ -11,6 +39,5 @@
     width: 100%;
     margin-right: -34px;
     float: left;
-    line-height: 1;
   }
 }

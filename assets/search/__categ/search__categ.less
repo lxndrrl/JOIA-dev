@@ -1,7 +1,12 @@
 .search__categ {
 	@import 'is-checkbox/is-checkbox';
 	@import '_item/cat_item';
+	list-style: none;
+	font-size: 0;
 	i {
+		display: block;
+		margin: 0 auto 5px auto;
+		min-height: 38px;
 		display: block;
 		margin: 0 auto 5px auto;
 		min-height: 38px;
@@ -10,11 +15,24 @@
 		background-repeat: no-repeat;
 	}
 	li {
+		width: 70px;
+		vertical-align: top;
+		display: inline-block;
+		width: 40%;
+		margin-right: 5%;
+		vertical-align: top;
+		color: #7F7F7F;
+		text-align: center;
 		a:hover {
 			span {
 				display: block !important;
 			}
 		}
+	}
+	span {
+		display: block;
+		font-size: 14px;
+		padding-top: 4px
 	}
 }
 

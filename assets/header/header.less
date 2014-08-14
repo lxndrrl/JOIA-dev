@@ -4,6 +4,10 @@
 .header {
   @import 'is-shadow/is-shadow';
   @import "__nav/header__nav";
+  @import "lang/lang";
+  @import "login/login";
+  @import "searchicon/searchicon";
+  min-width: 1400px;
   height: @topbar;
   position: fixed;
   top: 0;
@@ -16,6 +20,57 @@
     z-index: 20;
   }
 }
+
+@media only screen and (max-width: 1400px) {
+  .header {
+    min-width: 0
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .header {
+    .header__nav {
+      left: 200px;
+      a {
+        margin-right: 25px;
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .header .header__nav a {
+    margin-right: 24px;
+    font-size: 14px;
+  }
+}
+
+
+@media only screen and (max-width: 900px) {
+  .header {
+    ul.header__nav {
+      display: none;
+    }
+    select.header__nav {
+      display: block;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    select.header__nav {
+      left: 100px;
+    }
+    .header__right {
+      display: none;
+    }
+  }
+}
+
+
+
 
 @media only screen and (max-width: 1100px) {
   .header {
