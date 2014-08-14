@@ -16,3 +16,37 @@
 @import "_wide/search_wide";
 @import '__close/search__close';
 @import "is-notActive/is-notActive";
+@import "__submit/search__submit";
+
+.search {
+	position: absolute;
+	right: 0;
+	top: 77px;
+	width: 246px;
+	border-radius: 10px;
+	background: #FAFAFA;
+	border: 1px solid #B2B2B2;
+	padding-bottom: 23px
+}
+
+@media only screen and (max-width: 1400px) {
+	.search {
+		right: 20px;
+		.search__switcher {
+			.search__switcher1 {
+				height: 56px;
+				line-height: 56px;
+			}
+			.search__switcher2 {
+				height: 56px;
+				padding-top: 11px
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.search {
+		display: none;
+	}
+}

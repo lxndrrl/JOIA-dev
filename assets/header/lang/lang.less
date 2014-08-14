@@ -1,0 +1,16 @@
+.lang {
+	@import "_ru/lang_ru";
+	@import "_en/lang_en";
+	display: inline-block;
+	margin-left: 30px;
+	a {
+		display: inline-block;
+		opacity: 0.3;
+		margin: 0 5px;
+		vertical-align: middle;
+		&.is-active, 
+		&:hover {
+			opacity: 1;
+		}
+	}
+}

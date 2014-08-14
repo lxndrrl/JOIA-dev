@@ -1,8 +1,4 @@
 .wine {
-  margin-bottom: 15px !important;
-  box-shadow:  0 -1px 2px rgba(0, 0, 0, 0.1), 0 3px 2px rgba(0, 0, 0, 0.15);
-  height: auto !important;
-  min-height: 125px;
   @import '__check/wine__check';
   @import '__info/wine__info';
   @import '__pic/wine__pic';
@@ -16,4 +12,44 @@
   @import '__full__info/wine__full__info';
   @import '__check__area/wine__check__area';
   @import 'is-selected/is-selected';
+  border-radius: 10px;
+  margin: 17px 0 20px 0;
+  background-image: -moz-linear-gradient(#FFF, #E6E7E8);
+  background-image: -webkit-linear-gradient(#FFF, #E6E7E8);
+  background-image: linear-gradient(#FFF, #E6E7E8);
+  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.4);
+  *zoom: 1;
+  padding: 13px 0;
+  height: 224px -13px -13px;
+  font-size: 16px;
+  color: #383838;
+  position: relative;
+  padding: 0;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 15px !important;
+  box-shadow:  0 -1px 2px rgba(0, 0, 0, 0.1), 0 3px 2px rgba(0, 0, 0, 0.15);
+  height: auto !important;
+  min-height: 125px;
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  p {
+    margin-bottom: 1em;
+  }
 }
+
+
+@media only screen and (max-width: 1400px) {
+  .wine {
+    margin-right: 15px
+  }
+}
+
+
+
+
+
+

@@ -1,13 +1,34 @@
 .header__nav {
-  li {
-    a {
-      height: @topbar - 3;
-      line-height: @topbar - 3;
-      font-size: 16px;
-      padding-top: 3px;
-    }
-  }
+	list-style: none;
+	position: absolute;
+	left: 296px;
+	top: 0;
+	font-weight: 400;
+	-moz-transition: left 0.2s linear;
+	-o-transition: left 0.2s linear;
+	-webkit-transition: left 0.2s linear;
+	transition: left 0.2s linear;
+	li {
+		float: left;
+		a {
+			float: left;
+			text-transform: uppercase;
+			text-decoration: none;
+			margin-right: 50px;
+			color: #383838;
+			height: @topbar - 3;
+			line-height: @topbar - 3;
+			font-size: 18px;
+			padding-top: 3px;
+			&.is-active {
+				color: #FC4A27
+			}
+		}
+	}
 }
 select.header__nav {
-  top: 22px;
+	top: 22px;
+	display: none;
+	top: 30px;
+	width: 200px;
 }

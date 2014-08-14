@@ -49,8 +49,8 @@
                 name:'белые',
                 id:'white',
                 icon_class: 'search__categicon1',
-				icon_path: 'icons/categ/categ-icon-07.png',
-				is_notActive: 'is-notActive'
+				icon_path: 'icons/categ/categ-icon-07.png'/*,
+				is_notActive: 'is-notActive'*/
             },
             {
                 name:'Красные',

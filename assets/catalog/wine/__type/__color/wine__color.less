@@ -1,8 +1,42 @@
 .wine__color {
-	font-family: 'MyriadPro-Light';
+	*zoom: 1;
+	.font__MyriadPro-Light;
+	line-height: 19px;
+	padding-top: 1px;
+	margin-bottom: 20px;
 	font-size: 15px;
+	&:after {
+		content: "";
+		display: table;
+		clear: both
+	}
 	i {
+		float: left;
+		margin-right: 17px;
+		position: relative;
+		top: 3px;
+		margin-right: 15px;
 		width: 27px;
 		height: 44px;
+		&.color1 {
+			background: url("@{path-img}icons-s51a623a2b8.png") 0 -184px no-repeat;
+			width: 14px;
+			height: 34px
+		}
+		&.color2 {
+			background: url("@{path-img}icons-s51a623a2b8.png") 0 -825px no-repeat;
+			width: 16px;
+			height: 34px
+		}
+		&.color3 {
+			background: url("@{path-img}icons-s51a623a2b8.png") 0 -598px no-repeat;
+			width: 14px;
+			height: 34px
+		}
+		&.color4 {
+			background: url("@{path-img}icons-s51a623a2b8.png") 0 -1030px no-repeat;
+			width: 11px;
+			height: 38px
+		}
 	}
 }

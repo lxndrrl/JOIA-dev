@@ -1,11 +1,15 @@
 .search__filter {
+  @import '__title/search__title';
+  @import '__options/search__options';
+  border-bottom: none;
+  position: relative;
+  padding-left: 27px;
+  min-height: 144px;
   margin-top: 32px;
   padding-top: 9px;
   padding-left: 0;
   margin-right: 2.16%;
   float: left;
-  @import '__title/search__title';
-  @import '__options/search__options';
   &.search__filter1,
   &.search__filter2,
   &.search__filter4,
@@ -14,10 +18,41 @@
     padding-right: 0.5%;
     margin-left: 0;
   }
+  &.search__filter1 {
+    padding-left: 0;
+    margin-left: 70px;
+    width: 197px
+  }
+  &.search__filter2 {
+    width: 188px;
+  }
+  &.search__filter3 {
+    width: 405px;
+    .search__showall {
+      display: none;
+    }
+  }
+  &.search__filter4 {
+    width: 190px;
+  }
   &.search__filter5 {
     margin-right: 0;
+    width: 180px;
   }
   &.search__filter3 {
     width: 31.84%;
+  }
+  &:before {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+    height: 156px;
+    border-right: 1px solid #999
+  }
+  &.is-last {
+    &:before {
+      display: none;
+    }
   }
 }
