@@ -41,8 +41,7 @@
 @media screen and (max-width: 1500px) {
 	.superslider {
 		.superslider__next {
-			right: 30px;
-			margin-right: 0;
+			right: 30px !important;
 		}
 		.superslider__playpause {
 			right: 30px;
@@ -51,6 +50,20 @@
 		.superslider__pagi {
 			right: 60px;
 			margin-right: 0;
+		}
+		&.is-filter {
+			.superslider__next {
+				right: 284px !important;
+				margin-right: 0 !important;
+			}
+			.superslider__playpause {
+				right: 284px !important;
+				margin-right: 0 !important;
+			}
+			.superslider__pagi {
+				right: 284px !important;
+				margin-right: 0 !important;
+			}
 		}
 	}
 }
@@ -72,7 +85,7 @@
 	}
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1400px) {
 	.superslider {
 		.superslider__next {
 			right: 30px !important;
