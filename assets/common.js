@@ -38,9 +38,9 @@ $(document).ready(function() {
 });
 
 /*расширяемый блок*/
-$('.expander').click(function () {
+/*$('.expander').click(function () {
 	$(this).closest('.expandable__in').toggleClass('expanded').find('.expandable').slideToggle();
-});
+});*/
 /*/расширяемый блок*/
 
 /*блок на всю высоту вьюпорта*/
@@ -76,6 +76,11 @@ $('.appeal_content .toggle_link').click(function(e){
 $('.appeal_hiden_content .toggle_link').click(function(e){
 	$(this).parent('.appeal_hiden_content').slideUp();
 	$('.appeal_content').show();
+	e.preventDefault();
+});
+$('.house__expander__button .toggle_link').click(function(e){
+	$('.house__expander__details.expandable').slideToggle();
+	$(this).toggleClass('arrow_rotate').children('span').toggle();
 	e.preventDefault();
 });
 /*/Развёртывание и свёртывание блоков*/

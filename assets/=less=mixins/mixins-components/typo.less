@@ -1,0 +1,65 @@
+.section__headline {
+	.font__MyriadPro-Light !important;
+	background: @substrate !important;
+	font-size: 42px !important;
+	line-height: 1em !important;
+	padding-left: 37px !important;
+	color: @substrate-text-color !important;
+	margin-bottom: @section__headline__margin-bottom !important;
+	padding-top: 13px !important;
+	padding-bottom: 4px !important;
+	position: relative !important;
+}
+
+.headline1 {
+	font-size: 32px;
+	font-family: mr, "MyriadPro-Light", Arial, sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: @headline-color;
+	margin-bottom: 6px;
+}
+
+.content {
+	font-size: 16px;
+	.font__MyriadPro-Light;
+	h1 {
+		color: @h1_color;
+		text-transform: uppercase;
+		font-size: 36px;
+		margin-top: 47px;
+		margin-bottom: 10px;
+	}
+	h2 {
+		.font__MyriadPro-Regular;
+		font-size: 22px;
+		line-height: 26px;
+		margin-bottom: 13px;
+		margin-top: 14px;
+	}
+	p.selected {
+		.orange_border();
+		padding: 18px 0 19px;
+		strong {
+			color: #FF4A15;
+			.font__MyriadPro-Regular;
+		}
+	}
+	p {
+		margin-bottom: 12px;
+		line-height: 19px;
+		strong {
+			.font__MyriadPro-Regular;
+		}
+	}
+	ul {
+		li {
+			list-style: none;
+			line-height: 19px;
+			margin-bottom: 12px;
+			&:before {
+				content: "• ";
+			}
+		}
+	}
+}
