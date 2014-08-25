@@ -1,0 +1,95 @@
+.page.pr0 {
+	padding: 0;
+		.search.search_wide {
+			display: block;
+		}
+}
+@media only screen and (max-width: 1400px) {
+	.page.pr0 {
+		padding: 0 30px;
+	}
+	.pr0 {
+		width: 100%;
+		padding: 0 30px;
+		margin: 0;
+		.page {
+			.search.search_wide {
+				display: block;
+				.search__input {
+					padding: 0 @search_wide-width-small;
+				}
+				.search__filters {
+					padding: 0 @search_wide-width-small;
+					.search__filters__wrapper {
+						height: 220px;
+						overflow-y: hidden;
+						border-bottom: solid 1px @border-color;
+						position: relative;
+						z-index: 0;
+						.search__filters__wrapped {
+							width: 1245px;
+							height: auto;
+							.search__filter {
+								margin-right: @air;
+								padding-right: @air;
+								&.search__filter1,
+								&.search__filter2,
+								&.search__filter4,
+								&.search__filter5 {
+									width: 192px;
+								}
+								&.search__filter3 {
+									width: 397px;
+								}
+							}
+							.catslider {
+								.catslider__in {
+									.search__categ {
+										margin: 0 auto;
+										width: 320px;
+										.cycle-slide {
+											margin-right: 0;
+										}
+										.cycle-carousel-wrap {
+											.cycle-slide {
+												width: 80px;
+												margin-right: 0;
+												position: relative;
+												.cat_item {
+													text-align: center;
+													span {
+														position: static !important;
+														display: block !important;
+														background: none !important;
+														margin-left: 0 !important;
+														width: auto !important;
+														font-size: 14px;
+														color: #808080 !important;
+														&:before {
+															display: none !important;
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+								.catslider__next {
+									right: 0;
+								}
+							}
+						}
+					}
+					.search__message {
+						display: block;
+						&:after {
+							content: '→';
+							display: inline-block;
+							margin-left: @air / 2;
+						}
+					}
+				}
+			}
+		}
+	}
+}

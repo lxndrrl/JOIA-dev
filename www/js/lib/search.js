@@ -48,22 +48,27 @@
             {
                 name:'белые',
                 id:'white',
-                icon_class: 'search__categicon1'
+                icon_class: 'search__categicon1',
+				icon_path: 'icons/categ/categ-icon-07.png'/*,
+				is_notActive: 'is-notActive'*/
             },
             {
                 name:'Красные',
                 id:'white',
-                icon_class: 'search__categicon2'
+                icon_class: 'search__categicon2',
+				icon_path: 'icons/categ/categ-icon-08.png'
             },
             {
                 name:'Розовые',
                 id:'white',
-                icon_class: 'search__categicon3'
+                icon_class: 'search__categicon3',
+				icon_path: 'icons/categ/categ-icon-09.png'
             },
             {
                 name:'Игристые',
                 id:'white',
-                icon_class: 'search__categicon4'
+                icon_class: 'search__categicon4',
+				icon_path: 'icons/categ/categ-icon-10.png'
             }
         ],
         produce = [
@@ -108,7 +113,7 @@
 
 
 
-$.fn.search = function( options ) {
+$.fn.search = function(options) {
     // fix mistakes with the ready state
     var o;
 
@@ -205,4 +210,6 @@ $.fn.search = function( options ) {
 
     });
 };
+
+$('.search').search();
 

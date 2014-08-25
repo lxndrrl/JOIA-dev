@@ -1,0 +1,29 @@
+
+@import '_field/radio_section_field';
+
+.radios_section {
+  display: table-cell;
+  padding-top: 20px;
+  padding-bottom: 17px;
+  @import '_row/radios_section_row';
+  &.radios_section1 {
+    width: 32.8%;
+    border-right: 1px solid #999;
+  }
+  &.radios_section2 {
+    width: 34.4%;
+    border-right: 1px solid #999;
+  }
+  &.radios_section2,
+  &.radios_section3 {
+    padding-left: 19px;
+  }
+  label {
+    font-family: 'MyriadPro-Light';
+    font-size: 18px;
+    color: #383838;
+    line-height: 1.22;
+    margin-top: 4px;
+    cursor: pointer;
+  }
+}

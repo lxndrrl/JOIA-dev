@@ -1,0 +1,50 @@
+@import "__in/logoslider__in";
+
+.logoslider {
+	@import "__slides/logoslider__slides";
+	@import "__prev/logoslider__prev";
+	@import "__next/logoslider__next";
+	position: relative;
+	margin-bottom: 14px;
+	margin-top: 12px;
+	box-sizing: border-box;
+	img {
+		-webkit-filter: grayscale(1);
+		-webkit-filter: grayscale(100%);
+		-moz-filter: grayscale(100%);
+		filter: gray;
+		filter: grayscale(100%);
+		margin: 0 15px;
+		filter: grayscale(100%);
+		margin: 0 15px;
+		&:hover {
+			-webkit-filter: grayscale(0);
+			-webkit-filter: grayscale(0%);
+			-moz-filter: grayscale(0%);
+			filter: none;
+			filter: grayscale(0%)
+		}
+	}
+	* {
+		box-sizing: border-box;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.logoslider {
+		margin: 12px 20px 14px 75px;
+		margin: 12px 0 14px;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.logoslider .logoslider__slides {
+		margin-right: 40px
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.logoslider .logoslider__next {
+		right: 0
+	}
+}

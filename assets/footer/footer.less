@@ -1,0 +1,43 @@
+@import "__in/footer__in";
+
+.footer {
+	margin: 0 auto;
+	background: @footer-bg;
+	text-align: center;
+	box-sizing: border-box;
+	* {
+		box-sizing: border-box;
+	}
+}
+
+
+@media only screen and (max-width: 1400px) {
+	.footer {
+		.footer__in {
+			.copyright {
+				position: relative;
+				right: auto;
+				bottom: auto;
+				text-align: center;
+				margin: 32px 0 0;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 1400px) {
+	.footer .footer__nav, .footer .footer__contacts {
+		width: 280px;
+		left: 50px
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.footer .footer__nav, .footer .footer__contacts {
+		left: 0;
+		width: auto;
+		margin-left: 20px;
+		float: none;
+		display: block
+	}
+}

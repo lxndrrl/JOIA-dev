@@ -1,0 +1,118 @@
+//**************************************
+// button bases
+//**************************************
+
+// button colors
+.btn-base {
+	color: @btn-text-color;
+	background: @btn-bg;
+	box-shadow: 0 4px 10px @btn-shadow;
+}
+
+.btn-base-contoured {
+	color: @btn-bg;
+	border: solid 1px @btn-bg;
+	background: transparent;
+	border-radius: @brd-radius-s;
+	&:hover {
+		background: @btn-bg;
+		color: @btn-text-color;
+	}
+}
+
+.btn-base-allow-contoured {
+	color: @allow;
+	border: solid 1px @allow;
+	background: transparent;
+	border-radius: @brd-radius-s;
+	&:hover {
+		background: @allow;
+		color: @btn-text-color;
+	}
+}
+
+/// button colors
+
+// button sizes and fonts
+.btn-size-s {
+	.font__MyriadPro-Regular;
+	font-size: 13px;
+	line-height: 18px;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 3px 20px 0;
+}
+
+.btn-size-m {
+	.font__MyriadPro-Regular;
+	font-size: 16px;
+	line-height: 34px;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 3px 0 0;
+}
+
+.btn-size-l {
+	.font__MyriadPro-Light;
+	font-size: 18px;
+	line-height: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 14px 16px 9px;
+}
+
+/// button sizes and fonts
+
+// button displaying
+.btn-block-base {
+	display: block;
+	width: 100%;
+}
+
+.btn-inline-block-base {
+	height: auto;
+	display: inline-block;
+}
+
+/// button displaying
+
+
+//**************************************
+// buttons ready for use
+//**************************************
+
+.btn-s {
+	.btn-base;
+	.btn-size-s;
+	.btn-inline-block-base;
+}
+
+.btn-s-block {
+	.btn-base;
+	.btn-size-s;
+	.btn-block-base;
+}
+.btn-m-block {
+	.btn-base;
+	.btn-size-m;
+}
+
+.btn-l-block {
+	.btn-base;
+	.btn-size-l;
+	.btn-block-base;
+}
+
+.btn-contoured-l-block {
+	.btn-base-contoured;
+	.btn-size-l;
+	.btn-block-base;
+}
+
+.btn-allow-contoured-l-block {
+	.btn-base-allow-contoured;
+	.btn-size-l;
+	.btn-block-base;
+}
+
+/* ============= other mixins ============= */

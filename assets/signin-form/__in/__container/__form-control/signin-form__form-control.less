@@ -1,0 +1,29 @@
+.signin-form__form-control {
+	margin: 0;
+	font: inherit;
+
+	display: block;
+	width: 100%;
+	line-height: 1.42857143;
+	color: @text-color;
+	background-color: #FFF;
+	background-image: none;
+	border: 1px solid #CCC;
+	border-radius: 4px;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+
+	position: relative;
+	height: auto;
+	padding: 10px;
+	font-size: 16px;
+	&[type="email"] {
+		margin-bottom: -1px;
+		border-bottom-right-radius: 0;
+		border-bottom-left-radius: 0;
+	}
+	&[type="password"] {
+		margin-bottom: 10px;
+		border-top-left-radius: 0;
+		border-top-right-radius: 0;
+	}
+}

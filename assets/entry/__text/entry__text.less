@@ -1,0 +1,22 @@
+@import "__title/entry__title";
+
+.entry__text {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(255, 255, 255, 0.8);
+	color: @text-color;
+	padding: 20px 30px 20px 30px;
+	font-size: 20px;
+	font-weight: 100;
+	z-index: 100;
+	margin: 0 20px;
+}
+
+.entry:hover .entry__text {
+	top: 0;
+	bottom: 0;
+	padding-top: 40px;
+}

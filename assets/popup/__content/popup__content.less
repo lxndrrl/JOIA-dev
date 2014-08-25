@@ -1,0 +1,78 @@
+@import "__yes/popup__content__yes";
+@import "__no/popup__content__no";
+.popup__content {
+	border-radius: 8px;
+	width: 610px;
+	height: 500px;
+	padding: 70px 90px;
+	background: @panel-black-bg;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-left: -305px;
+	margin-top: -250px;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	box-shadow: 2px 2px 15px black;
+	.popup__content__logo {
+		background: url("@{path-img}icons-s51a623a2b8.png") 0 -1080px no-repeat;
+		width: 143px;
+		height: 152px;
+		display: block;
+		margin: 0 auto 24px;
+	}
+	h1 {
+		font-size: 32px;
+		text-align: center;
+		font-weight: lighter;
+		color: @panel-black-h-color;
+	.font__MyriadPro-Light;
+	}
+	p {
+		margin-top: 30px;
+		text-align: center;
+		height: 110px;
+		&:hover {
+			label {
+				color: @panel-black-text-hover-color;
+				text-shadow: 0 0 32px fadeout(@panel-black-text-hover-color, 25%);
+			}
+		}
+	}
+	input {
+		display: none;
+	}
+	label {
+		position: relative;
+		margin-top: 20px;
+		cursor: pointer;
+		font-size: 24px;
+		display: inline-block;
+		color: @panel-black-text-color;
+		&:after {
+			content: '';
+			width: 30px;
+			height: 30px;
+			position: absolute;
+			bottom: -40px;
+			left: 50%;
+			margin-left: -15px;
+			border: 1px solid #B1B1B1;
+			background: linear-gradient(top, white 50%, #E3E3E3);
+			background: -o-linear-gradient(top, white 50%, #E3E3E3);
+			background: -ms-linear-gradient(top, white 50%, #E3E3E3);
+			background: -moz-linear-gradient(top, white 50%, #E3E3E3);
+			background: -webkit-linear-gradient(top, white 50%, #E3E3E3);
+		}
+		&.active:after {
+			background: url("@{path-img}radio_active.png") no-repeat 50%, linear-gradient(top, white 50%, #E3E3E3);
+			background: url("@{path-img}radio_active.png") no-repeat 50%, -ms-linear-gradient(top, white 50%, #E3E3E3);
+			background: url("@{path-img}radio_active.png") no-repeat 50%, -o-linear-gradient(top, white 50%, #E3E3E3);
+			background: url("@{path-img}radio_active.png") no-repeat 50%, -moz-linear-gradient(top, white 50%, #E3E3E3);
+			background: url("@{path-img}radio_active.png") no-repeat 50%, -webkit-linear-gradient(top, white 50%, #E3E3E3);
+		}
+	}
+}

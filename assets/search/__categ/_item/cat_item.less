@@ -1,0 +1,42 @@
+.cat_item {
+	@import 'is-checkbox/is-checkbox';
+	text-align: center;
+	width: 62px;
+	i {
+		margin-bottom: 0 !important;
+		width: 27px;
+		height: 44px;
+		background-repeat: no-repeat;
+	}
+	span {
+		margin-top: 25px;
+		position: static !important;
+		display: block !important;
+		background: none !important;
+		margin-left: 0 !important;
+		width: auto !important;
+		font-size: 14px;
+		color: #808080 !important;
+		&:before {
+			display: none !important;
+		}
+	}
+}
+
+@media only screen and (min-width: 1680px) {
+	.cat_item {
+		text-align: center;
+		span {
+			position: static !important;
+			display: block !important;
+			background: none !important;
+			margin-left: 0 !important;
+			width: auto !important;
+			font-size: 14px;
+			color: #808080 !important;
+			&:before {
+				display: none !important;
+			}
+		}
+	}
+}

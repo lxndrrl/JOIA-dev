@@ -1,1 +1,1 @@
-head.load("js/lib/jquery.js", "js/lib/cycle.js","js/lib/carousel.js","js/lib/jsrender.min.js", "js/lib/search.js?dfhhg", "js/common.js");
+head.load("js/lib/jquery.js", "js/lib/jquery.cookie.js", "js/lib/cycle.js", "js/lib/carousel.js", "js/lib/jsrender.min.js", "js/lib/search.js?dfhhg", "js/lib/fancybox.js", "js/lib/jquery.fancybox-buttons.js", "js/common.min.js");

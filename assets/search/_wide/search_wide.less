@@ -1,0 +1,40 @@
+.search_wide.search {
+	border-radius: 0px;
+	@import "is-notActive/is-notActive";
+	.search__switcher {
+		.clearfix();
+		height: auto;
+		border-radius: 8px 8px 0 0;
+		overflow: hidden;
+		&:before {
+			display: none;
+		}
+		li {
+			width: 50%;
+			float: left;
+			display: table;
+			height: 88px;
+			.search__switcher1,
+			.search__switcher2 {
+				font-family: 'MyriadPro-Light',Sans-Serif;
+				font-size: 22px;
+				position: static;
+				float: none;
+				display: table-cell;
+				vertical-align: middle;
+				line-height: 1.2;
+				width: 100%;
+				border-radius: 0;
+				padding-top: 0;
+			}
+		}
+	}
+	.search__filters {
+		.search__filter:nth-of-type(3) {
+			.search__categ li {
+				width: 50%;
+				margin-right: 0;
+			}
+		}
+	}
+}

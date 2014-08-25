@@ -1,0 +1,28 @@
+
+.search .search__switcher {
+	background: #B2B2B2;
+	height: 86px;
+	position: relative;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	a {
+		font-size: 22px;
+		text-transform: uppercase;
+		text-decoration: none;
+		color: white;
+		text-align: center;
+		&.is-active {
+			background: @substrate;
+			color: @substrate-text-color;
+		}
+	}
+}
+
+@media only screen and (max-width: 1400px) {
+	.search .search__switcher {
+		height: 56px;
+		a {
+			font-size: 17px
+		}
+	}
+}

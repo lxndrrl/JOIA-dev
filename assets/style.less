@@ -1,0 +1,196 @@
+@import "=less=vars/vars";
+@import "=less=mixins/mixins";
+@import "blur/blur";
+@import "top/top";
+@import "popup/popup";
+@import "entries/entries";
+@import "search/search";
+@import "hide/hide";
+@import "map/map";
+@import "contacts/contacts";
+@import "footer/footer";
+@import "logoslider/logoslider";
+@import "page/page";
+@import "header-kp/header-kp";
+@import "page-kp-block/page-kp-block";
+@import "signin-form/signin-form";
+@import "fancybox/fancybox";
+@import "home-logos/home-logos";
+@import "superslider/superslider";
+@import "catalog/catalog";
+@import 'header/header';
+@import 'choosed/choosed';
+@import 'generator/generator';
+@import "fancybox/fancybox";
+@import 'warning/warning';
+@import 'best-offers/best-offers';
+@import 'open-filter/open-filter';
+@import 'is-radio/is-radio';
+@import 'is-checkbox/is-checkbox';
+@import "entry-modal/entry-modal";
+@import 'house/house';
+@import '../assets/baners/baners';
+@import '../assets/eventslider/eventslider';
+@import 'catalog/catalog';
+@import "offer/offer";
+@import "filters/filters";
+@import "view/view";
+@import "toggle/toggle";
+@import "mb_block/mb_block";
+@import "appeal/appeal";
+@import "about_project/about_project";
+@import "events/events";
+@import "director/director";
+@import "offers/offers";
+
+* {
+	box-sizing: border-box;
+	-webkit-font-smoothing: auto;
+//	-webkit-font-smoothing: antialiased;
+/*	p,li,ol,a,button,label {
+		-webkit-font-smoothing: subpixel-antialiased;
+	}*/
+}
+
+body, html {
+	height: 100%;
+}
+
+body {
+	.font__MyriadPro-Regular;
+	color: @text-color;
+	font-size: 12px;
+	line-height: 1.4;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+	* {
+		-webkit-text-size-adjust: none
+	}
+}
+
+input, textarea, select, button, h1, h2, h3, h4, h5, h6, a, span, a:focus {
+	outline: none;
+}
+
+p {
+	a {
+		color: @link-color;
+		text-decoration: underline;
+		&:hover {
+			color: @nav-color-active;
+		}
+		&:visited {
+			color: @link-color;
+		}
+	}
+}
+
+textarea {
+	overflow: auto
+}
+
+blockquote {
+	.orange_border();
+	.font__MyriadPro-Light;
+	font-size: 24px;
+	text-align: center;
+	width: 536px;
+	line-height: 29px;
+	padding: 33px 50px 40px;
+	margin-top: 45px;
+	margin-bottom: 40px;
+	margin-right: 38px;
+}
+
+input, button {
+	margin: 0;
+	padding: 0;
+	border: 0
+}
+
+input[type="radio"] {
+	text-indent: -9999px;
+	position: relative;
+	width: 14px;
+	height: 14px;
+	&:before {
+		content: "";
+		position: absolute;
+		left: 0;
+		top: 0;
+		background: #FFF;
+		border-radius: 50%;
+	}
+	&:after {
+		border-radius: 50%;
+	}
+}
+
+input[type="submit"], button {
+	cursor: pointer;
+}
+
+input[type="submit"]::-moz-focus-inner, button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+img, fieldset, a img {
+	border: none;
+}
+
+ul, ol {
+	list-style-type: none
+}
+
+table {
+	border-spacing: 0;
+	border-collapse: collapse;
+	width: 100%
+}
+
+h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5.h5 {
+	.font__MyriadPro-Light;
+	-webkit-font-smoothing: antialiased;
+}
+
+.clearfix {
+	.clearfix();
+}
+
+.clr {
+	*zoom: 1;
+}
+
+.clr:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.hide {
+	display: none;
+}
+
+.b {
+	margin-bottom: 50px;
+}
+
+.header .header__in, .page, .logoslider .logoslider_in, .footer .footer__in {
+	width: 1400px;
+	margin: 0 auto;
+}
+
+@media only screen and (max-width: 1400px) {
+	.header .header__in, .page, .superslider .superslider__in, .superslider .superslider__text, .logoslider .logoslider_in, .footer .footer__in {
+		width: 100%;
+	}
+}
