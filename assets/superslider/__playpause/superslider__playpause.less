@@ -1,6 +1,5 @@
 .superslider__playpause {
 	position: absolute;
-	right: 280px;
 	bottom: 30px;
 	background: url("@{path-img}icons-s51a623a2b8.png") 0 -525px no-repeat;
 	width: 15px;
@@ -10,5 +9,17 @@
 	margin-right: 0;
 	&:active {
 		bottom: 28px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.superslider__playpause {
+		right: @padding-base-horizontal/2;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.superslider__playpause {
+		display: none;
 	}
 }

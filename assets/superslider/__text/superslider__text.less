@@ -1,7 +1,8 @@
 .superslider__text {
 	position: absolute;
-	margin-left: -700px;
-	left: 50%;
+	//	margin-left: -700px;
+	//	left: 50%;
+	left: 30px;
 	bottom: 30px;
 	color: white;
 	line-height: 1;
@@ -10,5 +11,24 @@
 	span {
 		font-size: 20px;
 		display: block;
+	}
+}
+
+@media only screen and (max-width: 1400px) {
+	.superslider__text {
+		font-size: 50px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.superslider__text {
+		display: none;
+		left: @padding-base-horizontal/2;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.superslider__text {
+		display: none;
 	}
 }

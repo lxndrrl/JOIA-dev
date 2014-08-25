@@ -1,9 +1,9 @@
 .superslider__pagi {
 	position: absolute;
 	bottom: 30px;
-	right: 300px;
+	//	right: 300px;
 	text-align: right;
-	margin-right: 12px;
+	//	margin-right: 12px;
 	right: 30px+20px+15px;
 	margin-right: 0;
 	a,
@@ -22,5 +22,17 @@
 	a.cycle-pager-active,
 	span.cycle-pager-active {
 		background: #999
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.superslider__pagi {
+		right: @padding-base-horizontal/2+20px+15px;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.superslider__pagi {
+		display: none;
 	}
 }
