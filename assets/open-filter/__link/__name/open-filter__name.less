@@ -1,9 +1,16 @@
 .open-filter__name {
-  color: #e5e5e5;
-  vertical-align: middle;
-  font-family: 'MyriadPro-Light' sans-serif;
-  font-size: 16px;
-  text-transform: uppercase;
-  letter-spacing: 0.01em;
-  line-height: 54px;
+	.font__MyriadPro-Light;
+	color: @open-filter-text-color;
+	vertical-align: middle;
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: 0.01em;
+	line-height: 50px;
+}
+
+&:hover {
+
+	.open-filter__name {
+		color: @open-filter-hover-text-color;
+	}
 }
