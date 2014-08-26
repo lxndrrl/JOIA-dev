@@ -107,4 +107,7 @@ $(document).ready(function() {
 $(document).ready(function() {
 	setEqualHeight($('.contacts__branches.distributors > .contacts__border-block'));
 });
+$(document).ready(function() {
+	setEqualHeight($('.search__filters__wrapped > .search__filter'));
+});
 /*/Автоматическое выравнивание высоты колонок (float блоков)*/
