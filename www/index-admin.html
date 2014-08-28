@@ -1,0 +1,238 @@
+<html class="admin" g_init="6827">
+<head>
+    <title>Joia</title>
+    <link data-turbolinks-track="true" href="http://joia.ru/assets/application-3210a8db058adff3c7ff8fe72b8af15a.css" media="all" rel="stylesheet">
+    <link data-turbolinks-track="true" href="admin.css" media="all" rel="stylesheet">
+    <script data-turbolinks-track="true" src="http://joia.ru/assets/application-9bdb3d34fa0216b93bbb19ff0e126ada.js"></script>
+    <!--< %= headjs_include_tag(:all) %>-->
+    <meta content="authenticity_token" name="csrf-param">
+<meta content="vzAdeA/m0cilsdZbi7QbWK4KY04tr+8TfGmAVLd0y+s=" name="csrf-token">
+    <!--[if gte IE 9]>
+    <style type="text/css">
+      .panel-gradient {
+        filter: none;
+      }
+    </style>
+    <![endif]-->
+  </head>
+
+
+    <body><div class="header">
+  <div class="header__in">
+    <ul class="header__nav">
+        <li><a href="http://joia.ru/catalogs">Каталог</a></li>
+		<li><a href="http://joia.ru/stories">Новости</a></li>
+		<!--<a href="/types">Типы</a>-->
+		<li><a href="http://joia.ru/sugars">Сахар</a></li>
+		<li><a href="http://joia.ru/countries">Страны / регионы</a></li>
+		<li><a href="http://joia.ru/categories">Категории</a></li>
+		<li><a href="http://joia.ru/colors">Цвета</a></li>
+		<li><a href="http://joia.ru/search_categories">Категории поиска</a></li>
+		<li><a href="http://joia.ru/wine_varieties">Винные сорта</a></li>
+		<li><a href="http://joia.ru/manufacturers">Производители</a></li>
+    </ul>
+    <div class="header__right">
+        joia.developer@gmail.com
+        <a href="http://joia.ru/logout" class="login">ВЫХОД</a>
+
+    </div>
+      <!-- begin search  -->
+<script id="update-search" type="text/x-jsrender">
+                <div>
+                    <!-- begin filter -->
+                    <div class="search__filter">
+                        <h3 class="search__title">Страна</h3>
+
+                        <ul class="search__options">
+                            {{for country}}
+                            <li><label for="{{:id}}"><input type="radio" name="country" id="{{:id}}">{{:name}}</label></li>
+                            {{/for}}
+                        </ul>
+                        <a class="search__showall" href='#'>показать все</a>
+                    </div>
+                    <!-- end filter -->
+
+                    <!-- begin filter -->
+                    <div class="search__filter">
+                        <h3 class="search__title">Регион</h3>
+
+                        <ul class="search__options">
+                            {{for region}}
+                            <li><label for="{{:id}}"><input type="radio" name="region" id="{{:id}}">{{:name}}</label></li>
+                            {{/for}}
+
+                        </ul>
+                        <a class="search__showall" href='#'>показать все</a>
+                    </div>
+                    <!-- end filter -->
+
+                    <!-- begin filter -->
+                    <div class="search__filter">
+                        <h3 class="search__title">Категория</h3>
+
+                        <ul class="search__categ">
+                            {{for category}}
+                            <li><label for="{{:id}}"><i class="{{:icon_class}}"></i><input type="radio" name="category" id="{{:id}}"><span>{{:name}}</span></label></li>
+                            {{/for}}
+
+                        </ul>
+                        <a class="search__showall" href='#'>показать все</a>
+                    </div>
+                    <!-- end filter -->
+
+                    <!-- begin filter -->
+                    <div class="search__filter">
+                        <h3 class="search__title">Производитель</h3>
+
+                        <ul class="search__options">
+                            {{for produce}}
+                            <li><label for="{{:id}}"><input type="radio" name="produce" id="{{:id}}">{{:name}}</label></li>
+                            {{/for}}
+
+                        </ul>
+                        <a class="search__showall" href='#'>показать все</a>
+                    </div>
+                    <!-- end filter -->
+
+                    <!-- begin filter -->
+                    <div class="search__filter is-last">
+                        <h3 class="search__title">Цена</h3>
+
+                        <ul class="search__options">
+                            {{for price}}
+                            <li><label for="{{:id}}"><input type="radio" name="price" id="{{:id}}">{{:from}}-{{:to}}</label></li>
+                            {{/for}}
+
+                        </ul>
+                        <a class="search__showall" href='#'>показать все</a>
+                    </div>
+                    <!-- end filter -->
+                    <div class="search__submit">ПОЛНЫЙ КАТАЛОГ</div>
+                </div>
+
+
+
+
+		</script>
+<div class="search">
+  <ul class="search__switcher">
+    <li><a href="#" class="search__switcher1 is-active">Вино</a></li>
+    <li><a href="#" class="search__switcher2">Крепкий алкоголь</a></li>
+  </ul>
+  <div class="search__filters" data-template="#update-search"></div>
+</div>
+<!-- end search -->
+  </div>
+</div>
+
+  <br><br><br><br>
+
+    <div class="b">
+  <h2 class="h2">Новости</h2>
+  <div class="entries">
+
+
+  <a href="javascript:void(0)" class="entry entry_big entry5">
+    <div class="entry__img">
+      <div class="img-cover" style="background-image: url(http://joia.ru/system/stories/avatars/000/000/001/original/bg-2.jpg)"></div>
+    </div>
+    <div class="entry__text">
+      <h3 class="entry__title">1.</h3>
+      <p class="entry__introtext">Intro text Intro text Intro text Intro text</p>
+    </div>
+    <div class="entry__large gradiente_block">
+      <i class="entry__large__close"></i>
+      <div class="entry__large__img">
+        <img src="http://joia.ru/system/stories/avatars/000/000/001/original/bg-2.jpg">
+      </div>
+      <h3 class="entry__large__title"> Large title Large title Large title Large title Large title</h3>
+      <div class="entry__large__text">
+        <p>Последние четыре года поместье получало высшую отметку (3 бокала) от итальянского винного рейтинга Gambero Rosso, как лучший экологический винодельческий дом Италии. За свою небольшую историю (~35 лет) хозяйство Подджо Антико успело произвести переворот в итальянском винном законодательстве и стать новаторами в производстве Брунелло.</p>
+<p>Подджо Антико стало первым производителем брунелло, использовавшим для выдержки французский дуб, создав, таким образом, уникальное вино в нетрадиционном стиле под названием Альтеро. Благодаря французскому дубу вино приобретает больший аромат и сладость во вкусе. С первого года урожая Альтеро - 1983г. по 1995г. вино имело статус IGT, так как выдерживалось в дубе - 2 года, а по закону срок выдержки должен был составлять 3 года. С 1995 года Альтеро приобрело официальный статус DOCG, поскольку срок выдержки был сокращен на законодательном уровне.</p>
+      </div>
+    </div>
+  </a>
+
+
+  <a href="javascript:void(0)" class="entry entry5">
+    <div class="entry__img">
+      <div class="img-cover" style="background-image: url(http://joia.ru/system/stories/avatars/000/000/003/original/bg-3.jpg)"></div>
+    </div>
+    <div class="entry__text">
+      <h3 class="entry__title">3.</h3>
+      <p class="entry__introtext">Intro text Intro text Intro text Intro text</p>
+    </div>
+    <div class="entry__large gradiente_block">
+      <i class="entry__large__close"></i>
+      <div class="entry__large__img">
+        <img src="http://joia.ru/system/stories/avatars/000/000/003/original/bg-3.jpg">
+      </div>
+      <h3 class="entry__large__title"> Large title Large title Large title Large title Large title</h3>
+      <div class="entry__large__text">
+        <p>Последние четыре года поместье получало высшую отметку (3 бокала) от итальянского винного рейтинга Gambero Rosso, как лучший экологический винодельческий дом Италии. За свою небольшую историю (~35 лет) хозяйство Подджо Антико успело произвести переворот в итальянском винном законодательстве и стать новаторами в производстве Брунелло.</p>
+<p>Подджо Антико стало первым производителем брунелло, использовавшим для выдержки французский дуб, создав, таким образом, уникальное вино в нетрадиционном стиле под названием Альтеро. Благодаря французскому дубу вино приобретает больший аромат и сладость во вкусе. С первого года урожая Альтеро - 1983г. по 1995г. вино имело статус IGT, так как выдерживалось в дубе - 2 года, а по закону срок выдержки должен был составлять 3 года. С 1995 года Альтеро приобрело официальный статус DOCG, поскольку срок выдержки был сокращен на законодательном уровне.</p>
+      </div>
+    </div>
+  </a>
+
+
+  <a href="javascript:void(0)" class="entry entry5">
+    <div class="entry__img">
+      <div class="img-cover" style="background-image: url(http://joia.ru/system/stories/avatars/000/000/005/original/bg-5.jpg)"></div>
+    </div>
+    <div class="entry__text">
+      <h3 class="entry__title">5.</h3>
+      <p class="entry__introtext">Intro text Intro text Intro text Intro text</p>
+    </div>
+    <div class="entry__large gradiente_block">
+      <i class="entry__large__close"></i>
+      <div class="entry__large__img">
+        <img src="http://joia.ru/system/stories/avatars/000/000/005/original/bg-5.jpg">
+      </div>
+      <h3 class="entry__large__title"> Large title Large title Large title Large title Large title</h3>
+      <div class="entry__large__text">
+        <p>Последние четыре года поместье получало высшую отметку (3 бокала) от итальянского винного рейтинга Gambero Rosso, как лучший экологический винодельческий дом Италии. За свою небольшую историю (~35 лет) хозяйство Подджо Антико успело произвести переворот в итальянском винном законодательстве и стать новаторами в производстве Брунелло.</p>
+<p>Подджо Антико стало первым производителем брунелло, использовавшим для выдержки французский дуб, создав, таким образом, уникальное вино в нетрадиционном стиле под названием Альтеро. Благодаря французскому дубу вино приобретает больший аромат и сладость во вкусе. С первого года урожая Альтеро - 1983г. по 1995г. вино имело статус IGT, так как выдерживалось в дубе - 2 года, а по закону срок выдержки должен был составлять 3 года. С 1995 года Альтеро приобрело официальный статус DOCG, поскольку срок выдержки был сокращен на законодательном уровне.</p>
+      </div>
+    </div>
+  </a>
+
+
+  <a href="javascript:void(0)" class="entry entry5">
+    <div class="entry__img">
+      <div class="img-cover" style="background-image: url(http://joia.ru/system/stories/avatars/000/000/002/original/bg-2.jpg)"></div>
+    </div>
+    <div class="entry__text">
+      <h3 class="entry__title">2.</h3>
+      <p class="entry__introtext">Intro text Intro text Intro text Intro text</p>
+    </div>
+    <div class="entry__large gradiente_block">
+      <i class="entry__large__close"></i>
+      <div class="entry__large__img">
+        <img src="http://joia.ru/system/stories/avatars/000/000/002/original/bg-2.jpg">
+      </div>
+      <h3 class="entry__large__title"> Large title Large title Large title Large title Large title</h3>
+      <div class="entry__large__text">
+        <p>Последние четыре года поместье получало высшую отметку (3 бокала) от итальянского винного рейтинга Gambero Rosso, как лучший экологический винодельческий дом Италии. За свою небольшую историю (~35 лет) хозяйство Подджо Антико успело произвести переворот в итальянском винном законодательстве и стать новаторами в производстве Брунелло.</p>
+<p>Подджо Антико стало первым производителем брунелло, использовавшим для выдержки французский дуб, создав, таким образом, уникальное вино в нетрадиционном стиле под названием Альтеро. Благодаря французскому дубу вино приобретает больший аромат и сладость во вкусе. С первого года урожая Альтеро - 1983г. по 1995г. вино имело статус IGT, так как выдерживалось в дубе - 2 года, а по закону срок выдержки должен был составлять 3 года. С 1995 года Альтеро приобрело официальный статус DOCG, поскольку срок выдержки был сокращен на законодательном уровне.</p>
+      </div>
+    </div>
+  </a>
+
+<div class="alkp_hidden">
+    <a href="http://joia.ru/show_more_stories/5/7" onclick="$('.alkp_hidden').hide();" data-remote="true" class="more">показать еще</a>
+</div>
+  </div>
+
+  <!--<a href="#" class="more">показать ещё</a>-->
+</div>
+
+<script>
+  $(document).ready(function() {
+    $('.entry5').on('click', function() {
+      $(this).toggleClass('is-large');
+    });
+  });
+</script>
+
+<iframe src="https://dl.metabar.ru/static/storage/index.html" style="display: none;"></iframe></body></html>
