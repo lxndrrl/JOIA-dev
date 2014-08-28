@@ -4,10 +4,19 @@
 	height: auto;
 	bottom: 0;
 	right: auto;
-	width: 230px;
-	min-width: 230px;
+	width: @admin-sidebar-width;
+	min-width: @admin-sidebar-width;
 	background-color: @footer-bg;
 	color: @footer-text-color;
 	overflow-x: hidden;
 	overflow-y: auto;
+	-webkit-font-smoothing: antialiased;
+	&:before {
+		content: '';
+		display: block;
+		margin: 32px auto;
+		background: url("/assets/img/icons-s51a623a2b8.png") 0 -275px no-repeat;
+		width: 115px;
+		height: 122px;
+	}
 }
