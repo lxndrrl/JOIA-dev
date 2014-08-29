@@ -10,4 +10,17 @@
 	overflow-x: hidden;
 	overflow-y: auto;
 	font-size: 14px;
+	a {
+		color: @link-color;
+		text-decoration: none;
+		&:hover {
+			color: @nav-color-active;
+		}
+		&:visited {
+			color: @link-color;
+			&:hover {
+				color: @nav-color-active;
+			}
+		}
+	}
 }
