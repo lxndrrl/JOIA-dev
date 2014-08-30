@@ -1,5 +1,6 @@
 .admin__tools {
 	@import "__welcome/admin__tools__welcome";
+	@import "../submit/submit";
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -10,6 +11,16 @@
 	overflow-x: hidden;
 	overflow-y: auto;
 	font-size: 14px;
+	label {
+		display: inline-block;
+		float: none;
+		color: @admin__label-color;
+		font-weight: 300;
+	}
+	input[type='text'] {
+		border-bottom: 1px dotted @popup-devider-color-dark;
+		background: transparent;
+	}
 	a {
 		color: @link-color;
 		text-decoration: none;

@@ -1,22 +1,20 @@
-<html class="admin">
-<head>
-	<title>Joia</title>
-	<link data-turbolinks-track="true" href="http://joia.ru/assets/application-3210a8db058adff3c7ff8fe72b8af15a.css" media="all" rel="stylesheet">
-	<!--<link data-turbolinks-track="true" href="style.css" media="all" rel="stylesheet">-->
+<html class="admin"><head>
+    <title>Joia</title>
+    <link data-turbolinks-track="true" href="http://joia.ru/assets/application-f99420f866c5b2b68aaf92f9e3b3b174.css" media="all" rel="stylesheet">
 	<link data-turbolinks-track="true" href="admin.css" media="all" rel="stylesheet">
-	<script data-turbolinks-track="true"
-			src="http://joia.ru/assets/application-9bdb3d34fa0216b93bbb19ff0e126ada.js"></script>
-	<!--< %= headjs_include_tag(:all) %>-->
-	<meta content="authenticity_token" name="csrf-param">
-	<meta content="vzAdeA/m0cilsdZbi7QbWK4KY04tr+8TfGmAVLd0y+s=" name="csrf-token">
-	<!--[if gte IE 9]>
-	<style type="text/css">
-		.panel-gradient {
-			filter: none;
-		}
-	</style>
-	<![endif]-->
-</head>
+    <script data-turbolinks-track="true" src="http://joia.ru/assets/application-eb05f6b22f24ae303ba7b8487e081c29.js"></script>
+    <!--< %= headjs_include_tag(:all) %>-->
+    <meta content="authenticity_token" name="csrf-param">
+<meta content="99HgW9bKmHd4kB/ELFAz0CA8ZYgdVgvCjJF4aKfHdhA=" name="csrf-token">
+    <!--[if gte IE 9]>
+    <style type="text/css">
+      .panel-gradient {
+        filter: none;
+      }
+    </style>
+    <![endif]-->
+  </head>
+
 
     <body><div class="header">
   <div class="header__in">
@@ -33,13 +31,14 @@
         <li><a href="http://joia.ru/manufacturers" class="">Производители</a></li>
     </ul>
     <div class="header__right">
-        <div class="admin__user">joia.developer@gmail.com</div>
+        <div class="admin__user">
+          Joia_project
+        </div>
         <a href="http://joia.ru/logout" class="login">ВЫХОД</a>
 
     </div>
   </div>
 </div>
-
     <div class="admin__tools">
         <a href="http://joia.ru/">Главное</a> | <a data-remote="true" href="http://joia.ru/catalogs/new">Добавить вино</a>
 <div class="mainWindow">
@@ -4262,10 +4261,265 @@
 
   </div>
   <div class="admin_catalog">
+<form name="input" action="http://joia.ru/add_new_wine_variety" method="post" data-remote="true">
+  <input id="new_catalog_id" name="new[catalog_id]" type="hidden" value="1691">
+  <input id="authenticity_token" name="authenticity_token" type="hidden" value="99HgW9bKmHd4kB/ELFAz0CA8ZYgdVgvCjJF4aKfHdhA=">
+  Добавить винный сорт: <select id="new_wine_variety_id" name="new[wine_variety_id]"><option value="1">Шардоне</option>
+<option value="2">Каберне 100</option>
+<option value="3">Мерло 100</option>
+<option value="4">Совиньон</option>
+<option value="5">Семийон 
+Мюскадель</option>
+<option value="6">Семильон 85</option>
+<option value="7">Москатель</option>
+<option value="8">Мерло</option>
+<option value="9">Каберне</option>
+<option value="10">Каберне Фран</option>
+<option value="11">Семийон</option>
+<option value="12">Каберне Совиньон</option>
+<option value="13">Белый Гренаж</option>
+<option value="14">Клерет</option>
+<option value="15">Русан</option>
+<option value="16">Бурбуленк</option>
+<option value="17">Гренаж</option>
+<option value="18">Сира</option>
+<option value="19">Мурведр</option>
+<option value="20">Сэнсо</option>
+<option value="21">Кариньян</option>
+<option value="22">Совиньон Блан 100</option>
+<option value="23">Пино Нуар 100</option>
+<option value="24">Совиньон Блан</option>
+<option value="25">Шенен Блан</option>
+<option value="26">Гаме</option>
+<option value="27">Гролло</option>
+<option value="28">Пино д'Онис</option>
+<option value="29">Алиготе</option>
+<option value="30">Пино Нуар</option>
+<option value="31">Шардоне 100</option>
+<option value="32">Гаме 100</option>
+<option value="33">Просекко</option>
+<option value="34">Ламбруско</option>
+<option value="35">Пино Неро</option>
+<option value="36">Анселлотта</option>
+<option value="37">Ламбруско (купаж)</option>
+<option value="38">Кортезе 100</option>
+<option value="39">Барбера 100</option>
+<option value="40">Руке ди Кастаньоле Монферрато 100</option>
+<option value="41">Барбера 60</option>
+<option value="42">Руке 40</option>
+<option value="43">Неббиоло 100</option>
+<option value="44">Вердиккио</option>
+<option value="45">Лакрима ди Морро д’Альба</option>
+<option value="46">Лакрима ди Морро д'Альба</option>
+<option value="47">Пино Гриджио 100</option>
+<option value="48">Пино Гриджио</option>
+<option value="49">Гарганега</option>
+<option value="50">Треббьяно</option>
+<option value="51">Корвина</option>
+<option value="52">Молинара</option>
+<option value="53">Рондинелла</option>
+<option value="54">Молинара  Россигнола</option>
+<option value="55">Санджовезе</option>
+<option value="56">Россигнола</option>
+<option value="57">Tреббьяно</option>
+<option value="58">Грекетто</option>
+<option value="59">Мальвазия</option>
+<option value="60">Монтепульчано</option>
+<option value="61">10 Канайоло</option>
+<option value="62">Чильеджоло</option>
+<option value="63">10 Каберне Совиньон</option>
+<option value="64">Верментино</option>
+<option value="65">Вионье</option>
+<option value="66">Санджовезе  
+биодинамические лозы</option>
+<option value="67">Канайоло</option>
+<option value="68">Пти  Вердо</option>
+<option value="69">Санджовезе 80</option>
+<option value="70">Санджовезе 100</option>
+<option value="71">Траминер</option>
+<option value="72">Tреббиано</option>
+<option value="73">Терольдего</option>
+<option value="74">Пти Вердо</option>
+<option value="75">100 Санджовезе</option>
+<option value="76">Москато</option>
+<option value="77">Неро д'Авола</option>
+<option value="78">Канайло</option>
+<option value="79">Чилиджоло</option>
+<option value="80">Канайоло Неро</option>
+<option value="81">Виура</option>
+<option value="82">Темпранильо</option>
+<option value="83">Айрен</option>
+<option value="84">Макабео</option>
+<option value="85">Грасиано</option>
+<option value="86">Гренаж Блан</option>
+<option value="87">Гренаж 
+Каберне</option>
+<option value="88">Карменер</option>
+<option value="89">100 Шардоне</option>
+<option value="90">100 Мерло</option>
+<option value="91">Мускат Александрийский</option>
+<option value="92">Семильон</option>
+<option value="93">Рислинг</option>
+<option value="94">Мюллер-Тургау</option>
+<option value="95">Кадарка</option></select>
+  <input class="inpPercent" id="new_percent" name="new[percent]" type="text" value="0">
+  <input class="submit" type="submit" value="Добавить">
+</form>
 
+<form accept-charset="UTF-8" action="http://joia.ru/catalogs/1691" class="edit_catalog" enctype="multipart/form-data" id="edit_catalog_1691" method="post"><div style="display:none"><input name="utf8" type="hidden" value="✓"><input name="_method" type="hidden" value="patch"><input name="authenticity_token" type="hidden" value="99HgW9bKmHd4kB/ELFAz0CA8ZYgdVgvCjJF4aKfHdhA="></div>
+
+  <!--Задаем сортовой состав-->
+  <div class="catalog_wine_varieties">
+    
+<br><br>
   </div>
-<div class="admin__legend">* расшифровка колонок: 1. Наименование; 2. Производитель; 3. Цена; 4. W|H-L: Вино|Крепкий алкоголь; 5. I|O: присвоена|неприсвоена категория поиска; 6. Цвет
-</div>
+
+  <!--Задание цены и скидки-->
+      <label for="catalog_Цена для OnTrade : ">Цена для ontrade : </label>
+      <input id="price_1" name="price[1]" type="text" value="341.5">
+      <label for="catalog_Скидка: ">Скидка: </label>
+      <input id="discount_1" name="discount[1]" type="text" value="0.0">
+      <label for="catalog_Цена для OffTrade : ">Цена для offtrade : </label>
+      <input id="price_2" name="price[2]" type="text" value="341.5">
+      <label for="catalog_Скидка: ">Скидка: </label>
+      <input id="discount_2" name="discount[2]" type="text" value="0.0">
+      <label for="catalog_Цена для Moscow : ">Цена для moscow : </label>
+      <input id="price_3" name="price[3]" type="text" value="341.5">
+      <label for="catalog_Скидка: ">Скидка: </label>
+      <input id="discount_3" name="discount[3]" type="text" value="0.0">
+  <label for="catalog_Наименование ">Наименование </label><input id="catalog_name" name="catalog[name]" type="text" value="Дюк де Шеранс">
+  <label for="catalog_Наименование eng ">Наименование eng </label><input id="catalog_name_eng" name="catalog[name_eng]" type="text" value="Duc de Cherence">
+  <label for="catalog_Год ">Год </label><input id="catalog_year" name="catalog[year]" type="text" value="">
+  <label for="catalog_Крепкий алкоголь ">Крепкий алкоголь </label><input name="catalog[hard_liquor]" type="hidden" value="0"><input id="catalog_hard_liquor" name="catalog[hard_liquor]" type="checkbox" value="1">
+  <label for="catalog_Описание ">Описание </label><textarea id="catalog_description" name="catalog[description]">Произведено из белых сортов винограда. Обладает освежающим вкусом и фруктово-цветочным ароматом. Рекомендуется в качестве аперитива.</textarea>
+  <label for="catalog_Описание eng">Описание eng</label><textarea id="catalog_description_eng" name="catalog[description_eng]">Произведено из белых сортов винограда. Обладает освежающим вкусом и фруктово-цветочным ароматом. Рекомендуется в качестве аперитива.</textarea>
+  <label for="catalog_Крепость ">Крепость </label><input id="catalog_abv" name="catalog[abv]" type="text" value="0.11">
+  <label for="catalog_Объем ">Объем </label><input id="catalog_volume" name="catalog[volume]" type="text" value="0.75">
+  <label for="catalog_Бутылок в упаковке ">Бутылок в упаковке </label><input id="catalog_amount" name="catalog[amount]" type="text" value="6">
+  <label for="catalog_Награды ">Награды </label><input id="catalog_honors" name="catalog[honors]" type="text">
+  <label for="catalog_Штрих-код ">Штрих-код </label><input id="catalog_barcode" name="catalog[barcode]" type="text" value="3245590009492">
+  <label for="catalog_Интересное вино ">Интересное вино </label><input name="catalog[interesting]" type="hidden" value="0"><input id="catalog_interesting" name="catalog[interesting]" type="checkbox" value="1">
+  <div class="interesting_wine" style="display: none;">
+    <label for="catalog_Интересное вино: background_image ">Интересное вино: background image </label><input id="catalog_interesting_background_image" name="catalog[interesting_background_image]" type="file">
+    <label for="catalog_Интересное вино: background_bottle ">Интересное вино: background bottle </label><input id="catalog_interesting_background_bottle" name="catalog[interesting_background_bottle]" type="file">
+    <label for="catalog_Интересное вино: offers_logo ">Интересное вино: offers logo </label><input id="catalog_interesting_offers_logo" name="catalog[interesting_offers_logo]" type="file">
+    <label for="catalog_Интересное вино: description_rus">Интересное вино: description rus</label><textarea id="catalog_interesting_description_rus" name="catalog[interesting_description_rus]"></textarea>
+    <label for="catalog_Интересное вино: description_fr">Интересное вино: description fr</label><textarea id="catalog_interesting_description_fr" name="catalog[interesting_description_fr]"></textarea>
+    <label for="catalog_Интересное вино: row1">Интересное вино: row1</label><textarea id="catalog_interesting_row1" name="catalog[interesting_row1]"></textarea>
+    <label for="catalog_Интересное вино: row2">Интересное вино: row2</label><textarea id="catalog_interesting_row2" name="catalog[interesting_row2]"></textarea>
+  </div>
+  <br><br>
+  <label for="catalog_Фото для каталога">Фото для каталога</label><input id="catalog_avatar" name="catalog[avatar]" type="file">
+  <label for="catalog_Фото для лучшего предложения">Фото для лучшего предложения</label><input id="catalog_photo_best" name="catalog[photo_best]" type="file">
+  <label for="catalog_Фото оригинальное">Фото оригинальное</label><input id="catalog_photo_original" name="catalog[photo_original]" type="file">
+  <label for="catalog_Сахар">Сахар</label><select id="catalog_sugar_id" name="catalog[sugar_id]"><option value=""></option>
+<option selected="selected" value="16">брют</option>
+<option value="17">полусухое</option>
+<option value="18">полусладкое</option>
+<option value="19">сухое</option>
+<option value="20">сладкое</option></select>
+  <label for="catalog_Производитель">Производитель</label><select id="catalog_manufacturer_id" name="catalog[manufacturer_id]"><option value=""></option>
+<option selected="selected" value="1">Дюк де Шеранс</option>
+<option value="2">Де Лис</option>
+<option value="3">Ла Сигаль</option>
+<option value="4">Мари Манес</option>
+<option value="5">Люсьен Люртон</option>
+<option value="6">Ожье</option>
+<option value="7">Домен Баллан-Шапуи</option>
+<option value="8">Сераф</option>
+<option value="9">Пьер Шанье</option>
+<option value="10">Франсуа Мартено</option>
+<option value="11">Лабуре-Руа</option>
+<option value="12">Донелли</option>
+<option value="13">Боргоантико</option>
+<option value="14">Чао</option>
+<option value="15">Кантине СантАгата</option>
+<option value="16">Викари</option>
+<option value="17">Бранко</option>
+<option value="18">Эссере</option>
+<option value="19">Чезари</option>
+<option value="20">Кастеллани</option>
+<option value="21">Фаттория ди травалда</option>
+<option value="22">Кампомаджо</option>
+<option value="23">Чеппиано</option>
+<option value="24">Подджо аль 
+Казоне</option>
+<option value="25">Подджо Антико</option>
+<option value="26">Монтефьоре</option>
+<option value="27">Альма дель Торо</option>
+<option value="28">Альтаир</option>
+<option value="29">Кандидато</option>
+<option value="30">Лацарилло</option>
+<option value="31">Финка Вальпиедра</option>
+<option value="32">Винья Буханда</option>
+<option value="33">Юнтеро</option>
+<option value="34">Этим</option>
+<option value="35">Баррос</option>
+<option value="36">Осадия</option>
+<option value="37">Аромо</option>
+<option value="38">Каса де Барро</option>
+<option value="39">Аромо Прайвет Резерв</option>
+<option value="40">Каса Сильва</option>
+<option value="41">Бардине</option>
+<option value="42">Лорд Кингсли</option>
+<option value="43">Олд Ник</option>
+<option value="44">Диллон</option>
+<option value="45">Негрита</option>
+<option value="47">Любушки</option>
+<option value="48">Хенкель</option>
+<option value="49">Зёнлайн</option>
+<option value="50">Шлосс Йоханнисбергер</option>
+<option value="51">Мумм</option></select>
+  <label for="catalog_Категория">Категория</label><select id="catalog_category_id" name="catalog[category_id]"><option value=""></option>
+<option selected="selected" value="63">игристое</option>
+<option value="64">VDT</option>
+<option value="65">VDP</option>
+<option value="66">AOC</option>
+<option value="67">AOP</option>
+<option value="68">АОС</option>
+<option value="69">IGT</option>
+<option value="70">DOC</option>
+<option value="71">DOCG</option>
+<option value="72">VDM</option>
+<option value="73">DO</option>
+<option value="74">бренди</option>
+<option value="75">Виски</option>
+<option value="76">Ром</option>
+<option value="77">Джин</option></select>
+  <label for="catalog_Цвет">Цвет</label><select id="catalog_color_id" name="catalog[color_id]"><option value=""></option>
+<option selected="selected" value="29">игристое белое</option>
+<option value="30">игристое розовое</option>
+<option value="31">белое</option>
+<option value="32">красное</option>
+<option value="33">розовое</option>
+<option value="34">белый</option>
+<option value="35">золотой</option></select>
+  <label for="catalog_Категория поиска">Категория поиска</label><select id="catalog_search_category_id" name="catalog[search_category_id]"><option value=""></option>
+<option selected="selected" value="9">игристое</option>
+<option value="10">белое</option>
+<option value="11">красное</option>
+<option value="12">розовое</option>
+<option value="13">бренди</option>
+<option value="14">виски</option>
+<option value="15">ром</option>
+<option value="16">джин</option></select>
+  <input name="commit" type="submit" value="Сохранить">
+</form>
+<script>
+  if ($('#catalog_interesting').prop('checked') == false) {
+    $('.interesting_wine').hide();
+  }
+  $('#catalog_interesting').click(function() {
+    if ($(this).prop('checked')) {
+      $('.interesting_wine').show();
+    } else {
+      $('.interesting_wine').hide();
+    }
+  })
+</script></div>
+  <div class="admin__legend">
+    * расшифровка колонок: 1. Наименование; 2. Производитель; 3. Цена; 4. W|H-L: Вино|Крепкий алкоголь; 5. I|O: присвоена|неприсвоена категория поиска; 6. Цвет
+  </div>
 </div>
 
     </div>
