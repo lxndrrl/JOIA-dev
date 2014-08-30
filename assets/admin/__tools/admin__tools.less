@@ -20,6 +20,22 @@
 	input[type='text'] {
 		border-bottom: 1px dotted @popup-devider-color-dark;
 		background: transparent;
+		&:focus {
+			color: @nav-color-active;
+		}
+	}
+	textarea {
+		background: lighten(@admin__tools-bg, 5%);
+		border: solid 1px @popup-devider-color-dark;
+		border-radius: @brd-radius-s;
+		padding: @brd-radius-s;
+		&:hover {
+			border-color: @nav-color-active;
+		}
+		&:focus {
+			border-color: @nav-color-active;
+			box-shadow: 0 0 6px fadeOut(@nav-color-active, 70%), inset 0 0 4px fadeOut(@nav-color-active, 70%);
+		}
 	}
 	a {
 		color: @link-color;
