@@ -1,19 +1,43 @@
 .header__nav {
 	position: relative;
 	left: 0;
-	padding: 16px;
+	padding: 0;
 	li {
 		float: none;
+		.font__MyriadPro-Regular;
 		a {
 			float: none;
 			color: @footer-text-color;
 			height: auto;
+			font-size: 14px;
 			line-height: 48px;
-			font-size: 16px;
-			margin: 0;
+			margin: 0 0 0 16px;
 			display: block;
+			padding: 0 16px 0 16px;
+			text-transform: capitalize;
+			background: fadeOut(@footer-bg-darken-vol1, 100%);
+			transition: all 80ms ease-out;
+			-webkit-font-smoothing: antialiased;
 			&:hover {
 				color: @footer-text-hover-color;
+				background: @footer-bg-darken-vol1;
+				margin-left: 16px;
+				padding-left: 16px;
+				border-radius: @brd-radius-s 0 0 @brd-radius-s;
+			}
+			&.is-active {
+				//			background: @footer-bg-darken-vol2;
+				background: @admin__tools-bg;
+				margin-left: 16px;
+				padding-left: 16px;
+				border-radius: @brd-radius-s 0 0 @brd-radius-s;
+				color: @text-color;
+				//				border-left: solid @brd-radius-s @substrate;
+				&:hover {
+					background: @admin__tools-bg;
+					padding-left: 16px;
+					color: @text-color;
+				}
 			}
 		}
 	}
