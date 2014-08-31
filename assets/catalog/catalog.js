@@ -26,23 +26,27 @@ $(document).ready(function () {
 	}); //Алексей попросил закомментить
 
 
-	// Появление полей при нажатии на элементы КП
-	$('.radios_section .radios_section_click .radio, .radios_section .radios_section_click label').on('click', function() {
-		if ($(this).prop('checked') === true) {
-			$(this).parents('.radios_section_row').after('<div class="radios_section_field field clearfix special_conditions_text"><input type="text" value="" class="text_field"></div>');
-		} else {
-			$(this).parents('.radios_section_row').next('.field').remove();
-		}
+  // Появление полей при нажатии на элементы КП
+  $('.radios_section .radios_section_click .radio, .radios_section .radios_section_click label').on('click', function() {
+  	if ($(this).prop('checked') === true) {
+  		$(this).parents('.radios_section_row').after('<div class="radios_section_field field clearfix special_conditions_text"><input type="text" value="" class="text_field"></div>');
+  	} else {
+  		$(this).parents('.radios_section_row').next('.field').remove();
+  	}
 
-		$('.radios_section_field .text_field').bind('hastext', function() {
-			$(this).addClass('is-focus');
-		});
+  	$('.radios_section_field .text_field').bind('hastext', function() {
+  		$(this).addClass('is-focus');
+  	});
 
-		$('.radios_section_field .text_field').bind('notext', function() {
-			$(this).removeClass('is-focus');
-		});
+  	$('.radios_section_field .text_field').bind('notext', function() {
+  		$(this).removeClass('is-focus');
+  	});
 
-	});
+  });
+
+  $('.radios_section1 > div:nth-child(1)').on('click', function() {
+  	$('.radios_section_field').css('display', 'none');
+  });
 
 
 
