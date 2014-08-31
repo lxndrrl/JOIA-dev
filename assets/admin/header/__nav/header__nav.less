@@ -11,10 +11,13 @@
 			height: auto;
 			font-size: 14px;
 			line-height: 48px;
-			margin: 0;
+			margin: 0 0 0 16px;
 			display: block;
-			padding: 0 16px 0 32px;
+			padding: 0 16px 0 16px;
 			text-transform: capitalize;
+			background: fadeOut(@footer-bg-darken-vol1, 100%);
+			transition: all 80ms ease-out;
+			-webkit-font-smoothing: antialiased;
 			&:hover {
 				color: @footer-text-hover-color;
 				background: @footer-bg-darken-vol1;

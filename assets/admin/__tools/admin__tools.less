@@ -11,6 +11,7 @@
 	overflow-x: hidden;
 	overflow-y: auto;
 	font-size: 14px;
+	line-height: 1.5;
 	label {
 		display: inline-block;
 		float: none;
@@ -24,17 +25,27 @@
 			color: @nav-color-active;
 		}
 	}
+	input[type='file'] {
+//		font-style: italic;
+		-webkit-font-smoothing: antialiased;
+		color: @admin__tools-bg;
+		background: desaturate(lighten(@admin__label-color, 9%),8%);
+		border-radius: @brd-radius-s;
+		padding: 0 @brd-radius-s 0 0;
+	}
 	textarea {
 		background: lighten(@admin__tools-bg, 5%);
 		border: solid 1px @popup-devider-color-dark;
 		border-radius: @brd-radius-s;
 		padding: @brd-radius-s;
+		transition: all 80ms ease-out;
 		&:hover {
 			border-color: @nav-color-active;
 		}
 		&:focus {
 			border-color: @nav-color-active;
 			box-shadow: 0 0 6px fadeOut(@nav-color-active, 70%), inset 0 0 4px fadeOut(@nav-color-active, 70%);
+			background: lighten(@admin__tools-bg, 50%);
 		}
 	}
 	a {
