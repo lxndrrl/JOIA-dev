@@ -1,61 +1,45 @@
 .dd3-content {
-	overflow: hidden;
-	font-weight: 400;
-	color: @text-color;
-	//	background: transparent;
-	//	border: solid 1px @popup-devider-color-dark;
+//	overflow: hidden;
+//	font-weight: 400;
+//	color: @text-color;
+//	background: @BLACK-color-base;
+//	border-top: none;
+//	border-right: none;
+//	border-bottom: none;
+//	border-left: solid 1px @admin__tools-bg;
+	border: 1px solid @admin-border-color-dark;
 	&:hover {
 		color: @text-color;
 	}
-
-		img {
-			position: relative;
-			margin: 0 auto;
-			&:after {
-				content: '';
-				background: #008000;
-				display: block;
-				position: absolute;
-				width: 20px;
-				height: 20px;
-				border-radius: 50%;
-				top: 0;
-				left: 50%;
-			}
-		}
-
 }
 
 .dd3-handle {
-	background: @admin__tools-substrate-bg;
-	border-top: none;
-	border-right: solid 1px @admin__tools-bg;
-	border-bottom: none;
-	border-left: none;
+//	background: @admin__tools-substrate-bg;
+//	border: none;
+	border: 1px solid @admin-border-color-dark;
 	&:hover {
-		background: @nav-color-active;
+//		background: @nav-color-active;
 	}
 }
 
-.is-active {
+.dd-item.is-active {
 	.dd3-content {
-		background: @nav-color-active;
-		border: none;
-		color: @WHITE-color-base;
+		background: linear-gradient(to bottom, #fff5f2 0%,#ffeae5 100%);
+		color: @nav-color-active;
 		&:hover {
-			color: @WHITE-color-base;
+			color: @nav-color-active;
 		}
 		a {
-			color: @WHITE-color-base;
+//			color: @WHITE-color-base;
 			&:hover {
-				color: @WHITE-color-base;
+				color: @nav-color-active;
 			}
 		}
 	}
 	.dd3-handle {
-		border-right: solid 1px @admin__tools-bg;
+//		border-right: solid 1px @admin__tools-bg;
 		&:hover {
-			background: @nav-color-active;
+//			background: @nav-color-active;
 		}
 	}
 }
