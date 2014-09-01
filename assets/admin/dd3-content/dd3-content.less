@@ -1,4 +1,61 @@
 .dd3-content {
 	overflow: hidden;
 	font-weight: 400;
+	color: @text-color;
+	//	background: transparent;
+	//	border: solid 1px @popup-devider-color-dark;
+	&:hover {
+		color: @text-color;
+	}
+
+		img {
+			position: relative;
+			margin: 0 auto;
+			&:after {
+				content: '';
+				background: #008000;
+				display: block;
+				position: absolute;
+				width: 20px;
+				height: 20px;
+				border-radius: 50%;
+				top: 0;
+				left: 50%;
+			}
+		}
+
+}
+
+.dd3-handle {
+	background: @admin__tools-substrate-bg;
+	border-top: none;
+	border-right: solid 1px @admin__tools-bg;
+	border-bottom: none;
+	border-left: none;
+	&:hover {
+		background: @nav-color-active;
+	}
+}
+
+.is-active {
+	.dd3-content {
+		background: @nav-color-active;
+		border: none;
+		color: @WHITE-color-base;
+		&:hover {
+			color: @WHITE-color-base;
+		}
+		a {
+			color: @WHITE-color-base;
+			&:hover {
+				color: @WHITE-color-base;
+			}
+		}
+	}
+	.dd3-handle {
+		border-right: solid 1px @admin__tools-bg;
+		&:hover {
+			background: @nav-color-active;
+		}
+	}
 }
