@@ -1,12 +1,5 @@
 .dd3-content {
-//	overflow: hidden;
-//	font-weight: 400;
-//	color: @text-color;
-//	background: @BLACK-color-base;
-//	border-top: none;
-//	border-right: none;
-//	border-bottom: none;
-//	border-left: solid 1px @admin__tools-bg;
+	@import "../editBtnCountry/editBtnCountry";
 	border: 1px solid @admin-border-color-dark;
 	&:hover {
 		color: @text-color;
@@ -14,12 +7,7 @@
 }
 
 .dd3-handle {
-//	background: @admin__tools-substrate-bg;
-//	border: none;
 	border: 1px solid @admin-border-color-dark;
-	&:hover {
-//		background: @nav-color-active;
-	}
 }
 
 .dd-item.is-active {
@@ -30,16 +18,9 @@
 			color: @nav-color-active;
 		}
 		a {
-//			color: @WHITE-color-base;
 			&:hover {
 				color: @nav-color-active;
 			}
-		}
-	}
-	.dd3-handle {
-//		border-right: solid 1px @admin__tools-bg;
-		&:hover {
-//			background: @nav-color-active;
 		}
 	}
 }

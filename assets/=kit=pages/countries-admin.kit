@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html class="admin"><head>
+    <title>Joia</title>
+    <link data-turbolinks-track="true" href="http://joia.ru/assets/application-1727523d5c9ee5c1fec0bff064e62874.css" media="all" rel="stylesheet">
+	<link data-turbolinks-track="true" href="admin.css" media="all" rel="stylesheet">
+    <script data-turbolinks-track="true" src="http://joia.ru/assets/application-c30f3ee36bc5a63502e1d2b603ed6e96.js"></script>
+    <!--< %= headjs_include_tag(:all) %>-->
+    <meta content="authenticity_token" name="csrf-param">
+<meta content="7lFvt9sp6hmqBglJiYwfjrJCFFz8ACafo14AxAI3iy4=" name="csrf-token">
+    <!--[if gte IE 9]>
+    <style type="text/css">
+      .panel-gradient {
+        filter: none;
+      }
+    </style>
+    <![endif]-->
+  </head>
+
+
+    <body><div class="header">
+  <div class="header__in">
+    <ul class="header__nav">
+        <li><a href="http://joia.ru/catalogs" class="">Каталог</a></li>
+        <li><a href="http://joia.ru/stories" class="">Новости</a></li>
+        <li><a href="http://joia.ru/types" class="">Типы</a></li>
+        <li><a href="http://joia.ru/sugars" class="">Сахар</a></li>
+        <li><a href="http://joia.ru/countries" class="is-active">Страны / регионы</a></li>
+        <li><a href="http://joia.ru/categories" class="">Категории</a></li>
+        <li><a href="http://joia.ru/colors" class="">Цвета</a></li>
+        <li><a href="http://joia.ru/search_categories" class="">Категории поиска</a></li>
+        <li><a href="http://joia.ru/wine_varieties" class="">Винные сорта</a></li>
+        <li><a href="http://joia.ru/manufacturers" class="">Производители</a></li>
+    </ul>
+    <div class="header__right">
+        <div class="admin__user">
+          Joia_project
+        </div>
+        <a href="http://joia.ru/logout" class="login">ВЫХОД</a>
+
+    </div>
+  </div>
+</div>
+    <div class="admin__tools">
+      <a href="http://joia.ru/">Главное</a>
+
+<div>
+  <div class="countries">
+    <form accept-charset="UTF-8" action="http://joia.ru/countries" class="new_country" id="new_country" method="post"><div style="display:none"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="7lFvt9sp6hmqBglJiYwfjrJCFFz8ACafo14AxAI3iy4="></div>
+  <label for="country_Новая страна ">Новая страна </label>1<input id="country_name" name="country[name]" style="width: 30%;" type="text">2<input id="country_name_eng" name="country[name_eng]" style="width: 30%;" type="text"><input name="commit" type="submit" value="Сохранить">
+</form>
+<div class="dd" id="nestable">
+  <ol class="dd-list">
+      <li class="dd-item" data-id="1">
+        <div class="dd-handle dd3-handle">Drag</div>
+        <div class="dd3-content">
+          <div class="percent-90"><a data-remote="true" href="http://joia.ru/countries/1">ФРАНЦИЯ</a></div>
+          <div class="percent-5"><a class="editBtnCountry" id="1" href="javascript:void(0)"><i class="pen"></i></a></div>	
+          <div class="percent-5"><a data-confirm="Вы действительно хотите удалить страну?" data-method="delete" href="http://joia.ru/countries/1" rel="nofollow">[X]</a></div>
+        </div>
+      </li>
+      <!--< %= link_to c.name, country_path(c), remote: true %>< %= c.name_eng %>-->
+      <!--<a data-confirm="Вы действительно хотите удалить страну?" data-method="delete" href="http://joia.ru/countries/< %= c.id %>" rel="nofollow">-->
+      <!--Удалить страну</a>-->
+      <li class="dd-item" data-id="2">
+        <div class="dd-handle dd3-handle">Drag</div>
+        <div class="dd3-content">
+          <div class="percent-90"><a data-remote="true" href="http://joia.ru/countries/2">Италия</a></div>
+          <div class="percent-5"><a class="editBtnCountry" id="2" href="javascript:void(0)"><i class="pen"></i></a></div>
+          <div class="percent-5"><a data-confirm="Вы действительно хотите удалить страну?" data-method="delete" href="http://joia.ru/countries/2" rel="nofollow">[X]</a></div>
+        </div>
+      </li>
+      <!--< %= link_to c.name, country_path(c), remote: true %>< %= c.name_eng %>-->
+      <!--<a data-confirm="Вы действительно хотите удалить страну?" data-method="delete" href="http://joia.ru/countries/< %= c.id %>" rel="nofollow">-->
+      <!--Удалить страну</a>-->
+      <li class="dd-item" data-id="3">
+        <div class="dd-handle dd3-handle">Drag</div>
+        <div class="dd3-content">
+          <div class="percent-90"><a data-remote="true" href="http://joia.ru/countries/3">Испания</a></div>
+          <div class="percent-5"><a class="editBtnCountry" id="3" href="javascript:void(0)"><i class="pen"></i></a></div>
+          <div class="percent-5"><a data-confirm="Вы действительно хотите удалить страну?" data-method="delete" href="http://joia.ru/countries/3" rel="nofollow">[X]</a></div>
+        </div>
+      </li>
+      <!--< %= link_to c.name, country_path(c), remote: true %>< %= c.name_eng %>-->
+      <!--<a data-confirm="Вы действительно хотите удалить страну?" data-method="delete" href="http://joia.ru/countries/< %= c.id %>" rel="nofollow">-->
+      <!--Удалить страну</a>-->
+      <li class="dd-item" data-id="5">
+        <div class="dd-handle dd3-handle">Drag</div>
+        <div class="dd3-content">
+          <div class="percent-90"><a data-remote="true" href="http://joia.ru/countries/5">Германия</a></div>
+          <div class="percent-5"><a class="editBtnCountry" id="5" href="javascript:void(0)"><i class="pen"></i></a></div>
+          <div class="percent-5"><a data-confirm="Вы действительно хотите удалить страну?" data-method="delete" href="http://joia.ru/countries/5" rel="nofollow">[X]</a></div>
+        </div>
+      </li>
+      <!--< %= link_to c.name, country_path(c), remote: true %>< %= c.name_eng %>-->
+      <!--<a data-confirm="Вы действительно хотите удалить страну?" data-method="delete" href="http://joia.ru/countries/< %= c.id %>" rel="nofollow">-->
+      <!--Удалить страну</a>-->
+      <li class="dd-item" data-id="8">
+        <div class="dd-handle dd3-handle">Drag</div>
+        <div class="dd3-content">
+          <div class="percent-90"><a data-remote="true" href="http://joia.ru/countries/8">Польша</a></div>
+          <div class="percent-5"><a class="editBtnCountry" id="8" href="javascript:void(0)"><i class="pen"></i></a></div>
+          <div class="percent-5"><a data-confirm="Вы действительно хотите удалить страну?" data-method="delete" href="http://joia.ru/countries/8" rel="nofollow">[X]</a></div>
+        </div>
+      </li>
+      <!--< %= link_to c.name, country_path(c), remote: true %>< %= c.name_eng %>-->
+      <!--<a data-confirm="Вы действительно хотите удалить страну?" data-method="delete" href="http://joia.ru/countries/< %= c.id %>" rel="nofollow">-->
+      <!--Удалить страну</a>-->
+      <li class="dd-item" data-id="4">
+        <div class="dd-handle dd3-handle">Drag</div>
+        <div class="dd3-content">
+          <div class="percent-90"><a data-remote="true" href="http://joia.ru/countries/4">Чили</a></div>
+          <div class="percent-5"><a class="editBtnCountry" id="4" href="javascript:void(0)"><i class="pen"></i></a></div>
+          <div class="percent-5"><a data-confirm="Вы действительно хотите удалить страну?" data-method="delete" href="http://joia.ru/countries/4" rel="nofollow">[X]</a></div>
+        </div>
+      </li>
+      <!--< %= link_to c.name, country_path(c), remote: true %>< %= c.name_eng %>-->
+      <!--<a data-confirm="Вы действительно хотите удалить страну?" data-method="delete" href="http://joia.ru/countries/< %= c.id %>" rel="nofollow">-->
+      <!--Удалить страну</a>-->
+      <li class="dd-item" data-id="6">
+        <div class="dd-handle dd3-handle">Drag</div>
+        <div class="dd3-content">
+          <div class="percent-90"><a data-remote="true" href="http://joia.ru/countries/6">Шотландия</a></div>
+          <div class="percent-5"><a class="editBtnCountry" id="6" href="javascript:void(0)"><i class="pen"></i></a></div>
+          <div class="percent-5"><a data-confirm="Вы действительно хотите удалить страну?" data-method="delete" href="http://joia.ru/countries/6" rel="nofollow">[X]</a></div>
+        </div>
+      </li>
+      <!--< %= link_to c.name, country_path(c), remote: true %>< %= c.name_eng %>-->
+      <!--<a data-confirm="Вы действительно хотите удалить страну?" data-method="delete" href="http://joia.ru/countries/< %= c.id %>" rel="nofollow">-->
+      <!--Удалить страну</a>-->
+      <li class="dd-item" data-id="7">
+        <div class="dd-handle dd3-handle">Drag</div>
+        <div class="dd3-content">
+          <div class="percent-90"><a data-remote="true" href="http://joia.ru/countries/7">Карибские острова</a></div>
+          <div class="percent-5"><a class="editBtnCountry" id="7" href="javascript:void(0)"><i class="pen"></i></a></div>
+          <div class="percent-5"><a data-confirm="Вы действительно хотите удалить страну?" data-method="delete" href="http://joia.ru/countries/7" rel="nofollow">[X]</a></div>
+        </div>
+      </li>
+      <!--< %= link_to c.name, country_path(c), remote: true %>< %= c.name_eng %>-->
+      <!--<a data-confirm="Вы действительно хотите удалить страну?" data-method="delete" href="http://joia.ru/countries/< %= c.id %>" rel="nofollow">-->
+      <!--Удалить страну</a>-->
+  </ol>
+</div>
+  </div>
+  <div class="regions"><h3>ФРАНЦИЯ</h3>
+
+<form accept-charset="UTF-8" action="http://joia.ru/regions" class="new_region" data-remote="true" id="new_region" method="post"><div style="display:none"><input name="utf8" type="hidden" value="✓"></div>
+  <label for="region_Новый регион ">Новый регион </label><input id="region_country_id" name="region[country_id]" style="display: none;" type="text" value="1">1<input id="region_name" name="region[name]" style="width: 30%;" type="text">2<input id="region_name_eng" name="region[name_eng]" style="width: 30%;" type="text"><input name="commit" remote="true" type="submit" value="Сохранить">
+</form>
+<div class="dd" id="nestable2">
+  <ol class="dd-list regionsList">
+      <li class="dd-item" data-id="61">
+    <div class="dd-handle dd3-handle">Drag</div>
+    <div class="dd3-content">
+      <div class="percent-90">Бургонь Алиготе</div>
+      <div class="percent-5"><a class="editBtnRegion" id="61" href="javascript:void(0)"><i class="pen"></i></a></div>
+      <div class="percent-5"><a data-confirm="Вы действительно хотите удалить регион?" data-method="delete" data-remote="true" href="http://joia.ru/regions/61" rel="nofollow">[X]</a></div>
+    </div>
+  </li>
+  <li class="dd-item" data-id="2">
+    <div class="dd-handle dd3-handle">Drag</div>
+    <div class="dd3-content">
+      <div class="percent-90">Лангедок-Руссийон</div>
+      <div class="percent-5"><a class="editBtnRegion" id="2" href="javascript:void(0)"><i class="pen"></i></a></div>
+      <div class="percent-5"><a data-confirm="Вы действительно хотите удалить регион?" data-method="delete" data-remote="true" href="http://joia.ru/regions/2" rel="nofollow">[X]</a></div>
+    </div>
+  </li>
+  <li class="dd-item" data-id="3">
+    <div class="dd-handle dd3-handle">Drag</div>
+    <div class="dd3-content">
+      <div class="percent-90">Бордо</div>
+      <div class="percent-5"><a class="editBtnRegion" id="3" href="javascript:void(0)"><i class="pen"></i></a></div>
+      <div class="percent-5"><a data-confirm="Вы действительно хотите удалить регион?" data-method="delete" data-remote="true" href="http://joia.ru/regions/3" rel="nofollow">[X]</a></div>
+    </div>
+  </li>
+  <li class="dd-item" data-id="7">
+    <div class="dd-handle dd3-handle">Drag</div>
+    <div class="dd3-content">
+      <div class="percent-90">Бордо Розе</div>
+      <div class="percent-5"><a class="editBtnRegion" id="7" href="javascript:void(0)"><i class="pen"></i></a></div>
+      <div class="percent-5"><a data-confirm="Вы действительно хотите удалить регион?" data-method="delete" data-remote="true" href="http://joia.ru/regions/7" rel="nofollow">[X]</a></div>
+    </div>
+  </li>
+  <li class="dd-item" data-id="5">
+    <div class="dd-handle dd3-handle">Drag</div>
+    <div class="dd3-content">
+      <div class="percent-90">Бордо Супериор</div>
+      <div class="percent-5"><a class="editBtnRegion" id="5" href="javascript:void(0)"><i class="pen"></i></a></div>
+      <div class="percent-5"><a data-confirm="Вы действительно хотите удалить регион?" data-method="delete" data-remote="true" href="http://joia.ru/regions/5" rel="nofollow">[X]</a></div>
+    </div>
+  </li>
+  <li class="dd-item" data-id="8">
+    <div class="dd-handle dd3-handle">Drag</div>
+    <div class="dd3-content">
+      <div class="percent-90">Грав</div>
+      <div class="percent-5"><a class="editBtnRegion" id="8" href="javascript:void(0)"><i class="pen"></i></a></div>
+      <div class="percent-5"><a data-confirm="Вы действительно хотите удалить регион?" data-method="delete" data-remote="true" href="http://joia.ru/regions/8" rel="nofollow">[X]</a></div>
+    </div>
+  </li>
+  <li class="dd-item" data-id="9">
+    <div class="dd-handle dd3-handle">Drag</div>
+    <div class="dd3-content">
+      <div class="percent-90">Пессак-Леоньян</div>
+      <div class="percent-5"><a class="editBtnRegion" id="9" href="javascript:void(0)"><i class="pen"></i></a></div>
+      <div class="percent-5"><a data-confirm="Вы действительно хотите удалить регион?" data-method="delete" data-remote="true" href="http://joia.ru/regions/9" rel="nofollow">[X]</a></div>
+    </div>
+  </li>
+  <li class="dd-item" data-id="10">
+    <div class="dd-handle dd3-handle">Drag</div>
+    <div class="dd3-content">
+      <div class="percent-90">Сотерн</div>
+      <div class="percent-5"><a class="editBtnRegion" id="10" href="javascript:void(0)"><i class="pen"></i></a></div>
+      <div class="percent-5"><a data-confirm="Вы действительно хотите удалить регион?" data-method="delete" data-remote="true" href="http://joia.ru/regions/10" rel="nofollow">[X]</a></div>
+    </div>
+  </li>
+  <li class="dd-item" data-id="4">
+    <div class="dd-handle dd3-handle">Drag</div>
+    <div class="dd3-content">
+      <div class="percent-90">Медок</div>
+      <div class="percent-5"><a class="editBtnRegion" id="4" href="javascript:void(0)"><i class="pen"></i></a></div>
+      <div class="percent-5"><a data-confirm="Вы действительно хотите удалить регион?" data-method="delete" data-remote="true" href="http://joia.ru/regions/4" rel="nofollow">[X]</a></div>
+    </div>
+  </li>
+  <li class="dd-item" data-id="6">
+    <div class="dd-handle dd3-handle">Drag</div>
+    <div class="dd3-content">
+      <div class="percent-90">О-Медок</div>
+      <div class="percent-5"><a class="editBtnRegion" id="6" href="javascript:void(0)"><i class="pen"></i></a></div>
+      <div class="percent-5"><a data-confirm="Вы действительно хотите удалить регион?" data-method="delete" data-remote="true" href="http://joia.ru/regions/6" rel="nofollow">[X]</a></div>
+    </div>
+  </li>
+  <li class="dd-item" data-id="11">
+    <div class="dd-handle dd3-handle">Drag</div>
+    <div class="dd3-content">
+      <div class="percent-90">O-Медок</div>
+      <div class="percent-5"><a class="editBtnRegion" id="11" href="javascript:void(0)"><i class="pen"></i></a></div>
+      <div class="percent-5"><a data-confirm="Вы действительно хотите удалить регион?" data-method="delete" data-remote="true" href="http://joia.ru/regions/11" rel="nofollow">[X]</a></div>
+    </div>
+  </li>
+  <li class="dd-item" data-id="12">
+    <div class="dd-handle dd3-handle">Drag</div>
+    <div class="dd3-content">
+      <div class="percent-90">Сен-Эстеф</div>
+      <div class="percent-5"><a class="editBtnRegion" id="12" href="javascript:void(0)"><i class="pen"></i></a></div>
+      <div class="percent-5"><a data-confirm="Вы действительно хотите удалить регион?" data-method="delete" data-remote="true" href="http://joia.ru/regions/12" rel="nofollow">[X]</a></div>
+    </div>
+  </li>
+  <li class="dd-item" data-id="13">
+    <div class="dd-handle dd3-handle">Drag</div>
+    <div class="dd3-content">
+      <div class="percent-90">Сент-Эмильон Гран Крю</div>
+      <div class="percent-5"><a class="editBtnRegion" id="13" href="javascript:void(0)"><i class="pen"></i></a></div>
+      <div class="percent-5"><a data-confirm="Вы действительно хотите удалить регион?" data-method="delete" data-remote="true" href="http://joia.ru/regions/13" rel="nofollow">[X]</a></div>
+    </div>
+  </li>
+  <li class="dd-item" data-id="14">
+    <div class="dd-handle dd3-handle">Drag</div>
+    <div class="dd3-content">
+      <div class="percent-90">Помроль</div>
+      <div class="percent-5"><a class="editBtnRegion" id="14" href="javascript:void(0)"><i class="pen"></i></a></div>
+      <div class="percent-5"><a data-confirm="Вы действительно хотите удалить регион?" data-method="delete" data-remote="true" href="http://joia.ru/regions/14" rel="nofollow">[X]</a></div>
+    </div>
+  </li>
+  <li class="dd-item" data-id="15">
+    <div class="dd-handle dd3-handle">Drag</div>
+    <div class="dd3-content">
+      <div class="percent-90">Марго</div>
+      <div class="percent-5"><a class="editBtnRegion" id="15" href="javascript:void(0)"><i class="pen"></i></a></div>
+      <div class="percent-5"><a data-confirm="Вы действительно хотите удалить регион?" data-method="delete" data-remote="true" href="http://joia.ru/regions/15" rel="nofollow">[X]</a></div>
+    </div>
+  </li>
+  <li class="dd-item" data-id="16">
+    <div class="dd-handle dd3-handle">Drag</div>
+    <div class="dd3-content">
+      <div class="percent-90">Шатонеф-дю-Пап</div>
+      <div class="percent-5"><a class="editBtnRegion" id="16" href="javascript:void(0)"><i class="pen"></i></a></div>
+      <div class="percent-5"><a data-confirm="Вы действительно хотите удалить регион?" data-method="delete" data-remote="true" href="http://joia.ru/regions/16" rel="nofollow">[X]</a></div>
+    </div>
+  </li>
+  <li class="dd-item" data-id="17">
+    <div class="dd-handle dd3-handle">Drag</div>
+    <div class="dd3-content">
+      <div class="percent-90">Кот-дю-Рон</div>
+      <div class="percent-5"><a class="editBtnRegion" id="17" href="javascript:void(0)"><i class="pen"></i></a></div>
+      <div class="percent-5"><a data-confirm="Вы действительно хотите удалить регион?" data-method="delete" data-remote="true" href="http://joia.ru/regions/17" rel="nofollow">[X]</a></div>
+    </div>
+  </li>
+  <li class="dd-item" data-id="18">
+    <div class="dd-handle dd3-handle">Drag</div>
+    <div class="dd3-content">
+      <div class="percent-90">Кот-дю-Рон АОС</div>
+      <div class="percent-5"><a class="editBtnRegion" id="18" href="javascript:void(0)"><i class="pen"></i></a></div>
+      <div class="percent-5"><a data-confirm="Вы действительно хотите удалить регион?" data-method="delete" data-remote="true" href="http://joia.ru/regions/18" rel="nofollow">[X]</a></div>
+    </div>
+  </li>
+  <li class="dd-item" data-id="19">
+    <div class="dd-handle dd3-handle">Drag</div>
+    <div class="dd3-content">
+      <div class="percent-90">Сансер</div>
+      <div class="percent-5"><a class="editBtnRegion" id="19" href="javascript:void(0)"><i class="pen"></i></a></div>
+      <div class="percent-5"><a data-confirm="Вы действительно хотите удалить регион?" data-method="delete" data-remote="true" href="http://joia.ru/regions/19" rel="nofollow">[X]</a></div>
+    </div>
+  </li>
+  <li class="dd-item" data-id="20">
+    <div class="dd-handle dd3-handle">Drag</div>
+    <div class="dd3-content">
+      <div class="percent-90">Пуйи Фюме</div>
+      <div class="percent-5"><a class="editBtnRegion" id="20" href="javascript:void(0)"><i class="pen"></i></a></div>
+      <div class="percent-5"><a data-confirm="Вы действительно хотите удалить регион?" data-method="delete" data-remote="true" href="http://joia.ru/regions/20" rel="nofollow">[X]</a></div>
+    </div>
+  </li>
+  <li class="dd-item" data-id="21">
+    <div class="dd-handle dd3-handle">Drag</div>
+    <div class="dd3-content">
+      <div class="percent-90">Долина Луары</div>
+      <div class="percent-5"><a class="editBtnRegion" id="21" href="javascript:void(0)"><i class="pen"></i></a></div>
+      <div class="percent-5"><a data-confirm="Вы действительно хотите удалить регион?" data-method="delete" data-remote="true" href="http://joia.ru/regions/21" rel="nofollow">[X]</a></div>
+    </div>
+  </li>
+  <li class="dd-item" data-id="22">
+    <div class="dd-handle dd3-handle">Drag</div>
+    <div class="dd3-content">
+      <div class="percent-90">Вувре</div>
+      <div class="percent-5"><a class="editBtnRegion" id="22" href="javascript:void(0)"><i class="pen"></i></a></div>
+      <div class="percent-5"><a data-confirm="Вы действительно хотите удалить регион?" data-method="delete" data-remote="true" href="http://joia.ru/regions/22" rel="nofollow">[X]</a></div>
+    </div>
+  </li>
+  <li class="dd-item" data-id="23">
+    <div class="dd-handle dd3-handle">Drag</div>
+    <div class="dd3-content">
+      <div class="percent-90">Пти Шабли</div>
+      <div class="percent-5"><a class="editBtnRegion" id="23" href="javascript:void(0)"><i class="pen"></i></a></div>
+      <div class="percent-5"><a data-confirm="Вы действительно хотите удалить регион?" data-method="delete" data-remote="true" href="http://joia.ru/regions/23" rel="nofollow">[X]</a></div>
+    </div>
+  </li>
+  <li class="dd-item" data-id="24">
+    <div class="dd-handle dd3-handle">Drag</div>
+    <div class="dd3-content">
+      <div class="percent-90">Шабли</div>
+      <div class="percent-5"><a class="editBtnRegion" id="24" href="javascript:void(0)"><i class="pen"></i></a></div>
+      <div class="percent-5"><a data-confirm="Вы действительно хотите удалить регион?" data-method="delete" data-remote="true" href="http://joia.ru/regions/24" rel="nofollow">[X]</a></div>
+    </div>
+  </li>
+  <li class="dd-item" data-id="26">
+    <div class="dd-handle dd3-handle">Drag</div>
+    <div class="dd3-content">
+      <div class="percent-90">Бургундия</div>
+      <div class="percent-5"><a class="editBtnRegion" id="26" href="javascript:void(0)"><i class="pen"></i></a></div>
+      <div class="percent-5"><a data-confirm="Вы действительно хотите удалить регион?" data-method="delete" data-remote="true" href="http://joia.ru/regions/26" rel="nofollow">[X]</a></div>
+    </div>
+  </li>
+  <li class="dd-item" data-id="27">
+    <div class="dd-handle dd3-handle">Drag</div>
+    <div class="dd3-content">
+      <div class="percent-90">Жевре Шамбертен</div>
+      <div class="percent-5"><a class="editBtnRegion" id="27" href="javascript:void(0)"><i class="pen"></i></a></div>
+      <div class="percent-5"><a data-confirm="Вы действительно хотите удалить регион?" data-method="delete" data-remote="true" href="http://joia.ru/regions/27" rel="nofollow">[X]</a></div>
+    </div>
+  </li>
+  <li class="dd-item" data-id="28">
+    <div class="dd-handle dd3-handle">Drag</div>
+    <div class="dd3-content">
+      <div class="percent-90">Шамболь Мюзиньи</div>
+      <div class="percent-5"><a class="editBtnRegion" id="28" href="javascript:void(0)"><i class="pen"></i></a></div>
+      <div class="percent-5"><a data-confirm="Вы действительно хотите удалить регион?" data-method="delete" data-remote="true" href="http://joia.ru/regions/28" rel="nofollow">[X]</a></div>
+    </div>
+  </li>
+  <li class="dd-item" data-id="29">
+    <div class="dd-handle dd3-handle">Drag</div>
+    <div class="dd3-content">
+      <div class="percent-90">Кло де Вужо Гран Крю</div>
+      <div class="percent-5"><a class="editBtnRegion" id="29" href="javascript:void(0)"><i class="pen"></i></a></div>
+      <div class="percent-5"><a data-confirm="Вы действительно хотите удалить регион?" data-method="delete" data-remote="true" href="http://joia.ru/regions/29" rel="nofollow">[X]</a></div>
+    </div>
+  </li>
+  <li class="dd-item" data-id="30">
+    <div class="dd-handle dd3-handle">Drag</div>
+    <div class="dd3-content">
+      <div class="percent-90">Кот де Бон</div>
+      <div class="percent-5"><a class="editBtnRegion" id="30" href="javascript:void(0)"><i class="pen"></i></a></div>
+      <div class="percent-5"><a data-confirm="Вы действительно хотите удалить регион?" data-method="delete" data-remote="true" href="http://joia.ru/regions/30" rel="nofollow">[X]</a></div>
+    </div>
+  </li>
+  <li class="dd-item" data-id="31">
+    <div class="dd-handle dd3-handle">Drag</div>
+    <div class="dd3-content">
+      <div class="percent-90">Поммар</div>
+      <div class="percent-5"><a class="editBtnRegion" id="31" href="javascript:void(0)"><i class="pen"></i></a></div>
+      <div class="percent-5"><a data-confirm="Вы действительно хотите удалить регион?" data-method="delete" data-remote="true" href="http://joia.ru/regions/31" rel="nofollow">[X]</a></div>
+    </div>
+  </li>
+  <li class="dd-item" data-id="32">
+    <div class="dd-handle dd3-handle">Drag</div>
+    <div class="dd3-content">
+      <div class="percent-90">Маконе</div>
+      <div class="percent-5"><a class="editBtnRegion" id="32" href="javascript:void(0)"><i class="pen"></i></a></div>
+      <div class="percent-5"><a data-confirm="Вы действительно хотите удалить регион?" data-method="delete" data-remote="true" href="http://joia.ru/regions/32" rel="nofollow">[X]</a></div>
+    </div>
+  </li>
+  <li class="dd-item" data-id="33">
+    <div class="dd-handle dd3-handle">Drag</div>
+    <div class="dd3-content">
+      <div class="percent-90">Божоле</div>
+      <div class="percent-5"><a class="editBtnRegion" id="33" href="javascript:void(0)"><i class="pen"></i></a></div>
+      <div class="percent-5"><a data-confirm="Вы действительно хотите удалить регион?" data-method="delete" data-remote="true" href="http://joia.ru/regions/33" rel="nofollow">[X]</a></div>
+    </div>
+  </li>
+
+  </ol>
+</div>
+
+
+<script>
+  $('#nestable2').nestable({
+    group: 2,
+    maxDepth: 1
+  })
+    .on('change', updateSortingRegion);
+
+  $('.editBtnRegion').click(function(){
+    var id = $(this).attr('id');
+//    alert(id);
+    $('#openModal').arcticmodal({
+      type: 'ajax',
+      url: '/regions/'+id+'/edit'
+    });
+  })
+</script></div>
+</div>
+
+<!--Инициализация окна для arcticModal-->
+<div style="display: none;"><div class="editModal" id="openModal"></div></div>
+
+<script>
+  $('#nestable').nestable({
+    group: 1,
+    maxDepth: 1
+  })
+    .on('change', updateSortingCountry);
+
+  $('.editBtnCountry').click(function(){
+    var id = $(this).attr('id');
+//    alert(id);
+    $('#openModal').arcticmodal({
+      type: 'ajax',
+      url: '/countries/'+id+'/edit'
+    });
+  })
+</script>
+    </div>
+
+</body></html>
