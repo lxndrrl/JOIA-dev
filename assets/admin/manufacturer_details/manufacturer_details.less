@@ -10,7 +10,17 @@
 		border-collapse: separate;
 		max-width: @admin-tools-row-max-width;
 		width: @admin-tools-row-width;
+		margin: 16px 0 32px;
 		tr {
+			th {
+				border-left: 1px solid @admin__label-color;
+				border-right: 1px solid @admin__label-color;
+				color: @admin__label-color;
+				font-weight: 300;
+				&:last-of-type {
+					border: none;
+				}
+			}
 			td {
 				padding: 4px;
 				background: @admin__tools-substrate-bg;
