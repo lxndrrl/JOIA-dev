@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html class="admin"><head>
+      <title>Joia</title>
+      <link data-turbolinks-track="true" href="http://joia.ru/assets/application-a77c55b18b4c4243c404bf720b62ae43.css" media="all" rel="stylesheet">
+	<link data-turbolinks-track="true" href="admin.css" media="all" rel="stylesheet">
+      <script data-turbolinks-track="true" src="http://joia.ru/assets/application-3ae99fae41554b0b2c94118deb8f16d0.js"></script>
+      <!--< %= headjs_include_tag(:all) %>-->
+      <meta content="authenticity_token" name="csrf-param">
+<meta content="7lFvt9sp6hmqBglJiYwfjrJCFFz8ACafo14AxAI3iy4=" name="csrf-token">
+        <!--[if gte IE 9]>
+        <style type="text/css">
+          .panel-gradient {
+            filter: none;
+          }
+        </style>
+        <![endif]-->
+    </head>
+
+
+      <body><div class="header">
+  <div class="header__in">
+    <ul class="header__nav">
+        <li><a href="http://joia.ru/catalogs" class="">Каталог</a></li>
+        <li><a href="http://joia.ru/stories" class="">Новости</a></li>
+        <li><a href="http://joia.ru/types" class="">Типы</a></li>
+        <li><a href="http://joia.ru/sugars" class="">Сахар</a></li>
+        <li><a href="http://joia.ru/countries" class="">Страны / регионы</a></li>
+        <li><a href="http://joia.ru/categories" class="">Категории</a></li>
+        <li><a href="http://joia.ru/colors" class="">Цвета</a></li>
+        <li><a href="http://joia.ru/search_categories" class="">Категории поиска</a></li>
+        <li><a href="http://joia.ru/wine_varieties" class="">Винные сорта</a></li>
+        <li><a href="http://joia.ru/manufacturers" class="is-active">Производители</a></li>
+    </ul>
+    <div class="header__right">
+        <div class="admin__user">
+          Joia_project
+        </div>
+        <a href="http://joia.ru/logout" class="login">ВЫХОД</a>
+
+    </div>
+  </div>
+</div>
+      <div class="admin__tools">
+        <a data-remote="true" href="http://joia.ru/manufacturers/new">Новый производитель</a>
+<div class="mainWindow">
+  <div class="manufacturers">
+    <div class="dd" id="nestable">
+      <ol class="dd-list regionsList">
+          <li class="dd-item" data-id="48">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/48">Хенкель</a></div>
+              <div class="percent-40">Германия</div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/48" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="49">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/49">Зёнлайн</a></div>
+              <div class="percent-40">Германия</div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/49" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="50">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/50">Шлосс Йоханнисбергер</a></div>
+              <div class="percent-40">Германия | Рейнгау</div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/50" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="51">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/51">Мумм</a></div>
+              <div class="percent-40">Германия | Рейнгау</div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/51" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="1">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/1">Дюк де Шеранс</a></div>
+              <div class="percent-40">ФРАНЦИЯ</div>
+                <div class="percent-7"><img alt="" style="width: 32px; height: 20px;" src="http://joia.ru/system/manufacturers/slides/000/000/001/original/bg-6.jpg" border="0"></div>
+                <div class="percent-5">
+                  <a data-confirm="Вы действительно хотите удалить фото слайда?" data-method="delete" href="http://joia.ru/manufacturers/1/del_slide" rel="nofollow">
+                    <img alt="" src="http://joia.ru/assets/del.png" border="0"></a>
+                </div>
+                <div class="percent-7"><img alt="" style="width: 32px; height: 20px;" src="http://joia.ru/system/manufacturers/logos/000/000/001/original/logo1.png" border="0"></div>
+                <div class="percent-5">
+                  <a data-confirm="Вы действительно хотите удалить фото логотипа?" data-method="delete" href="http://joia.ru/manufacturers/1/del_logo" rel="nofollow">
+                  <img alt="" src="http://joia.ru/assets/del.png" border="0"></a>
+                </div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/1" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="2">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/2">Де Лис</a></div>
+              <div class="percent-40">ФРАНЦИЯ</div>
+                <div class="percent-7"><img alt="" style="width: 32px; height: 20px;" src="http://joia.ru/system/manufacturers/slides/000/000/002/original/contacts-bg-1.jpg" border="0"></div>
+                <div class="percent-5">
+                  <a data-confirm="Вы действительно хотите удалить фото слайда?" data-method="delete" href="http://joia.ru/manufacturers/2/del_slide" rel="nofollow">
+                    <img alt="" src="http://joia.ru/assets/del.png" border="0"></a>
+                </div>
+                <div class="percent-7"><img alt="" style="width: 32px; height: 20px;" src="http://joia.ru/system/manufacturers/logos/000/000/002/original/logo2.png" border="0"></div>
+                <div class="percent-5">
+                  <a data-confirm="Вы действительно хотите удалить фото логотипа?" data-method="delete" href="http://joia.ru/manufacturers/2/del_logo" rel="nofollow">
+                  <img alt="" src="http://joia.ru/assets/del.png" border="0"></a>
+                </div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/2" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="3">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/3">Ла Сигаль</a></div>
+              <div class="percent-40">ФРАНЦИЯ</div>
+                <div class="percent-7"><img alt="" style="width: 32px; height: 20px;" src="http://joia.ru/system/manufacturers/logos/000/000/003/original/logo3.png" border="0"></div>
+                <div class="percent-5">
+                  <a data-confirm="Вы действительно хотите удалить фото логотипа?" data-method="delete" href="http://joia.ru/manufacturers/3/del_logo" rel="nofollow">
+                  <img alt="" src="http://joia.ru/assets/del.png" border="0"></a>
+                </div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/3" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="4">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/4">Мари Манес</a></div>
+              <div class="percent-40">ФРАНЦИЯ | Лангедок-Руссийон</div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/4" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="5">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/5">Люсьен Люртон</a></div>
+              <div class="percent-40">ФРАНЦИЯ | Бордо</div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/5" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="6">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/6">Ожье</a></div>
+              <div class="percent-40">ФРАНЦИЯ | Шатонеф-дю-Пап</div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/6" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="7">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/7">Домен Баллан-Шапуи</a></div>
+              <div class="percent-40">ФРАНЦИЯ | Сансер</div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/7" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="8">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/8">Сераф</a></div>
+              <div class="percent-40">ФРАНЦИЯ | Долина Луары</div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/8" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="9">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/9">Пьер Шанье</a></div>
+              <div class="percent-40">ФРАНЦИЯ | Долина Луары</div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/9" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="10">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/10">Франсуа Мартено</a></div>
+              <div class="percent-40">ФРАНЦИЯ | Пти Шабли</div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/10" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="11">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/11">Лабуре-Руа</a></div>
+              <div class="percent-40">ФРАНЦИЯ | Пти Шабли</div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/11" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="12">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/12">Донелли</a></div>
+              <div class="percent-40">Италия</div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/12" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="13">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/13">Боргоантико</a></div>
+              <div class="percent-40">Италия</div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/13" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="14">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/14">Чао</a></div>
+              <div class="percent-40">Италия</div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/14" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="15">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/15">Кантине СантАгата</a></div>
+              <div class="percent-40">Италия | Пьемонт</div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/15" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="16">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/16">Викари</a></div>
+              <div class="percent-40">Италия | Марке</div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/16" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="17">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/17">Бранко</a></div>
+              <div class="percent-40">Италия | Фриули-Венеция Джулия</div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/17" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="18">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/18">Эссере</a></div>
+              <div class="percent-40">Италия | Венето</div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/18" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="19">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/19">Чезари</a></div>
+              <div class="percent-40">Италия | Венето</div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/19" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="20">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/20">Кастеллани</a></div>
+              <div class="percent-40">Италия | Тоскана</div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/20" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="21">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/21">Фаттория ди травалда</a></div>
+              <div class="percent-40">Италия | Тоскана</div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/21" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="22">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/22">Кампомаджо</a></div>
+              <div class="percent-40">Италия | Тоскана</div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/22" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="23">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/23">Чеппиано</a></div>
+              <div class="percent-40">Италия | Тоскана</div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/23" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="24">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/24">Подджо аль
+Казоне</a></div>
+              <div class="percent-40">Италия | Тоскана</div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/24" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="25">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/25">Подджо Антико</a></div>
+              <div class="percent-40">Италия | Тоскана</div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/25" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="26">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/26">Монтефьоре</a></div>
+              <div class="percent-40">Италия</div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/26" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="27">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/27">Альма дель Торо</a></div>
+              <div class="percent-40">Испания</div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/27" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="28">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/28">Альтаир</a></div>
+              <div class="percent-40">Испания</div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/28" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="29">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/29">Кандидато</a></div>
+              <div class="percent-40">Испания | Кастилия</div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/29" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="30">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/30">Лацарилло</a></div>
+              <div class="percent-40">Испания | Кастилия</div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/30" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="31">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/31">Финка Вальпиедра</a></div>
+              <div class="percent-40">Испания | Риоха</div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/31" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="32">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/32">Винья Буханда</a></div>
+              <div class="percent-40">Испания | Риоха</div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/32" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="33">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/33">Юнтеро</a></div>
+              <div class="percent-40">Испания | Ла Манча</div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/33" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="34">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/34">Этим</a></div>
+              <div class="percent-40">Испания | Монсант</div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/34" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="35">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/35">Баррос</a></div>
+              <div class="percent-40">Испания</div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/35" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="36">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/36">Осадия</a></div>
+              <div class="percent-40">Чили | Центральная Долина</div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/36" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="37">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/37">Аромо</a></div>
+              <div class="percent-40">Чили | Долина Мауле</div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/37" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="38">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/38">Каса де Барро</a></div>
+              <div class="percent-40">Чили | Долина Кальчагуа</div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/38" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="39">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/39">Аромо Прайвет Резерв</a></div>
+              <div class="percent-40">Чили | Долина Мауле</div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/39" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="40">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/40">Каса Сильва</a></div>
+              <div class="percent-40">Чили | Долина Кальчагуа</div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/40" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="41">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/41">Бардине</a></div>
+              <div class="percent-40">ФРАНЦИЯ</div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/41" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="42">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/42">Лорд Кингсли</a></div>
+              <div class="percent-40">Шотландия</div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/42" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="43">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/43">Олд Ник</a></div>
+              <div class="percent-40">Карибские острова</div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/43" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="44">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/44">Диллон</a></div>
+              <div class="percent-40">Карибские острова</div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/44" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="45">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/45">Негрита</a></div>
+              <div class="percent-40">Карибские острова</div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/45" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+          <li class="dd-item" data-id="47">
+            <div class="dd-handle dd3-handle">Drag</div>
+            <div class="dd3-content">
+              <div class="percent-30"><a data-remote="true" href="http://joia.ru/manufacturers/47">Любушки</a></div>
+              <div class="percent-40"></div>
+              <div class="percent-5"><a data-confirm="Вы действительно хотите удалить производителя?" data-method="delete" data-remote="true" href="http://joia.ru/manufacturers/47" rel="nofollow">[X]</a></div>
+            </div>
+          </li>
+      </ol>
+    </div>
+
+    <script>
+      $('#nestable').nestable({
+        group: 1,
+        maxDepth: 1
+      })
+        .on('change', updateSortingManufacturer);
+    </script>
+
+  </div>
+  <div class="manufacturer_details">
+<form accept-charset="UTF-8" action="http://joia.ru/manufacturers/1" class="edit_manufacturer" enctype="multipart/form-data" id="edit_manufacturer_1" method="post"><div style="display:none"><input name="utf8" type="hidden" value="✓"><input name="_method" type="hidden" value="patch"><input name="authenticity_token" type="hidden" value="7lFvt9sp6hmqBglJiYwfjrJCFFz8ACafo14AxAI3iy4="></div>
+  <label for="manufacturer_Наименование: ">Наименование: </label><input id="manufacturer_name" name="manufacturer[name]" type="text" value="Дюк де Шеранс">
+  <label for="manufacturer_Наименование ENG: ">Наименование eng: </label><input id="manufacturer_name_eng" name="manufacturer[name_eng]" type="text" value="">
+  <label for="manufacturer_Фото слайдера: ">Фото слайдера: </label><input id="manufacturer_slide" name="manufacturer[slide]" type="file">
+  <label for="manufacturer_Слайдер Строчка 1:">Слайдер Строчка 1:</label><input id="manufacturer_row1" name="manufacturer[row1]" type="text" value="">
+  <label for="manufacturer_Слайдер Строчка 2:">Слайдер Строчка 2:</label><input id="manufacturer_row2" name="manufacturer[row2]" type="text" value="">
+  <label for="manufacturer_Фото логотипа:">Фото логотипа:</label><input id="manufacturer_logo" name="manufacturer[logo]" type="file">
+  <label for="manufacturer_Страна:">Страна:</label><select id="manufacturer_country_id" name="manufacturer[country_id]"><option value=""></option>
+<option selected="selected" value="1">ФРАНЦИЯ</option>
+<option value="2">Италия</option>
+<option value="3">Испания</option>
+<option value="5">Германия</option>
+<option value="8">Польша</option>
+<option value="4">Чили</option>
+<option value="6">Шотландия</option>
+<option value="7">Карибские острова</option></select>
+  <label for="manufacturer_Регион:">Регион:</label><select id="manufacturer_region_id" name="manufacturer[region_id]"><option value=""></option>
+<option value="61">Бургонь Алиготе</option>
+<option value="2">Лангедок-Руссийон</option>
+<option value="3">Бордо</option>
+<option value="7">Бордо Розе</option>
+<option value="5">Бордо Супериор</option>
+<option value="8">Грав</option>
+<option value="9">Пессак-Леоньян</option>
+<option value="10">Сотерн</option>
+<option value="4">Медок</option>
+<option value="6">О-Медок</option>
+<option value="11">O-Медок</option>
+<option value="12">Сен-Эстеф</option>
+<option value="13">Сент-Эмильон Гран Крю</option>
+<option value="14">Помроль</option>
+<option value="15">Марго</option>
+<option value="16">Шатонеф-дю-Пап</option>
+<option value="17">Кот-дю-Рон</option>
+<option value="18">Кот-дю-Рон АОС</option>
+<option value="19">Сансер</option>
+<option value="20">Пуйи Фюме</option>
+<option value="21">Долина Луары</option>
+<option value="22">Вувре</option>
+<option value="23">Пти Шабли</option>
+<option value="24">Шабли</option>
+<option value="26">Бургундия</option>
+<option value="27">Жевре Шамбертен</option>
+<option value="28">Шамболь Мюзиньи</option>
+<option value="29">Кло де Вужо Гран Крю</option>
+<option value="30">Кот де Бон</option>
+<option value="31">Поммар</option>
+<option value="32">Маконе</option>
+<option value="33">Божоле</option></select>
+  <input name="commit" type="submit" value="Сохранить">
+</form><script>
+  var region = {
+      '48': { 'country_id': '3', 'name': 'Кастилия' }
+      , '49': { 'country_id': '3', 'name': 'Риоха' }
+      , '50': { 'country_id': '3', 'name': 'Ла Манча' }
+      , '51': { 'country_id': '3', 'name': 'Монсант' }
+      , '53': { 'country_id': '4', 'name': 'Центральная Долина' }
+      , '54': { 'country_id': '4', 'name': 'Долина Мауле' }
+      , '55': { 'country_id': '4', 'name': 'Долина Кальчагуа' }
+      , '56': { 'country_id': '4', 'name': 'Долина Итата' }
+      , '62': { 'country_id': '3', 'name': 'РИБЕРА ДЕЛЬ ГУАДИАНА' }
+      , '63': { 'country_id': '5', 'name': 'столовое вино' }
+      , '34': { 'country_id': '2', 'name': 'Эмилия-Романья' }
+      , '57': { 'country_id': '5', 'name': 'Рейнгау' }
+      , '61': { 'country_id': '1', 'name': 'Бургонь Алиготе' }
+      , '2': { 'country_id': '1', 'name': 'Лангедок-Руссийон' }
+      , '35': { 'country_id': '2', 'name': 'Пьемонт' }
+      , '3': { 'country_id': '1', 'name': 'Бордо' }
+      , '36': { 'country_id': '2', 'name': 'Бароло' }
+      , '59': { 'country_id': '5', 'name': 'Райнхессен Квалитетвайн, Йозеф Хаупт' }
+      , '7': { 'country_id': '1', 'name': 'Бордо Розе' }
+      , '37': { 'country_id': '2', 'name': 'Марке' }
+      , '60': { 'country_id': '5', 'name': 'Македония QW' }
+      , '5': { 'country_id': '1', 'name': 'Бордо Супериор' }
+      , '38': { 'country_id': '2', 'name': 'Фриули-Венеция Джулия' }
+      , '8': { 'country_id': '1', 'name': 'Грав' }
+      , '39': { 'country_id': '2', 'name': 'Венето' }
+      , '9': { 'country_id': '1', 'name': 'Пессак-Леоньян' }
+      , '40': { 'country_id': '2', 'name': 'Соаве' }
+      , '10': { 'country_id': '1', 'name': 'Сотерн' }
+      , '41': { 'country_id': '2', 'name': 'Вальполичелла' }
+      , '4': { 'country_id': '1', 'name': 'Медок' }
+      , '42': { 'country_id': '2', 'name': 'Бардолино' }
+      , '6': { 'country_id': '1', 'name': 'О-Медок' }
+      , '43': { 'country_id': '2', 'name': 'Тоскана' }
+      , '11': { 'country_id': '1', 'name': 'O-Медок' }
+      , '44': { 'country_id': '2', 'name': 'Монтепульчано д&#39;Абруццо' }
+      , '12': { 'country_id': '1', 'name': 'Сен-Эстеф' }
+      , '45': { 'country_id': '2', 'name': 'Кьянти' }
+      , '13': { 'country_id': '1', 'name': 'Сент-Эмильон Гран Крю' }
+      , '46': { 'country_id': '2', 'name': 'Кьянти Классико' }
+      , '14': { 'country_id': '1', 'name': 'Помроль' }
+      , '47': { 'country_id': '2', 'name': 'Сицилия' }
+      , '15': { 'country_id': '1', 'name': 'Марго' }
+      , '16': { 'country_id': '1', 'name': 'Шатонеф-дю-Пап' }
+      , '17': { 'country_id': '1', 'name': 'Кот-дю-Рон' }
+      , '18': { 'country_id': '1', 'name': 'Кот-дю-Рон АОС' }
+      , '19': { 'country_id': '1', 'name': 'Сансер' }
+      , '20': { 'country_id': '1', 'name': 'Пуйи Фюме' }
+      , '21': { 'country_id': '1', 'name': 'Долина Луары' }
+      , '22': { 'country_id': '1', 'name': 'Вувре' }
+      , '23': { 'country_id': '1', 'name': 'Пти Шабли' }
+      , '24': { 'country_id': '1', 'name': 'Шабли' }
+      , '26': { 'country_id': '1', 'name': 'Бургундия' }
+      , '27': { 'country_id': '1', 'name': 'Жевре Шамбертен' }
+      , '28': { 'country_id': '1', 'name': 'Шамболь Мюзиньи' }
+      , '29': { 'country_id': '1', 'name': 'Кло де Вужо Гран Крю' }
+      , '30': { 'country_id': '1', 'name': 'Кот де Бон' }
+      , '31': { 'country_id': '1', 'name': 'Поммар' }
+      , '32': { 'country_id': '1', 'name': 'Маконе' }
+      , '33': { 'country_id': '1', 'name': 'Божоле' }
+  };
+  $('#manufacturer_country_id').change(function(){
+    $("#manufacturer_region_id").empty();
+    $("#manufacturer_region_id").append( $('<option value=""></option>'));
+    for (var i in region) {
+      if ( $('#manufacturer_country_id :selected').val() == region[i]['country_id'] ) {
+        $("#manufacturer_region_id").append( $('<option value="'+i+'">'+region[i]['name']+'</option>'));
+      }
+    }
+  });
+</script></div>
+</div>
+      </div>
+
+</body></html>
