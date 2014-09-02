@@ -23,15 +23,21 @@
 			}
 			td {
 				padding: 4px;
-				background: @admin__tools-substrate-bg;
+				background: /*@admin__tools-substrate-bg*/ @WHITE-color-base;
 				vertical-align: middle;
 				line-height: 0;
 				border-radius: @brd-radius-s 0 0 @brd-radius-s;
+				text-align: center;
 				&:last-of-type {
 					background: @footer-bg;
-					text-align: center;
 					line-height: 1.5;
 					border-radius: 0 @brd-radius-s @brd-radius-s 0;
+					a {
+						color: @footer-text-color;
+						&:hover {
+							color: @nav-color-active;
+						}
+					}
 				}
 			}
 		}
